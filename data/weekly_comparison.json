@@ -1,0 +1,2696 @@
+{
+  "current": {
+    "period": "2026/09/07-09/13",
+    "period_key": "week_0907_0913",
+    "brands": [
+      {
+        "brand": "海尔",
+        "total_rooms": 312,
+        "total_sales": 2597.8588000000022,
+        "total_volume": 11927,
+        "brand_rooms": 128,
+        "kol_rooms": 184,
+        "brand_sales": 1978.5957999999998,
+        "kol_sales": 619.2630000000001,
+        "brand_volume": 9870,
+        "kol_volume": 2057,
+        "top_rooms": [
+          {
+            "name": "海尔冰箱旗舰店",
+            "type": "官方号",
+            "type2": "",
+            "fans": 744605,
+            "sales": 208.3348,
+            "volume": 2539
+          },
+          {
+            "name": "海尔智能冰箱旗舰店",
+            "type": "官方号",
+            "type2": "",
+            "fans": 1340790,
+            "sales": 193.2652,
+            "volume": 759
+          },
+          {
+            "name": "海尔冰箱官方旗舰店",
+            "type": "官方号",
+            "type2": "",
+            "fans": 258033,
+            "sales": 148.6479,
+            "volume": 804
+          },
+          {
+            "name": "海尔官方旗舰店",
+            "type": "官方号",
+            "type2": "",
+            "fans": 3031997,
+            "sales": 124.9638,
+            "volume": 716
+          },
+          {
+            "name": "Haier海尔品牌智能家电",
+            "type": "官方号",
+            "type2": "",
+            "fans": 170115,
+            "sales": 114.3,
+            "volume": 579
+          },
+          {
+            "name": "海尔零嵌冰箱",
+            "type": "企业",
+            "type2": "",
+            "fans": 18536,
+            "sales": 93.0702,
+            "volume": 201
+          },
+          {
+            "name": "海尔冰箱智能直播间",
+            "type": "企业",
+            "type2": "",
+            "fans": 10734,
+            "sales": 90.4204,
+            "volume": 331
+          },
+          {
+            "name": "海尔小冰箱",
+            "type": "企业",
+            "type2": "",
+            "fans": 164648,
+            "sales": 87.6615,
+            "volume": 752
+          },
+          {
+            "name": "海尔家用电器直播间",
+            "type": "官方号",
+            "type2": "",
+            "fans": 277434,
+            "sales": 80.4396,
+            "volume": 325
+          },
+          {
+            "name": "海尔冰箱青岛总仓",
+            "type": "KOL",
+            "type2": "尾部",
+            "fans": 104075,
+            "sales": 75.0405,
+            "volume": 276
+          },
+          {
+            "name": "海尔生活家",
+            "type": "KOL",
+            "type2": "尾部",
+            "fans": 629,
+            "sales": 71.2524,
+            "volume": 264
+          },
+          {
+            "name": "青岛冰箱总厂",
+            "type": "KOL",
+            "type2": "尾部",
+            "fans": 5902,
+            "sales": 62.4709,
+            "volume": 217
+          },
+          {
+            "name": "海尔官方旗舰店云溪麦浪直播间",
+            "type": "官方号",
+            "type2": "",
+            "fans": 8734,
+            "sales": 54.0117,
+            "volume": 104
+          },
+          {
+            "name": "海尔冰箱总厂直发",
+            "type": "KOL",
+            "type2": "尾部",
+            "fans": 49674,
+            "sales": 52.6966,
+            "volume": 195
+          },
+          {
+            "name": "海尔云溪麦浪冰箱旗舰直播间",
+            "type": "KOL",
+            "type2": "尾部",
+            "fans": 144267,
+            "sales": 52.2619,
+            "volume": 110
+          },
+          {
+            "name": "海尔家用冰箱品牌直播间",
+            "type": "企业",
+            "type2": "",
+            "fans": 20588,
+            "sales": 43.9212,
+            "volume": 193
+          },
+          {
+            "name": "海尔官方旗舰店冰箱直播间",
+            "type": "官方号",
+            "type2": "",
+            "fans": 65709,
+            "sales": 43.1679,
+            "volume": 113
+          },
+          {
+            "name": "海尔冰箱品牌甄选",
+            "type": "企业",
+            "type2": "",
+            "fans": 4857,
+            "sales": 40.2502,
+            "volume": 145
+          },
+          {
+            "name": "海尔冰箱电器直播间",
+            "type": "企业",
+            "type2": "",
+            "fans": 41646,
+            "sales": 39.6105,
+            "volume": 91
+          },
+          {
+            "name": "Haier冰箱青岛总仓",
+            "type": "KOL",
+            "type2": "尾部",
+            "fans": 55981,
+            "sales": 38.4339,
+            "volume": 135
+          }
+        ]
+      },
+      {
+        "brand": "美的",
+        "total_rooms": 445,
+        "total_sales": 1789.057100000001,
+        "total_volume": 7630,
+        "brand_rooms": 163,
+        "kol_rooms": 282,
+        "brand_sales": 1192.7154999999998,
+        "kol_sales": 596.3415999999997,
+        "brand_volume": 5108,
+        "kol_volume": 2522,
+        "top_rooms": [
+          {
+            "name": "美的冰箱官方",
+            "type": "官方号",
+            "type2": "",
+            "fans": 15800,
+            "sales": 153.3184,
+            "volume": 323
+          },
+          {
+            "name": "美的冰箱",
+            "type": "企业",
+            "type2": "",
+            "fans": 2751,
+            "sales": 120.7944,
+            "volume": 240
+          },
+          {
+            "name": "美的冰箱旗舰店",
+            "type": "官方号",
+            "type2": "",
+            "fans": 1088934,
+            "sales": 119.4252,
+            "volume": 364
+          },
+          {
+            "name": "大家电华北仓2",
+            "type": "KOL",
+            "type2": "尾部",
+            "fans": 75914,
+            "sales": 111.0104,
+            "volume": 555
+          },
+          {
+            "name": "电器哥梓涵",
+            "type": "KOL",
+            "type2": "腰部",
+            "fans": 1777675,
+            "sales": 101.9668,
+            "volume": 166
+          },
+          {
+            "name": "美的官方旗舰店",
+            "type": "官方号",
+            "type2": "",
+            "fans": 3498882,
+            "sales": 89.5215,
+            "volume": 437
+          },
+          {
+            "name": "美的冰箱官方旗舰店",
+            "type": "官方号",
+            "type2": "",
+            "fans": 38165,
+            "sales": 86.1357,
+            "volume": 225
+          },
+          {
+            "name": "肖恩子享生活",
+            "type": "KOL",
+            "type2": "腰部",
+            "fans": 515763,
+            "sales": 78.6896,
+            "volume": 112
+          },
+          {
+            "name": "Midea美的官方旗舰店",
+            "type": "官方号",
+            "type2": "",
+            "fans": 16367,
+            "sales": 77.8542,
+            "volume": 329
+          },
+          {
+            "name": "美的家用小冰箱",
+            "type": "KOL",
+            "type2": "尾部",
+            "fans": 21710,
+            "sales": 65.0479,
+            "volume": 631
+          },
+          {
+            "name": "美的冰箱旗舰店直播间",
+            "type": "官方号",
+            "type2": "",
+            "fans": 135767,
+            "sales": 56.2302,
+            "volume": 279
+          },
+          {
+            "name": "Midea美的冰箱官方直播间",
+            "type": "企业",
+            "type2": "",
+            "fans": 2995,
+            "sales": 40.6446,
+            "volume": 113
+          },
+          {
+            "name": "美的多门冰箱旗舰店",
+            "type": "官方号",
+            "type2": "",
+            "fans": 21204,
+            "sales": 39.1913,
+            "volume": 124
+          },
+          {
+            "name": "郭子本郭",
+            "type": "KOL",
+            "type2": "尾部",
+            "fans": 315821,
+            "sales": 28.6762,
+            "volume": 41
+          },
+          {
+            "name": "海尔冰箱青岛补贴总仓",
+            "type": "KOL",
+            "type2": "尾部",
+            "fans": 2868,
+            "sales": 28.3978,
+            "volume": 149
+          },
+          {
+            "name": "美的Midea冰箱官方旗舰店直播间",
+            "type": "官方号",
+            "type2": "",
+            "fans": 8181,
+            "sales": 24.784,
+            "volume": 54
+          },
+          {
+            "name": "美的全屋智能家电旗舰店",
+            "type": "官方号",
+            "type2": "",
+            "fans": 42496,
+            "sales": 21.993,
+            "volume": 109
+          },
+          {
+            "name": "美的嵌入式冰箱旗舰店",
+            "type": "官方号",
+            "type2": "",
+            "fans": 25661,
+            "sales": 21.8265,
+            "volume": 65
+          },
+          {
+            "name": "美的小冰箱直播间",
+            "type": "企业",
+            "type2": "",
+            "fans": 24184,
+            "sales": 21.4243,
+            "volume": 190
+          },
+          {
+            "name": "美的冰箱智能旗舰店",
+            "type": "官方号",
+            "type2": "",
+            "fans": 81240,
+            "sales": 19.8867,
+            "volume": 855
+          }
+        ]
+      },
+      {
+        "brand": "容声",
+        "total_rooms": 109,
+        "total_sales": 1145.2656999999995,
+        "total_volume": 4848,
+        "brand_rooms": 77,
+        "kol_rooms": 32,
+        "brand_sales": 994.9581,
+        "kol_sales": 150.30760000000004,
+        "brand_volume": 4440,
+        "kol_volume": 408,
+        "top_rooms": [
+          {
+            "name": "容声官方旗舰店",
+            "type": "官方号",
+            "type2": "",
+            "fans": 577760,
+            "sales": 174.0073,
+            "volume": 537
+          },
+          {
+            "name": "容声冰箱旗舰店",
+            "type": "官方号",
+            "type2": "",
+            "fans": 1093397,
+            "sales": 60.4968,
+            "volume": 216
+          },
+          {
+            "name": "容声官方旗舰店冰箱直播间",
+            "type": "官方号",
+            "type2": "",
+            "fans": 87300,
+            "sales": 58.3152,
+            "volume": 743
+          },
+          {
+            "name": "容声冰箱官方认证直播间",
+            "type": "企业",
+            "type2": "",
+            "fans": 7549,
+            "sales": 50.8367,
+            "volume": 129
+          },
+          {
+            "name": "嘉伟室内设计",
+            "type": "企业",
+            "type2": "",
+            "fans": 4683318,
+            "sales": 41.3025,
+            "volume": 68
+          },
+          {
+            "name": "容声冰箱家电直播间",
+            "type": "企业",
+            "type2": "",
+            "fans": 4378,
+            "sales": 34.5094,
+            "volume": 77
+          },
+          {
+            "name": "容声家电官方直播间",
+            "type": "企业",
+            "type2": "",
+            "fans": 19006,
+            "sales": 33.4733,
+            "volume": 113
+          },
+          {
+            "name": "电器指南淼聚",
+            "type": "企业",
+            "type2": "",
+            "fans": 25683,
+            "sales": 33.3863,
+            "volume": 68
+          },
+          {
+            "name": "容声冰箱优选1号直播间",
+            "type": "企业",
+            "type2": "",
+            "fans": 11886,
+            "sales": 32.204,
+            "volume": 86
+          },
+          {
+            "name": "容声冰箱1号直播间",
+            "type": "官方号",
+            "type2": "",
+            "fans": 30019,
+            "sales": 31.9997,
+            "volume": 105
+          },
+          {
+            "name": "容声冰箱商城",
+            "type": "KOL",
+            "type2": "尾部",
+            "fans": 61896,
+            "sales": 31.161,
+            "volume": 93
+          },
+          {
+            "name": "容声冰箱精选",
+            "type": "企业",
+            "type2": "",
+            "fans": 11718,
+            "sales": 30.8604,
+            "volume": 70
+          },
+          {
+            "name": "电器哥梓涵",
+            "type": "KOL",
+            "type2": "腰部",
+            "fans": 1777639,
+            "sales": 30.3228,
+            "volume": 48
+          },
+          {
+            "name": "容声冰箱厂家官方直播间",
+            "type": "企业",
+            "type2": "",
+            "fans": 76638,
+            "sales": 27.344,
+            "volume": 115
+          },
+          {
+            "name": "容声冰箱官方甄选",
+            "type": "企业",
+            "type2": "",
+            "fans": 48011,
+            "sales": 26.6302,
+            "volume": 418
+          },
+          {
+            "name": "容声集成家电旗舰店",
+            "type": "官方号",
+            "type2": "",
+            "fans": 13790,
+            "sales": 23.5601,
+            "volume": 380
+          },
+          {
+            "name": "容声电器旗舰店",
+            "type": "官方号",
+            "type2": "",
+            "fans": 99030,
+            "sales": 23.2404,
+            "volume": 132
+          },
+          {
+            "name": "容声官方商城",
+            "type": "企业",
+            "type2": "",
+            "fans": 6838,
+            "sales": 22.226,
+            "volume": 64
+          },
+          {
+            "name": "容声家电旗舰店",
+            "type": "官方号",
+            "type2": "",
+            "fans": 196581,
+            "sales": 20.7807,
+            "volume": 53
+          },
+          {
+            "name": "容声冰箱官方直营直播间",
+            "type": "企业",
+            "type2": "",
+            "fans": 6254,
+            "sales": 19.5408,
+            "volume": 128
+          }
+        ]
+      },
+      {
+        "brand": "Leader",
+        "total_rooms": 165,
+        "total_sales": 971.0440000000003,
+        "total_volume": 4069,
+        "brand_rooms": 73,
+        "kol_rooms": 92,
+        "brand_sales": 763.2907000000004,
+        "kol_sales": 207.75330000000002,
+        "brand_volume": 3039,
+        "kol_volume": 1030,
+        "top_rooms": [
+          {
+            "name": "海尔冰箱智能旗舰店",
+            "type": "官方号",
+            "type2": "",
+            "fans": 262747,
+            "sales": 136.3941,
+            "volume": 551
+          },
+          {
+            "name": "海尔品牌特卖",
+            "type": "企业",
+            "type2": "",
+            "fans": 218528,
+            "sales": 111.0064,
+            "volume": 469
+          },
+          {
+            "name": "海尔官方家电直播间",
+            "type": "企业",
+            "type2": "",
+            "fans": 155298,
+            "sales": 88.4685,
+            "volume": 362
+          },
+          {
+            "name": "海尔家用品牌冰箱",
+            "type": "企业",
+            "type2": "",
+            "fans": 59438,
+            "sales": 57.6923,
+            "volume": 228
+          },
+          {
+            "name": "海尔家用冰箱旗舰号",
+            "type": "KOL",
+            "type2": "尾部",
+            "fans": 10804,
+            "sales": 55.9597,
+            "volume": 262
+          },
+          {
+            "name": "海尔冰箱品牌特卖直播间",
+            "type": "官方号",
+            "type2": "",
+            "fans": 112984,
+            "sales": 51.4979,
+            "volume": 209
+          },
+          {
+            "name": "海尔之家",
+            "type": "KOL",
+            "type2": "尾部",
+            "fans": 171840,
+            "sales": 44.4586,
+            "volume": 232
+          },
+          {
+            "name": "海尔零嵌冰箱官方直播间",
+            "type": "企业",
+            "type2": "",
+            "fans": 43327,
+            "sales": 40.4782,
+            "volume": 154
+          },
+          {
+            "name": "海尔青岛3号仓",
+            "type": "KOL",
+            "type2": "尾部",
+            "fans": 58496,
+            "sales": 33.9853,
+            "volume": 153
+          },
+          {
+            "name": "Haier海尔冰箱家电直播间",
+            "type": "企业",
+            "type2": "",
+            "fans": 24125,
+            "sales": 33.8014,
+            "volume": 113
+          },
+          {
+            "name": "海尔智能冰箱旗舰店",
+            "type": "官方号",
+            "type2": "",
+            "fans": 1340790,
+            "sales": 31.7237,
+            "volume": 109
+          },
+          {
+            "name": "青岛Haier冰箱专场66",
+            "type": "KOL",
+            "type2": "尾部",
+            "fans": 27590,
+            "sales": 25.1154,
+            "volume": 113
+          },
+          {
+            "name": "冰箱青岛总仓",
+            "type": "KOL",
+            "type2": "尾部",
+            "fans": 67076,
+            "sales": 21.9397,
+            "volume": 71
+          },
+          {
+            "name": "海尔智能家电折扣总仓",
+            "type": "KOL",
+            "type2": "尾部",
+            "fans": 5274,
+            "sales": 20.404,
+            "volume": 90
+          },
+          {
+            "name": "海尔冰箱国补专场直播",
+            "type": "企业",
+            "type2": "",
+            "fans": 41821,
+            "sales": 19.8474,
+            "volume": 86
+          },
+          {
+            "name": "Haier海尔冰箱甄选家电",
+            "type": "企业",
+            "type2": "",
+            "fans": 18254,
+            "sales": 19.31,
+            "volume": 63
+          },
+          {
+            "name": "海尔智慧生活2号仓",
+            "type": "KOL",
+            "type2": "尾部",
+            "fans": 1951,
+            "sales": 19.1401,
+            "volume": 87
+          },
+          {
+            "name": "Leader冰箱旗舰店",
+            "type": "官方号",
+            "type2": "",
+            "fans": 54155,
+            "sales": 18.7089,
+            "volume": 62
+          },
+          {
+            "name": "海尔冰箱官方店",
+            "type": "企业",
+            "type2": "",
+            "fans": 24873,
+            "sales": 17.573,
+            "volume": 65
+          },
+          {
+            "name": "海尔双系统家用冰箱",
+            "type": "企业",
+            "type2": "",
+            "fans": 4867,
+            "sales": 16.4134,
+            "volume": 57
+          }
+        ]
+      },
+      {
+        "brand": "华凌",
+        "total_rooms": 61,
+        "total_sales": 311.00840000000005,
+        "total_volume": 1762,
+        "brand_rooms": 20,
+        "kol_rooms": 41,
+        "brand_sales": 103.84829999999998,
+        "kol_sales": 207.1601,
+        "brand_volume": 557,
+        "kol_volume": 1205,
+        "top_rooms": [
+          {
+            "name": "冰箱大家电推荐官-莹莹",
+            "type": "KOL",
+            "type2": "尾部",
+            "fans": 558,
+            "sales": 78.3849,
+            "volume": 438
+          },
+          {
+            "name": "华凌神机 （美的集团）总部号",
+            "type": "KOL",
+            "type2": "尾部",
+            "fans": 8023,
+            "sales": 39.9253,
+            "volume": 265
+          },
+          {
+            "name": "华凌冰箱官方旗舰店",
+            "type": "官方号",
+            "type2": "",
+            "fans": 23849,
+            "sales": 25.2326,
+            "volume": 131
+          },
+          {
+            "name": "美的家用冰箱官方直播",
+            "type": "企业",
+            "type2": "",
+            "fans": 1321,
+            "sales": 23.2258,
+            "volume": 127
+          },
+          {
+            "name": "冰箱推荐官—大漂亮",
+            "type": "KOL",
+            "type2": "尾部",
+            "fans": 1831,
+            "sales": 13.2431,
+            "volume": 74
+          },
+          {
+            "name": "冰箱新品推荐官-林",
+            "type": "KOL",
+            "type2": "尾部",
+            "fans": 2732,
+            "sales": 12.5272,
+            "volume": 70
+          },
+          {
+            "name": "冰箱推荐官-娜娜",
+            "type": "KOL",
+            "type2": "尾部",
+            "fans": 1496,
+            "sales": 11.8114,
+            "volume": 66
+          },
+          {
+            "name": "高端华凌冰箱",
+            "type": "KOL",
+            "type2": "尾部",
+            "fans": 4892,
+            "sales": 9.4849,
+            "volume": 53
+          },
+          {
+            "name": "华凌冰箱直播间",
+            "type": "企业",
+            "type2": "",
+            "fans": 1707,
+            "sales": 8.88,
+            "volume": 52
+          },
+          {
+            "name": "华凌冰箱旗舰店",
+            "type": "官方号",
+            "type2": "",
+            "fans": 17449,
+            "sales": 8.6972,
+            "volume": 40
+          },
+          {
+            "name": "华凌智能冰箱直播间",
+            "type": "企业",
+            "type2": "",
+            "fans": 12820,
+            "sales": 7.8699,
+            "volume": 45
+          },
+          {
+            "name": "华凌冰箱品牌店",
+            "type": "KOL",
+            "type2": "尾部",
+            "fans": 6431,
+            "sales": 7.0248,
+            "volume": 39
+          },
+          {
+            "name": "美的冰箱华北总仓",
+            "type": "KOL",
+            "type2": "尾部",
+            "fans": 54693,
+            "sales": 6.8005,
+            "volume": 38
+          },
+          {
+            "name": "美的家用冰箱品牌店",
+            "type": "KOL",
+            "type2": "尾部",
+            "fans": 20348,
+            "sales": 6.2774,
+            "volume": 35
+          },
+          {
+            "name": "冰箱新品推荐官",
+            "type": "KOL",
+            "type2": "尾部",
+            "fans": 935,
+            "sales": 5.5477,
+            "volume": 31
+          },
+          {
+            "name": "美的冰箱自营直播间",
+            "type": "企业",
+            "type2": "",
+            "fans": 55124,
+            "sales": 4.9125,
+            "volume": 32
+          },
+          {
+            "name": "华凌智能冰箱直播间",
+            "type": "KOL",
+            "type2": "尾部",
+            "fans": 5250,
+            "sales": 4.8449,
+            "volume": 23
+          },
+          {
+            "name": "华凌冰箱授权直播间",
+            "type": "KOL",
+            "type2": "尾部",
+            "fans": 2125,
+            "sales": 4.5175,
+            "volume": 22
+          },
+          {
+            "name": "美的华凌高端旗舰",
+            "type": "KOL",
+            "type2": "尾部",
+            "fans": 644,
+            "sales": 4.3752,
+            "volume": 24
+          },
+          {
+            "name": "美的华凌新品专场",
+            "type": "KOL",
+            "type2": "尾部",
+            "fans": 3358,
+            "sales": 3.3176,
+            "volume": 20
+          }
+        ]
+      },
+      {
+        "brand": "卡萨帝",
+        "total_rooms": 13,
+        "total_sales": 240.75809999999998,
+        "total_volume": 255,
+        "brand_rooms": 10,
+        "kol_rooms": 3,
+        "brand_sales": 228.8355,
+        "kol_sales": 11.9226,
+        "brand_volume": 242,
+        "kol_volume": 13,
+        "top_rooms": [
+          {
+            "name": "卡萨帝冰箱旗舰店",
+            "type": "官方号",
+            "type2": "",
+            "fans": 267125,
+            "sales": 89.1134,
+            "volume": 99
+          },
+          {
+            "name": "卡萨帝官方旗舰店",
+            "type": "官方号",
+            "type2": "",
+            "fans": 139274,
+            "sales": 60.0024,
+            "volume": 58
+          },
+          {
+            "name": "卡萨帝冰箱官方直播间",
+            "type": "企业",
+            "type2": "",
+            "fans": 13266,
+            "sales": 25.874,
+            "volume": 26
+          },
+          {
+            "name": "卡萨帝冰箱官方旗舰店",
+            "type": "官方号",
+            "type2": "",
+            "fans": 15605,
+            "sales": 17.9247,
+            "volume": 19
+          },
+          {
+            "name": "卡萨帝冰箱官方商城",
+            "type": "企业",
+            "type2": "",
+            "fans": 7880,
+            "sales": 15.5924,
+            "volume": 17
+          },
+          {
+            "name": "卡萨帝冰箱旗舰店直播间",
+            "type": "官方号",
+            "type2": "",
+            "fans": 1196,
+            "sales": 13.7918,
+            "volume": 16
+          },
+          {
+            "name": "卡萨帝冰箱洗衣机直播间",
+            "type": "KOL",
+            "type2": "尾部",
+            "fans": 11962,
+            "sales": 11.9226,
+            "volume": 13
+          },
+          {
+            "name": "卡萨帝揽光冰箱旗舰直播间",
+            "type": "KOL",
+            "type2": "尾部",
+            "fans": 2674,
+            "sales": 4.412,
+            "volume": 5
+          },
+          {
+            "name": "卡萨帝冰箱官方甄选",
+            "type": "企业",
+            "type2": "",
+            "fans": 19076,
+            "sales": 2.1248,
+            "volume": 2
+          },
+          {
+            "name": "卡萨帝冰箱官方精选直播间",
+            "type": "企业",
+            "type2": "",
+            "fans": 797,
+            "sales": 0,
+            "volume": 0
+          },
+          {
+            "name": "家电小红人",
+            "type": "企业",
+            "type2": "",
+            "fans": 15592,
+            "sales": 0,
+            "volume": 0
+          },
+          {
+            "name": "肖恩子享生活",
+            "type": "KOL",
+            "type2": "腰部",
+            "fans": 515763,
+            "sales": 0,
+            "volume": 0
+          },
+          {
+            "name": "郭子本郭",
+            "type": "KOL",
+            "type2": "尾部",
+            "fans": 315711,
+            "sales": 0,
+            "volume": 0
+          }
+        ]
+      },
+      {
+        "brand": "东芝",
+        "total_rooms": 18,
+        "total_sales": 59.87990000000001,
+        "total_volume": 742,
+        "brand_rooms": 11,
+        "kol_rooms": 7,
+        "brand_sales": 57.69020000000001,
+        "kol_sales": 2.1897,
+        "brand_volume": 739,
+        "kol_volume": 3,
+        "top_rooms": [
+          {
+            "name": "东芝电器旗舰店",
+            "type": "官方号",
+            "type2": "",
+            "fans": 124716,
+            "sales": 43.0415,
+            "volume": 64
+          },
+          {
+            "name": "东芝冰箱旗舰店",
+            "type": "官方号",
+            "type2": "",
+            "fans": 137328,
+            "sales": 6.1893,
+            "volume": 660
+          },
+          {
+            "name": "东芝官方直播间",
+            "type": "官方号",
+            "type2": "",
+            "fans": 14660,
+            "sales": 4.5686,
+            "volume": 7
+          },
+          {
+            "name": "胆大说",
+            "type": "KOL",
+            "type2": "尾部",
+            "fans": 17391,
+            "sales": 2.1897,
+            "volume": 3
+          },
+          {
+            "name": "东芝白珍珠套系直播间",
+            "type": "企业",
+            "type2": "",
+            "fans": 3181,
+            "sales": 1.7235,
+            "volume": 3
+          },
+          {
+            "name": "东芝冰箱官方号",
+            "type": "企业",
+            "type2": "",
+            "fans": 3319,
+            "sales": 1.1039,
+            "volume": 2
+          },
+          {
+            "name": "东芝白珍珠套系官方直播间",
+            "type": "企业",
+            "type2": "",
+            "fans": 1869,
+            "sales": 1.0634,
+            "volume": 3
+          },
+          {
+            "name": "东芝白珍珠官方账号",
+            "type": "企业",
+            "type2": "",
+            "fans": 1888,
+            "sales": 0,
+            "volume": 0
+          },
+          {
+            "name": "香豪优品",
+            "type": "企业",
+            "type2": "",
+            "fans": 4861,
+            "sales": 0,
+            "volume": 0
+          },
+          {
+            "name": "东芝智能冰箱旗舰店",
+            "type": "官方号",
+            "type2": "",
+            "fans": 6306,
+            "sales": 0,
+            "volume": 0
+          },
+          {
+            "name": "家电小红人",
+            "type": "企业",
+            "type2": "",
+            "fans": 15592,
+            "sales": 0,
+            "volume": 0
+          },
+          {
+            "name": "暴走家电",
+            "type": "企业",
+            "type2": "",
+            "fans": 1724,
+            "sales": 0,
+            "volume": 0
+          },
+          {
+            "name": "爱吃土豆",
+            "type": "KOL",
+            "type2": "尾部",
+            "fans": 1349,
+            "sales": 0,
+            "volume": 0
+          },
+          {
+            "name": "店长-西雯（柒零伍）",
+            "type": "KOL",
+            "type2": "尾部",
+            "fans": 17503,
+            "sales": 0,
+            "volume": 0
+          },
+          {
+            "name": "肖恩子享生活",
+            "type": "KOL",
+            "type2": "腰部",
+            "fans": 515763,
+            "sales": 0,
+            "volume": 0
+          },
+          {
+            "name": "营销总部-大雄（无境）",
+            "type": "KOL",
+            "type2": "尾部",
+            "fans": 3623,
+            "sales": 0,
+            "volume": 0
+          },
+          {
+            "name": "岚姐小店",
+            "type": "KOL",
+            "type2": "尾部",
+            "fans": 34871,
+            "sales": 0,
+            "volume": 0
+          },
+          {
+            "name": "郭子本郭",
+            "type": "KOL",
+            "type2": "尾部",
+            "fans": 315821,
+            "sales": 0,
+            "volume": 0
+          }
+        ]
+      },
+      {
+        "brand": "COLMO",
+        "total_rooms": 12,
+        "total_sales": 19.355999999999998,
+        "total_volume": 21,
+        "brand_rooms": 12,
+        "kol_rooms": 0,
+        "brand_sales": 19.355999999999998,
+        "kol_sales": 0,
+        "brand_volume": 21,
+        "kol_volume": 0,
+        "top_rooms": [
+          {
+            "name": "COLMO官方旗舰店",
+            "type": "官方号",
+            "type2": "",
+            "fans": 372032,
+            "sales": 7.3765,
+            "volume": 8
+          },
+          {
+            "name": "COLMO全屋智能家电旗舰店",
+            "type": "官方号",
+            "type2": "",
+            "fans": 12922,
+            "sales": 2.9297,
+            "volume": 3
+          },
+          {
+            "name": "COLMO黑珍珠套系直播间",
+            "type": "官方号",
+            "type2": "",
+            "fans": 3410,
+            "sales": 2.8177,
+            "volume": 3
+          },
+          {
+            "name": "COLMO净水官方直播间",
+            "type": "官方号",
+            "type2": "",
+            "fans": 6725,
+            "sales": 2.7267,
+            "volume": 3
+          },
+          {
+            "name": "COLMO智能电器官方直播间",
+            "type": "官方号",
+            "type2": "",
+            "fans": 4272,
+            "sales": 1.7668,
+            "volume": 2
+          },
+          {
+            "name": "COLMO厨电官方直播间",
+            "type": "官方号",
+            "type2": "",
+            "fans": 2450,
+            "sales": 0.8834,
+            "volume": 1
+          },
+          {
+            "name": "COLMO大家电旗舰店",
+            "type": "官方号",
+            "type2": "",
+            "fans": 8095,
+            "sales": 0.8552,
+            "volume": 1
+          },
+          {
+            "name": "COLMO冰箱官方直播间",
+            "type": "官方号",
+            "type2": "",
+            "fans": 8359,
+            "sales": 0,
+            "volume": 0
+          },
+          {
+            "name": "COLMO空调旗舰店",
+            "type": "官方号",
+            "type2": "",
+            "fans": 9612,
+            "sales": 0,
+            "volume": 0
+          },
+          {
+            "name": "COLMO西式厨电官方直播间",
+            "type": "官方号",
+            "type2": "",
+            "fans": 196,
+            "sales": 0,
+            "volume": 0
+          },
+          {
+            "name": "COLMO洗碗机官方直播间",
+            "type": "官方号",
+            "type2": "",
+            "fans": 3226,
+            "sales": 0,
+            "volume": 0
+          },
+          {
+            "name": "COLMO智慧家电官方直播间",
+            "type": "官方号",
+            "type2": "",
+            "fans": 1669,
+            "sales": 0,
+            "volume": 0
+          }
+        ]
+      }
+    ]
+  },
+  "previous": {
+    "period": "2026/08/31-09/06",
+    "period_key": "week_0831_0906",
+    "brands": [
+      {
+        "brand": "海尔",
+        "total_rooms": 316,
+        "total_sales": 2213.6060000000007,
+        "total_volume": 12618,
+        "brand_rooms": 140,
+        "kol_rooms": 176,
+        "brand_sales": 1654.3413,
+        "kol_sales": 559.2647000000002,
+        "brand_volume": 10516,
+        "kol_volume": 2102,
+        "top_rooms": [
+          {
+            "name": "海尔智能冰箱旗舰店",
+            "type": "官方号",
+            "type2": "",
+            "fans": 1341051,
+            "sales": 159.0367,
+            "volume": 629
+          },
+          {
+            "name": "Haier海尔品牌智能家电",
+            "type": "官方号",
+            "type2": "",
+            "fans": 170784,
+            "sales": 156.4177,
+            "volume": 797
+          },
+          {
+            "name": "海尔零嵌冰箱",
+            "type": "企业",
+            "type2": "",
+            "fans": 18560,
+            "sales": 108.5373,
+            "volume": 234
+          },
+          {
+            "name": "海尔冰箱智能直播间",
+            "type": "企业",
+            "type2": "",
+            "fans": 10734,
+            "sales": 104.7832,
+            "volume": 385
+          },
+          {
+            "name": "海尔小冰箱",
+            "type": "企业",
+            "type2": "",
+            "fans": 164648,
+            "sales": 102.8196,
+            "volume": 859
+          },
+          {
+            "name": "海尔冰箱旗舰店",
+            "type": "官方号",
+            "type2": "",
+            "fans": 744605,
+            "sales": 85.466,
+            "volume": 4073
+          },
+          {
+            "name": "海尔生活家",
+            "type": "KOL",
+            "type2": "尾部",
+            "fans": 629,
+            "sales": 72.3817,
+            "volume": 269
+          },
+          {
+            "name": "海尔官方旗舰店",
+            "type": "官方号",
+            "type2": "",
+            "fans": 3032191,
+            "sales": 72.0824,
+            "volume": 198
+          },
+          {
+            "name": "青岛冰箱总厂",
+            "type": "KOL",
+            "type2": "尾部",
+            "fans": 5902,
+            "sales": 68.552,
+            "volume": 239
+          },
+          {
+            "name": "海尔冰箱青岛总仓",
+            "type": "KOL",
+            "type2": "尾部",
+            "fans": 104075,
+            "sales": 64.6795,
+            "volume": 238
+          },
+          {
+            "name": "海尔家用电器直播间",
+            "type": "官方号",
+            "type2": "",
+            "fans": 277332,
+            "sales": 64.5162,
+            "volume": 257
+          },
+          {
+            "name": "海尔冰箱总厂直发",
+            "type": "KOL",
+            "type2": "尾部",
+            "fans": 50733,
+            "sales": 56.9155,
+            "volume": 211
+          },
+          {
+            "name": "海尔冰箱旗舰店国补直播间",
+            "type": "官方号",
+            "type2": "",
+            "fans": 46764,
+            "sales": 47.4296,
+            "volume": 126
+          },
+          {
+            "name": "海尔官方旗舰店云溪麦浪直播间",
+            "type": "官方号",
+            "type2": "",
+            "fans": 8734,
+            "sales": 46.9745,
+            "volume": 95
+          },
+          {
+            "name": "海尔家用冰箱品牌直播间",
+            "type": "企业",
+            "type2": "",
+            "fans": 20588,
+            "sales": 44.3702,
+            "volume": 195
+          },
+          {
+            "name": "海尔冰箱电器直播间",
+            "type": "企业",
+            "type2": "",
+            "fans": 41646,
+            "sales": 40.6695,
+            "volume": 95
+          },
+          {
+            "name": "海尔冰箱青岛云仓",
+            "type": "KOL",
+            "type2": "尾部",
+            "fans": 263,
+            "sales": 36.6007,
+            "volume": 151
+          },
+          {
+            "name": "海尔品牌家电甄选",
+            "type": "企业",
+            "type2": "",
+            "fans": 3237,
+            "sales": 36.4716,
+            "volume": 127
+          },
+          {
+            "name": "海尔官方旗舰店冰箱直播间",
+            "type": "官方号",
+            "type2": "",
+            "fans": 65709,
+            "sales": 36.1544,
+            "volume": 112
+          },
+          {
+            "name": "海尔冰箱国补直播间",
+            "type": "KOL",
+            "type2": "尾部",
+            "fans": 14427,
+            "sales": 34.4407,
+            "volume": 106
+          }
+        ]
+      },
+      {
+        "brand": "美的",
+        "total_rooms": 534,
+        "total_sales": 1956.327600000001,
+        "total_volume": 12742,
+        "brand_rooms": 211,
+        "kol_rooms": 323,
+        "brand_sales": 1237.1304999999998,
+        "kol_sales": 719.1970999999996,
+        "brand_volume": 9367,
+        "kol_volume": 3375,
+        "top_rooms": [
+          {
+            "name": "美的冰箱官方",
+            "type": "官方号",
+            "type2": "",
+            "fans": 15800,
+            "sales": 166.4692,
+            "volume": 359
+          },
+          {
+            "name": "美的冰箱旗舰店",
+            "type": "官方号",
+            "type2": "",
+            "fans": 1088899,
+            "sales": 122.3484,
+            "volume": 1302
+          },
+          {
+            "name": "大家电华北仓2",
+            "type": "KOL",
+            "type2": "尾部",
+            "fans": 75914,
+            "sales": 108.1856,
+            "volume": 552
+          },
+          {
+            "name": "美的家用小冰箱",
+            "type": "KOL",
+            "type2": "尾部",
+            "fans": 21710,
+            "sales": 106.8442,
+            "volume": 989
+          },
+          {
+            "name": "肖恩子享生活",
+            "type": "KOL",
+            "type2": "腰部",
+            "fans": 515842,
+            "sales": 90.6335,
+            "volume": 129
+          },
+          {
+            "name": "美的冰箱",
+            "type": "企业",
+            "type2": "",
+            "fans": 2778,
+            "sales": 89.5826,
+            "volume": 190
+          },
+          {
+            "name": "电器哥梓涵",
+            "type": "KOL",
+            "type2": "腰部",
+            "fans": 1777771,
+            "sales": 79.3922,
+            "volume": 113
+          },
+          {
+            "name": "美的冰箱官方旗舰店",
+            "type": "官方号",
+            "type2": "",
+            "fans": 38165,
+            "sales": 79.0763,
+            "volume": 246
+          },
+          {
+            "name": "美的官方旗舰店",
+            "type": "官方号",
+            "type2": "",
+            "fans": 3501411,
+            "sales": 68.4781,
+            "volume": 320
+          },
+          {
+            "name": "Midea美的官方旗舰店",
+            "type": "官方号",
+            "type2": "",
+            "fans": 16367,
+            "sales": 67.6081,
+            "volume": 298
+          },
+          {
+            "name": "美的冰箱品牌直播间",
+            "type": "KOL",
+            "type2": "尾部",
+            "fans": 81694,
+            "sales": 59.7382,
+            "volume": 3648
+          },
+          {
+            "name": "美的冰箱旗舰店直播间",
+            "type": "官方号",
+            "type2": "",
+            "fans": 135817,
+            "sales": 57.4891,
+            "volume": 325
+          },
+          {
+            "name": "美的多门冰箱旗舰店",
+            "type": "官方号",
+            "type2": "",
+            "fans": 21204,
+            "sales": 52.8235,
+            "volume": 161
+          },
+          {
+            "name": "冰箱推荐官-莹姐",
+            "type": "KOL",
+            "type2": "尾部",
+            "fans": 1161,
+            "sales": 51.2923,
+            "volume": 270
+          },
+          {
+            "name": "美的小冰箱直播间",
+            "type": "企业",
+            "type2": "",
+            "fans": 24377,
+            "sales": 48.7372,
+            "volume": 445
+          },
+          {
+            "name": "冰箱新品推荐官",
+            "type": "KOL",
+            "type2": "尾部",
+            "fans": 935,
+            "sales": 43.9289,
+            "volume": 232
+          },
+          {
+            "name": "海尔冰箱青岛补贴总仓",
+            "type": "KOL",
+            "type2": "尾部",
+            "fans": 2868,
+            "sales": 39.7764,
+            "volume": 209
+          },
+          {
+            "name": "Midea美的冰箱官方直播间",
+            "type": "企业",
+            "type2": "",
+            "fans": 3151,
+            "sales": 37.4421,
+            "volume": 144
+          },
+          {
+            "name": "郭子本郭",
+            "type": "KOL",
+            "type2": "尾部",
+            "fans": 315821,
+            "sales": 27.9831,
+            "volume": 40
+          },
+          {
+            "name": "美的官方商城",
+            "type": "官方号",
+            "type2": "",
+            "fans": 85372,
+            "sales": 24.2964,
+            "volume": 59
+          }
+        ]
+      },
+      {
+        "brand": "容声",
+        "total_rooms": 122,
+        "total_sales": 1203.3915999999997,
+        "total_volume": 4515,
+        "brand_rooms": 88,
+        "kol_rooms": 34,
+        "brand_sales": 1035.9669,
+        "kol_sales": 167.42470000000003,
+        "brand_volume": 4001,
+        "kol_volume": 514,
+        "top_rooms": [
+          {
+            "name": "容声官方旗舰店",
+            "type": "官方号",
+            "type2": "",
+            "fans": 577833,
+            "sales": 103.1938,
+            "volume": 371
+          },
+          {
+            "name": "容声官方旗舰店冰箱直播间",
+            "type": "官方号",
+            "type2": "",
+            "fans": 87300,
+            "sales": 87.9379,
+            "volume": 562
+          },
+          {
+            "name": "容声冰箱旗舰店",
+            "type": "官方号",
+            "type2": "",
+            "fans": 1093502,
+            "sales": 58.4103,
+            "volume": 226
+          },
+          {
+            "name": "容声冰箱1号直播间",
+            "type": "官方号",
+            "type2": "",
+            "fans": 30019,
+            "sales": 48.8951,
+            "volume": 160
+          },
+          {
+            "name": "容声家电官方直播间",
+            "type": "企业",
+            "type2": "",
+            "fans": 19006,
+            "sales": 44.1951,
+            "volume": 149
+          },
+          {
+            "name": "青岛智想电子商务有限公司",
+            "type": "官方号",
+            "type2": "",
+            "fans": 55444,
+            "sales": 40.1165,
+            "volume": 115
+          },
+          {
+            "name": "容声冰箱厂家官方直播间",
+            "type": "企业",
+            "type2": "",
+            "fans": 76638,
+            "sales": 38.5632,
+            "volume": 135
+          },
+          {
+            "name": "容声冰箱商城",
+            "type": "KOL",
+            "type2": "尾部",
+            "fans": 61896,
+            "sales": 34.1487,
+            "volume": 104
+          },
+          {
+            "name": "容声冰箱官方甄选",
+            "type": "企业",
+            "type2": "",
+            "fans": 48011,
+            "sales": 33.1847,
+            "volume": 134
+          },
+          {
+            "name": "容声集成家电旗舰店",
+            "type": "官方号",
+            "type2": "",
+            "fans": 13790,
+            "sales": 32.1051,
+            "volume": 87
+          },
+          {
+            "name": "容声冰箱优选1号直播间",
+            "type": "企业",
+            "type2": "",
+            "fans": 11886,
+            "sales": 31.0644,
+            "volume": 126
+          },
+          {
+            "name": "容声电器旗舰店",
+            "type": "官方号",
+            "type2": "",
+            "fans": 99030,
+            "sales": 27.8918,
+            "volume": 164
+          },
+          {
+            "name": "容声官方商城",
+            "type": "企业",
+            "type2": "",
+            "fans": 7252,
+            "sales": 26.7121,
+            "volume": 76
+          },
+          {
+            "name": "容声冰箱官方认证直播间",
+            "type": "企业",
+            "type2": "",
+            "fans": 7549,
+            "sales": 26.2597,
+            "volume": 80
+          },
+          {
+            "name": "容声冰箱家电直播间",
+            "type": "企业",
+            "type2": "",
+            "fans": 4378,
+            "sales": 26.0798,
+            "volume": 94
+          },
+          {
+            "name": "电器指南淼聚",
+            "type": "企业",
+            "type2": "",
+            "fans": 25683,
+            "sales": 24.7757,
+            "volume": 58
+          },
+          {
+            "name": "容声家电旗舰店",
+            "type": "官方号",
+            "type2": "",
+            "fans": 196581,
+            "sales": 23.7855,
+            "volume": 60
+          },
+          {
+            "name": "容声冰箱鲜享直播间",
+            "type": "企业",
+            "type2": "",
+            "fans": 10115,
+            "sales": 23.432,
+            "volume": 176
+          },
+          {
+            "name": "容声冰箱直播间",
+            "type": "企业",
+            "type2": "",
+            "fans": 23300,
+            "sales": 23.2395,
+            "volume": 69
+          },
+          {
+            "name": "容声官方旗舰店厂家直播间",
+            "type": "官方号",
+            "type2": "",
+            "fans": 18679,
+            "sales": 22.5253,
+            "volume": 75
+          }
+        ]
+      },
+      {
+        "brand": "Leader",
+        "total_rooms": 163,
+        "total_sales": 1059.2384999999995,
+        "total_volume": 4180,
+        "brand_rooms": 74,
+        "kol_rooms": 89,
+        "brand_sales": 945.6288,
+        "kol_sales": 113.60969999999998,
+        "brand_volume": 3693,
+        "kol_volume": 487,
+        "top_rooms": [
+          {
+            "name": "海尔家用品牌冰箱",
+            "type": "企业",
+            "type2": "",
+            "fans": 59438,
+            "sales": 175.9705,
+            "volume": 661
+          },
+          {
+            "name": "海尔冰箱智能旗舰店",
+            "type": "官方号",
+            "type2": "",
+            "fans": 263324,
+            "sales": 142.3367,
+            "volume": 573
+          },
+          {
+            "name": "海尔品牌特卖",
+            "type": "企业",
+            "type2": "",
+            "fans": 218528,
+            "sales": 109.1539,
+            "volume": 469
+          },
+          {
+            "name": "海尔官方家电直播间",
+            "type": "企业",
+            "type2": "",
+            "fans": 155298,
+            "sales": 103.1496,
+            "volume": 418
+          },
+          {
+            "name": "海尔冰箱品牌特卖直播间",
+            "type": "官方号",
+            "type2": "",
+            "fans": 113107,
+            "sales": 73.6286,
+            "volume": 302
+          },
+          {
+            "name": "海尔家用冰箱旗舰号",
+            "type": "KOL",
+            "type2": "尾部",
+            "fans": 10804,
+            "sales": 45.9775,
+            "volume": 211
+          },
+          {
+            "name": "海尔零嵌冰箱官方直播间",
+            "type": "企业",
+            "type2": "",
+            "fans": 43493,
+            "sales": 41.7868,
+            "volume": 154
+          },
+          {
+            "name": "海尔智能冰箱旗舰店",
+            "type": "官方号",
+            "type2": "",
+            "fans": 1341051,
+            "sales": 37.6503,
+            "volume": 130
+          },
+          {
+            "name": "Haier海尔冰箱甄选家电",
+            "type": "企业",
+            "type2": "",
+            "fans": 18254,
+            "sales": 30.545,
+            "volume": 99
+          },
+          {
+            "name": "Haier海尔冰箱家电直播间",
+            "type": "企业",
+            "type2": "",
+            "fans": 24125,
+            "sales": 28.7883,
+            "volume": 98
+          },
+          {
+            "name": "海尔冰箱官方店",
+            "type": "企业",
+            "type2": "",
+            "fans": 24873,
+            "sales": 27.3838,
+            "volume": 95
+          },
+          {
+            "name": "冰箱青岛总仓",
+            "type": "KOL",
+            "type2": "尾部",
+            "fans": 67076,
+            "sales": 25.7744,
+            "volume": 86
+          },
+          {
+            "name": "海尔智能家电折扣总仓",
+            "type": "KOL",
+            "type2": "尾部",
+            "fans": 5274,
+            "sales": 22.1775,
+            "volume": 95
+          },
+          {
+            "name": "海尔冰箱国补专场直播",
+            "type": "企业",
+            "type2": "",
+            "fans": 41821,
+            "sales": 20.8814,
+            "volume": 90
+          },
+          {
+            "name": "海尔家电特卖",
+            "type": "官方号",
+            "type2": "",
+            "fans": 354760,
+            "sales": 17.9068,
+            "volume": 75
+          },
+          {
+            "name": "Leader冰箱旗舰店",
+            "type": "官方号",
+            "type2": "",
+            "fans": 54167,
+            "sales": 15.7292,
+            "volume": 47
+          },
+          {
+            "name": "海尔双系统家用冰箱",
+            "type": "企业",
+            "type2": "",
+            "fans": 4867,
+            "sales": 15.7048,
+            "volume": 55
+          },
+          {
+            "name": "海尔智慧生活2号仓",
+            "type": "KOL",
+            "type2": "尾部",
+            "fans": 1951,
+            "sales": 14.2082,
+            "volume": 63
+          },
+          {
+            "name": "青岛Haier冰箱专场66",
+            "type": "KOL",
+            "type2": "尾部",
+            "fans": 27587,
+            "sales": 13.6537,
+            "volume": 62
+          },
+          {
+            "name": "海尔青岛3号仓",
+            "type": "KOL",
+            "type2": "尾部",
+            "fans": 58496,
+            "sales": 13.4308,
+            "volume": 60
+          }
+        ]
+      },
+      {
+        "brand": "华凌",
+        "total_rooms": 72,
+        "total_sales": 637.1668000000001,
+        "total_volume": 3476,
+        "brand_rooms": 23,
+        "kol_rooms": 49,
+        "brand_sales": 292.5675,
+        "kol_sales": 344.5993000000001,
+        "brand_volume": 1579,
+        "kol_volume": 1897,
+        "top_rooms": [
+          {
+            "name": "冰箱之王",
+            "type": "KOL",
+            "type2": "尾部",
+            "fans": 78195,
+            "sales": 147.663,
+            "volume": 810
+          },
+          {
+            "name": "华凌冰箱官方旗舰店",
+            "type": "官方号",
+            "type2": "",
+            "fans": 23849,
+            "sales": 60.7184,
+            "volume": 351
+          },
+          {
+            "name": "美的家用冰箱品牌店",
+            "type": "KOL",
+            "type2": "尾部",
+            "fans": 20348,
+            "sales": 49.9145,
+            "volume": 313
+          },
+          {
+            "name": "美的冰箱华北总仓",
+            "type": "KOL",
+            "type2": "尾部",
+            "fans": 54789,
+            "sales": 33.0871,
+            "volume": 183
+          },
+          {
+            "name": "美的全屋智能家电旗舰店",
+            "type": "官方号",
+            "type2": "",
+            "fans": 42496,
+            "sales": 32.7144,
+            "volume": 189
+          },
+          {
+            "name": "高端华凌冰箱",
+            "type": "KOL",
+            "type2": "尾部",
+            "fans": 4892,
+            "sales": 32.5203,
+            "volume": 185
+          },
+          {
+            "name": "冰箱大家电推荐官-莹莹",
+            "type": "KOL",
+            "type2": "尾部",
+            "fans": 558,
+            "sales": 32.3919,
+            "volume": 181
+          },
+          {
+            "name": "美的家用冰箱官方直播",
+            "type": "企业",
+            "type2": "",
+            "fans": 1321,
+            "sales": 28.4454,
+            "volume": 160
+          },
+          {
+            "name": "熊小电-百起的家电课堂",
+            "type": "企业",
+            "type2": "",
+            "fans": 479755,
+            "sales": 21.1285,
+            "volume": 42
+          },
+          {
+            "name": "华凌冰箱直播间",
+            "type": "企业",
+            "type2": "",
+            "fans": 1707,
+            "sales": 19.9477,
+            "volume": 121
+          },
+          {
+            "name": "华凌冰箱旗舰店",
+            "type": "官方号",
+            "type2": "",
+            "fans": 17449,
+            "sales": 17.4557,
+            "volume": 76
+          },
+          {
+            "name": "华凌智能冰箱直播间",
+            "type": "企业",
+            "type2": "",
+            "fans": 12820,
+            "sales": 12.14,
+            "volume": 70
+          },
+          {
+            "name": "美的华凌高端旗舰",
+            "type": "KOL",
+            "type2": "尾部",
+            "fans": 644,
+            "sales": 11.8848,
+            "volume": 69
+          },
+          {
+            "name": "奥马冰箱源头直发",
+            "type": "KOL",
+            "type2": "尾部",
+            "fans": 19986,
+            "sales": 11.8114,
+            "volume": 66
+          },
+          {
+            "name": "美的冰箱自营直播间",
+            "type": "企业",
+            "type2": "",
+            "fans": 55102,
+            "sales": 10.7951,
+            "volume": 71
+          },
+          {
+            "name": "高端冰箱总仓",
+            "type": "KOL",
+            "type2": "尾部",
+            "fans": 917,
+            "sales": 10.2007,
+            "volume": 57
+          },
+          {
+            "name": "美的冰箱直播间",
+            "type": "官方号",
+            "type2": "",
+            "fans": 142100,
+            "sales": 9.6274,
+            "volume": 40
+          },
+          {
+            "name": "华凌冰箱品牌店",
+            "type": "KOL",
+            "type2": "尾部",
+            "fans": 6431,
+            "sales": 7.9507,
+            "volume": 44
+          },
+          {
+            "name": "华凌智能冰箱直播间",
+            "type": "KOL",
+            "type2": "尾部",
+            "fans": 5117,
+            "sales": 7.803,
+            "volume": 32
+          },
+          {
+            "name": "营座讲家电",
+            "type": "KOL",
+            "type2": "腰部",
+            "fans": 656051,
+            "sales": 7.5459,
+            "volume": 15
+          }
+        ]
+      },
+      {
+        "brand": "卡萨帝",
+        "total_rooms": 13,
+        "total_sales": 258.1431,
+        "total_volume": 319,
+        "brand_rooms": 10,
+        "kol_rooms": 3,
+        "brand_sales": 233.34909999999996,
+        "kol_sales": 24.794,
+        "brand_volume": 291,
+        "kol_volume": 28,
+        "top_rooms": [
+          {
+            "name": "卡萨帝官方旗舰店",
+            "type": "官方号",
+            "type2": "",
+            "fans": 139376,
+            "sales": 73.1835,
+            "volume": 82
+          },
+          {
+            "name": "卡萨帝冰箱旗舰店",
+            "type": "官方号",
+            "type2": "",
+            "fans": 267125,
+            "sales": 70.4403,
+            "volume": 115
+          },
+          {
+            "name": "卡萨帝冰箱官方直播间",
+            "type": "企业",
+            "type2": "",
+            "fans": 13338,
+            "sales": 28.5856,
+            "volume": 30
+          },
+          {
+            "name": "卡萨帝冰箱洗衣机直播间",
+            "type": "KOL",
+            "type2": "尾部",
+            "fans": 11962,
+            "sales": 24.794,
+            "volume": 28
+          },
+          {
+            "name": "卡萨帝冰箱官方商城",
+            "type": "企业",
+            "type2": "",
+            "fans": 7880,
+            "sales": 17.5701,
+            "volume": 19
+          },
+          {
+            "name": "卡萨帝冰箱官方旗舰店",
+            "type": "官方号",
+            "type2": "",
+            "fans": 15605,
+            "sales": 17.4965,
+            "volume": 18
+          },
+          {
+            "name": "卡萨帝冰箱旗舰店直播间",
+            "type": "官方号",
+            "type2": "",
+            "fans": 1196,
+            "sales": 15.2531,
+            "volume": 16
+          },
+          {
+            "name": "卡萨帝揽光冰箱旗舰直播间",
+            "type": "KOL",
+            "type2": "尾部",
+            "fans": 2674,
+            "sales": 6.3004,
+            "volume": 7
+          },
+          {
+            "name": "卡萨帝冰箱官方甄选",
+            "type": "企业",
+            "type2": "",
+            "fans": 19076,
+            "sales": 4.5196,
+            "volume": 4
+          },
+          {
+            "name": "卡萨帝冰箱官方精选直播间",
+            "type": "企业",
+            "type2": "",
+            "fans": 797,
+            "sales": 0,
+            "volume": 0
+          },
+          {
+            "name": "家电小红人",
+            "type": "企业",
+            "type2": "",
+            "fans": 15592,
+            "sales": 0,
+            "volume": 0
+          },
+          {
+            "name": "肖恩子享生活",
+            "type": "KOL",
+            "type2": "腰部",
+            "fans": 515842,
+            "sales": 0,
+            "volume": 0
+          },
+          {
+            "name": "郭子本郭",
+            "type": "KOL",
+            "type2": "尾部",
+            "fans": 315821,
+            "sales": 0,
+            "volume": 0
+          }
+        ]
+      },
+      {
+        "brand": "东芝",
+        "total_rooms": 18,
+        "total_sales": 54.893000000000015,
+        "total_volume": 87,
+        "brand_rooms": 13,
+        "kol_rooms": 5,
+        "brand_sales": 54.893000000000015,
+        "kol_sales": 0,
+        "brand_volume": 87,
+        "kol_volume": 0,
+        "top_rooms": [
+          {
+            "name": "东芝电器旗舰店",
+            "type": "官方号",
+            "type2": "",
+            "fans": 124716,
+            "sales": 35.3982,
+            "volume": 52
+          },
+          {
+            "name": "东芝官方直播间",
+            "type": "官方号",
+            "type2": "",
+            "fans": 14660,
+            "sales": 7.552,
+            "volume": 12
+          },
+          {
+            "name": "东芝冰箱旗舰店",
+            "type": "官方号",
+            "type2": "",
+            "fans": 137328,
+            "sales": 5.5585,
+            "volume": 13
+          },
+          {
+            "name": "东芝白珍珠套系直播间",
+            "type": "企业",
+            "type2": "",
+            "fans": 3181,
+            "sales": 2.6799,
+            "volume": 5
+          },
+          {
+            "name": "东芝白珍珠套系官方直播间",
+            "type": "企业",
+            "type2": "",
+            "fans": 1869,
+            "sales": 1.6972,
+            "volume": 2
+          },
+          {
+            "name": "东芝白珍珠官方账号",
+            "type": "企业",
+            "type2": "",
+            "fans": 1888,
+            "sales": 1.3267,
+            "volume": 2
+          },
+          {
+            "name": "东芝冰箱官方号",
+            "type": "企业",
+            "type2": "",
+            "fans": 3319,
+            "sales": 0.6805,
+            "volume": 1
+          },
+          {
+            "name": "东芝智能冰箱旗舰店",
+            "type": "官方号",
+            "type2": "",
+            "fans": 6306,
+            "sales": 0,
+            "volume": 0
+          },
+          {
+            "name": "东芝官方账号",
+            "type": "企业",
+            "type2": "",
+            "fans": 9900,
+            "sales": 0,
+            "volume": 0
+          },
+          {
+            "name": "家电小红人",
+            "type": "企业",
+            "type2": "",
+            "fans": 15592,
+            "sales": 0,
+            "volume": 0
+          },
+          {
+            "name": "暴走家电",
+            "type": "企业",
+            "type2": "",
+            "fans": 1696,
+            "sales": 0,
+            "volume": 0
+          },
+          {
+            "name": "甄选家电",
+            "type": "企业",
+            "type2": "",
+            "fans": 92107,
+            "sales": 0,
+            "volume": 0
+          },
+          {
+            "name": "仁佐水果生鲜",
+            "type": "企业",
+            "type2": "",
+            "fans": 7423,
+            "sales": 0,
+            "volume": 0
+          },
+          {
+            "name": "爱吃土豆",
+            "type": "KOL",
+            "type2": "尾部",
+            "fans": 1349,
+            "sales": 0,
+            "volume": 0
+          },
+          {
+            "name": "肖恩子享生活",
+            "type": "KOL",
+            "type2": "腰部",
+            "fans": 515842,
+            "sales": 0,
+            "volume": 0
+          },
+          {
+            "name": "杨杨好物",
+            "type": "KOL",
+            "type2": "尾部",
+            "fans": 12668,
+            "sales": 0,
+            "volume": 0
+          },
+          {
+            "name": "营销总部-大雄（无境）",
+            "type": "KOL",
+            "type2": "尾部",
+            "fans": 3623,
+            "sales": 0,
+            "volume": 0
+          },
+          {
+            "name": "郭子本郭",
+            "type": "KOL",
+            "type2": "尾部",
+            "fans": 315821,
+            "sales": 0,
+            "volume": 0
+          }
+        ]
+      },
+      {
+        "brand": "COLMO",
+        "total_rooms": 13,
+        "total_sales": 16.566699999999997,
+        "total_volume": 18,
+        "brand_rooms": 13,
+        "kol_rooms": 0,
+        "brand_sales": 16.566699999999997,
+        "kol_sales": 0,
+        "brand_volume": 18,
+        "kol_volume": 0,
+        "top_rooms": [
+          {
+            "name": "COLMO官方旗舰店",
+            "type": "官方号",
+            "type2": "",
+            "fans": 372020,
+            "sales": 4.5619,
+            "volume": 5
+          },
+          {
+            "name": "COLMO黑珍珠套系直播间",
+            "type": "官方号",
+            "type2": "",
+            "fans": 3410,
+            "sales": 3.5537,
+            "volume": 4
+          },
+          {
+            "name": "COLMO厨电官方直播间",
+            "type": "官方号",
+            "type2": "",
+            "fans": 2450,
+            "sales": 2.0331,
+            "volume": 2
+          },
+          {
+            "name": "COLMO智能电器官方直播间",
+            "type": "官方号",
+            "type2": "",
+            "fans": 4272,
+            "sales": 1.8815,
+            "volume": 2
+          },
+          {
+            "name": "COLMO冰箱官方直播间",
+            "type": "官方号",
+            "type2": "",
+            "fans": 8398,
+            "sales": 1.7768,
+            "volume": 2
+          },
+          {
+            "name": "COLMO空调旗舰店",
+            "type": "官方号",
+            "type2": "",
+            "fans": 9612,
+            "sales": 0.9599,
+            "volume": 1
+          },
+          {
+            "name": "COLMO全屋智能家电旗舰店",
+            "type": "官方号",
+            "type2": "",
+            "fans": 12929,
+            "sales": 0.9599,
+            "volume": 1
+          },
+          {
+            "name": "COLMO洗碗机官方直播间",
+            "type": "官方号",
+            "type2": "",
+            "fans": 3226,
+            "sales": 0.8399,
+            "volume": 1
+          },
+          {
+            "name": "COLMO净水官方直播间",
+            "type": "官方号",
+            "type2": "",
+            "fans": 6725,
+            "sales": 0,
+            "volume": 0
+          },
+          {
+            "name": "COLMO西式厨电官方直播间",
+            "type": "官方号",
+            "type2": "",
+            "fans": 196,
+            "sales": 0,
+            "volume": 0
+          },
+          {
+            "name": "河马来电严选",
+            "type": "企业",
+            "type2": "",
+            "fans": 11655,
+            "sales": 0,
+            "volume": 0
+          },
+          {
+            "name": "COLMO智慧家电官方直播间",
+            "type": "官方号",
+            "type2": "",
+            "fans": 1669,
+            "sales": 0,
+            "volume": 0
+          },
+          {
+            "name": "COLMO大家电旗舰店",
+            "type": "官方号",
+            "type2": "",
+            "fans": 8095,
+            "sales": 0,
+            "volume": 0
+          }
+        ]
+      }
+    ]
+  },
+  "comparison": [
+    {
+      "brand": "海尔",
+      "current_sales": 2597.8588000000022,
+      "previous_sales": 2213.6060000000007,
+      "sales_change": 384.25280000000157,
+      "sales_change_pct": 17.358680813116763,
+      "current_volume": 11927,
+      "previous_volume": 12618,
+      "volume_change": -691,
+      "volume_change_pct": -5.4763036931367886,
+      "current_rooms": 312,
+      "previous_rooms": 316,
+      "rooms_change": -4,
+      "current_brand_rooms": 128,
+      "current_kol_rooms": 184,
+      "previous_brand_rooms": 140,
+      "previous_kol_rooms": 176,
+      "current_rank": 1,
+      "previous_rank": 1
+    },
+    {
+      "brand": "美的",
+      "current_sales": 1789.057100000001,
+      "previous_sales": 1956.327600000001,
+      "sales_change": -167.27050000000008,
+      "sales_change_pct": -8.550229521885802,
+      "current_volume": 7630,
+      "previous_volume": 12742,
+      "volume_change": -5112,
+      "volume_change_pct": -40.119290535237795,
+      "current_rooms": 445,
+      "previous_rooms": 534,
+      "rooms_change": -89,
+      "current_brand_rooms": 163,
+      "current_kol_rooms": 282,
+      "previous_brand_rooms": 211,
+      "previous_kol_rooms": 323,
+      "current_rank": 2,
+      "previous_rank": 2
+    },
+    {
+      "brand": "容声",
+      "current_sales": 1145.2656999999995,
+      "previous_sales": 1203.3915999999997,
+      "sales_change": -58.12590000000023,
+      "sales_change_pct": -4.830173320139532,
+      "current_volume": 4848,
+      "previous_volume": 4515,
+      "volume_change": 333,
+      "volume_change_pct": 7.3754152823920265,
+      "current_rooms": 109,
+      "previous_rooms": 122,
+      "rooms_change": -13,
+      "current_brand_rooms": 77,
+      "current_kol_rooms": 32,
+      "previous_brand_rooms": 88,
+      "previous_kol_rooms": 34,
+      "current_rank": 3,
+      "previous_rank": 3
+    },
+    {
+      "brand": "Leader",
+      "current_sales": 971.0440000000003,
+      "previous_sales": 1059.2384999999995,
+      "sales_change": -88.19449999999915,
+      "sales_change_pct": -8.326217372197025,
+      "current_volume": 4069,
+      "previous_volume": 4180,
+      "volume_change": -111,
+      "volume_change_pct": -2.6555023923444976,
+      "current_rooms": 165,
+      "previous_rooms": 163,
+      "rooms_change": 2,
+      "current_brand_rooms": 73,
+      "current_kol_rooms": 92,
+      "previous_brand_rooms": 74,
+      "previous_kol_rooms": 89,
+      "current_rank": 4,
+      "previous_rank": 4
+    },
+    {
+      "brand": "华凌",
+      "current_sales": 311.00840000000005,
+      "previous_sales": 637.1668000000001,
+      "sales_change": -326.15840000000003,
+      "sales_change_pct": -51.18885666987043,
+      "current_volume": 1762,
+      "previous_volume": 3476,
+      "volume_change": -1714,
+      "volume_change_pct": -49.309551208285384,
+      "current_rooms": 61,
+      "previous_rooms": 72,
+      "rooms_change": -11,
+      "current_brand_rooms": 20,
+      "current_kol_rooms": 41,
+      "previous_brand_rooms": 23,
+      "previous_kol_rooms": 49,
+      "current_rank": 5,
+      "previous_rank": 5
+    },
+    {
+      "brand": "卡萨帝",
+      "current_sales": 240.75809999999998,
+      "previous_sales": 258.1431,
+      "sales_change": -17.38500000000002,
+      "sales_change_pct": -6.734636718936132,
+      "current_volume": 255,
+      "previous_volume": 319,
+      "volume_change": -64,
+      "volume_change_pct": -20.06269592476489,
+      "current_rooms": 13,
+      "previous_rooms": 13,
+      "rooms_change": 0,
+      "current_brand_rooms": 10,
+      "current_kol_rooms": 3,
+      "previous_brand_rooms": 10,
+      "previous_kol_rooms": 3,
+      "current_rank": 6,
+      "previous_rank": 6
+    },
+    {
+      "brand": "东芝",
+      "current_sales": 59.87990000000001,
+      "previous_sales": 54.893000000000015,
+      "sales_change": 4.986899999999999,
+      "sales_change_pct": 9.084764906272197,
+      "current_volume": 742,
+      "previous_volume": 87,
+      "volume_change": 655,
+      "volume_change_pct": 752.8735632183908,
+      "current_rooms": 18,
+      "previous_rooms": 18,
+      "rooms_change": 0,
+      "current_brand_rooms": 11,
+      "current_kol_rooms": 7,
+      "previous_brand_rooms": 13,
+      "previous_kol_rooms": 5,
+      "current_rank": 7,
+      "previous_rank": 7
+    },
+    {
+      "brand": "COLMO",
+      "current_sales": 19.355999999999998,
+      "previous_sales": 16.566699999999997,
+      "sales_change": 2.789300000000001,
+      "sales_change_pct": 16.836787048718218,
+      "current_volume": 21,
+      "previous_volume": 18,
+      "volume_change": 3,
+      "volume_change_pct": 16.666666666666664,
+      "current_rooms": 12,
+      "previous_rooms": 13,
+      "rooms_change": -1,
+      "current_brand_rooms": 12,
+      "current_kol_rooms": 0,
+      "previous_brand_rooms": 13,
+      "previous_kol_rooms": 0,
+      "current_rank": 8,
+      "previous_rank": 8
+    }
+  ]
+}

@@ -1411,7 +1411,7 @@
             });
             
             // 更新页面标题中的时间显示
-            const periodText = period === 'weekly' ? '2026/08/31-09/06 (周)' : '2026/09/01-09/13 (月累)';
+            const periodText = period === 'weekly' ? '2026/09/07-09/13 (周)' : '2026/09/01-09/13 (月累)';
             const thresholdText = period === 'weekly' ? '动销定义: 销额>1万' : '动销定义: 销额>2万';
             document.querySelectorAll('[data-period-text]').forEach(el => {
                 el.textContent = periodText;
@@ -1463,102 +1463,132 @@
         // 图表实例
         let charts = {};
 
-        // 8品牌直播数据 - 周度 (2026/08/31-09/06)
+        // 8品牌直播数据 - 周度 (2026/09/07-09/13) 环比上周(8/31-9/6)
         const weeklyData = [
     {
         "brand": "海尔",
         "name": "海尔",
-        "totalTalent": 316,
-        "activeLive": 316,
+        "totalTalent": 312,
+        "activeLive": 312,
         "inactiveLive": 0,
         "activeRate": 100.0,
-        "salesWan": 2213.61,
-        "volume": 12618,
-        "avgPrice": 1754,
-        "selfLiveWan": 1654.34,
-        "talentWan": 559.26,
-        "brandSales": 1654.34,
-        "kolSales": 559.26,
-        "brandCount": 140,
-        "kolCount": 176,
-        "brandActive": 140,
-        "kolActive": 176
+        "salesWan": 2597.86,
+        "volume": 11927,
+        "avgPrice": 2178,
+        "selfLiveWan": 1978.6,
+        "talentWan": 619.26,
+        "brandSales": 1978.6,
+        "kolSales": 619.26,
+        "brandCount": 128,
+        "kolCount": 184,
+        "brandActive": 128,
+        "kolActive": 184,
+        "prevSalesWan": 2213.61,
+        "salesChangePct": 17.4,
+        "prevVolume": 12618,
+        "volumeChangePct": -5.5,
+        "prevRank": 1,
+        "rankChange": 0
     },
     {
         "brand": "美的",
         "name": "美的",
-        "totalTalent": 534,
-        "activeLive": 534,
+        "totalTalent": 445,
+        "activeLive": 445,
         "inactiveLive": 0,
         "activeRate": 100.0,
-        "salesWan": 1956.33,
-        "volume": 12742,
-        "avgPrice": 1535,
-        "selfLiveWan": 1237.13,
-        "talentWan": 719.2,
-        "brandSales": 1237.13,
-        "kolSales": 719.2,
-        "brandCount": 211,
-        "kolCount": 323,
-        "brandActive": 211,
-        "kolActive": 323
+        "salesWan": 1789.06,
+        "volume": 7630,
+        "avgPrice": 2345,
+        "selfLiveWan": 1192.72,
+        "talentWan": 596.34,
+        "brandSales": 1192.72,
+        "kolSales": 596.34,
+        "brandCount": 163,
+        "kolCount": 282,
+        "brandActive": 163,
+        "kolActive": 282,
+        "prevSalesWan": 1956.33,
+        "salesChangePct": -8.6,
+        "prevVolume": 12742,
+        "volumeChangePct": -40.1,
+        "prevRank": 2,
+        "rankChange": 0
     },
     {
         "brand": "容声",
         "name": "容声",
-        "totalTalent": 122,
-        "activeLive": 122,
+        "totalTalent": 109,
+        "activeLive": 109,
         "inactiveLive": 0,
         "activeRate": 100.0,
-        "salesWan": 1203.39,
-        "volume": 4515,
-        "avgPrice": 2665,
-        "selfLiveWan": 1035.97,
-        "talentWan": 167.42,
-        "brandSales": 1035.97,
-        "kolSales": 167.42,
-        "brandCount": 88,
-        "kolCount": 34,
-        "brandActive": 88,
-        "kolActive": 34
+        "salesWan": 1145.27,
+        "volume": 4848,
+        "avgPrice": 2362,
+        "selfLiveWan": 994.96,
+        "talentWan": 150.31,
+        "brandSales": 994.96,
+        "kolSales": 150.31,
+        "brandCount": 77,
+        "kolCount": 32,
+        "brandActive": 77,
+        "kolActive": 32,
+        "prevSalesWan": 1203.39,
+        "salesChangePct": -4.8,
+        "prevVolume": 4515,
+        "volumeChangePct": 7.4,
+        "prevRank": 3,
+        "rankChange": 0
     },
     {
         "brand": "Leader",
         "name": "Leader",
-        "totalTalent": 163,
-        "activeLive": 163,
+        "totalTalent": 165,
+        "activeLive": 165,
         "inactiveLive": 0,
         "activeRate": 100.0,
-        "salesWan": 1059.24,
-        "volume": 4180,
-        "avgPrice": 2534,
-        "selfLiveWan": 945.63,
-        "talentWan": 113.61,
-        "brandSales": 945.63,
-        "kolSales": 113.61,
-        "brandCount": 74,
-        "kolCount": 89,
-        "brandActive": 74,
-        "kolActive": 89
+        "salesWan": 971.04,
+        "volume": 4069,
+        "avgPrice": 2386,
+        "selfLiveWan": 763.29,
+        "talentWan": 207.75,
+        "brandSales": 763.29,
+        "kolSales": 207.75,
+        "brandCount": 73,
+        "kolCount": 92,
+        "brandActive": 73,
+        "kolActive": 92,
+        "prevSalesWan": 1059.24,
+        "salesChangePct": -8.3,
+        "prevVolume": 4180,
+        "volumeChangePct": -2.7,
+        "prevRank": 4,
+        "rankChange": 0
     },
     {
         "brand": "华凌",
         "name": "华凌",
-        "totalTalent": 72,
-        "activeLive": 72,
+        "totalTalent": 61,
+        "activeLive": 61,
         "inactiveLive": 0,
         "activeRate": 100.0,
-        "salesWan": 637.17,
-        "volume": 3476,
-        "avgPrice": 1833,
-        "selfLiveWan": 292.57,
-        "talentWan": 344.6,
-        "brandSales": 292.57,
-        "kolSales": 344.6,
-        "brandCount": 23,
-        "kolCount": 49,
-        "brandActive": 23,
-        "kolActive": 49
+        "salesWan": 311.01,
+        "volume": 1762,
+        "avgPrice": 1765,
+        "selfLiveWan": 103.85,
+        "talentWan": 207.16,
+        "brandSales": 103.85,
+        "kolSales": 207.16,
+        "brandCount": 20,
+        "kolCount": 41,
+        "brandActive": 20,
+        "kolActive": 41,
+        "prevSalesWan": 637.17,
+        "salesChangePct": -51.2,
+        "prevVolume": 3476,
+        "volumeChangePct": -49.3,
+        "prevRank": 5,
+        "rankChange": 0
     },
     {
         "brand": "卡萨帝",
@@ -1567,17 +1597,23 @@
         "activeLive": 13,
         "inactiveLive": 0,
         "activeRate": 100.0,
-        "salesWan": 258.14,
-        "volume": 319,
-        "avgPrice": 8092,
-        "selfLiveWan": 233.35,
-        "talentWan": 24.79,
-        "brandSales": 233.35,
-        "kolSales": 24.79,
+        "salesWan": 240.76,
+        "volume": 255,
+        "avgPrice": 9441,
+        "selfLiveWan": 228.84,
+        "talentWan": 11.92,
+        "brandSales": 228.84,
+        "kolSales": 11.92,
         "brandCount": 10,
         "kolCount": 3,
         "brandActive": 10,
-        "kolActive": 3
+        "kolActive": 3,
+        "prevSalesWan": 258.14,
+        "salesChangePct": -6.7,
+        "prevVolume": 319,
+        "volumeChangePct": -20.1,
+        "prevRank": 6,
+        "rankChange": 0
     },
     {
         "brand": "东芝",
@@ -1586,36 +1622,48 @@
         "activeLive": 18,
         "inactiveLive": 0,
         "activeRate": 100.0,
-        "salesWan": 54.89,
-        "volume": 87,
-        "avgPrice": 6310,
-        "selfLiveWan": 54.89,
-        "talentWan": 0,
-        "brandSales": 54.89,
-        "kolSales": 0,
-        "brandCount": 13,
-        "kolCount": 5,
-        "brandActive": 13,
-        "kolActive": 5
+        "salesWan": 59.88,
+        "volume": 742,
+        "avgPrice": 807,
+        "selfLiveWan": 57.69,
+        "talentWan": 2.19,
+        "brandSales": 57.69,
+        "kolSales": 2.19,
+        "brandCount": 11,
+        "kolCount": 7,
+        "brandActive": 11,
+        "kolActive": 7,
+        "prevSalesWan": 54.89,
+        "salesChangePct": 9.1,
+        "prevVolume": 87,
+        "volumeChangePct": 752.9,
+        "prevRank": 7,
+        "rankChange": 0
     },
     {
         "brand": "COLMO",
         "name": "COLMO",
-        "totalTalent": 13,
-        "activeLive": 13,
+        "totalTalent": 12,
+        "activeLive": 12,
         "inactiveLive": 0,
         "activeRate": 100.0,
-        "salesWan": 16.57,
-        "volume": 18,
-        "avgPrice": 9204,
-        "selfLiveWan": 16.57,
+        "salesWan": 19.36,
+        "volume": 21,
+        "avgPrice": 9217,
+        "selfLiveWan": 19.36,
         "talentWan": 0,
-        "brandSales": 16.57,
+        "brandSales": 19.36,
         "kolSales": 0,
-        "brandCount": 13,
+        "brandCount": 12,
         "kolCount": 0,
-        "brandActive": 13,
-        "kolActive": 0
+        "brandActive": 12,
+        "kolActive": 0,
+        "prevSalesWan": 16.57,
+        "salesChangePct": 16.8,
+        "prevVolume": 18,
+        "volumeChangePct": 16.7,
+        "prevRank": 8,
+        "rankChange": 0
     }
 ];
         
@@ -2706,63 +2754,99 @@
             "weekly": {
     "brandTop50": [
         {
-            "name": "海尔家用品牌冰箱",
-            "brand": "Leader",
-            "sales": 175.97,
-            "volume": 661,
-            "fans": 59438,
-            "liveCount": 1,
-            "type": "企业"
-        },
-        {
-            "name": "美的冰箱官方",
-            "brand": "美的",
-            "sales": 166.47,
-            "volume": 359,
-            "fans": 15800,
+            "name": "海尔冰箱旗舰店",
+            "brand": "海尔",
+            "sales": 208.33,
+            "volume": 2539,
+            "fans": 744605,
             "liveCount": 1,
             "type": "官方号"
         },
         {
             "name": "海尔智能冰箱旗舰店",
             "brand": "海尔",
-            "sales": 159.04,
-            "volume": 629,
-            "fans": 1341051,
+            "sales": 193.27,
+            "volume": 759,
+            "fans": 1340790,
             "liveCount": 1,
             "type": "官方号"
         },
         {
-            "name": "Haier海尔品牌智能家电",
+            "name": "容声官方旗舰店",
+            "brand": "容声",
+            "sales": 174.01,
+            "volume": 537,
+            "fans": 577760,
+            "liveCount": 1,
+            "type": "官方号"
+        },
+        {
+            "name": "美的冰箱官方",
+            "brand": "美的",
+            "sales": 153.32,
+            "volume": 323,
+            "fans": 15800,
+            "liveCount": 1,
+            "type": "官方号"
+        },
+        {
+            "name": "海尔冰箱官方旗舰店",
             "brand": "海尔",
-            "sales": 156.42,
-            "volume": 797,
-            "fans": 170784,
+            "sales": 148.65,
+            "volume": 804,
+            "fans": 258033,
             "liveCount": 1,
             "type": "官方号"
         },
         {
             "name": "海尔冰箱智能旗舰店",
             "brand": "Leader",
-            "sales": 142.34,
-            "volume": 573,
-            "fans": 263324,
+            "sales": 136.39,
+            "volume": 551,
+            "fans": 262747,
             "liveCount": 1,
             "type": "官方号"
         },
         {
+            "name": "海尔官方旗舰店",
+            "brand": "海尔",
+            "sales": 124.96,
+            "volume": 716,
+            "fans": 3031997,
+            "liveCount": 1,
+            "type": "官方号"
+        },
+        {
+            "name": "美的冰箱",
+            "brand": "美的",
+            "sales": 120.79,
+            "volume": 240,
+            "fans": 2751,
+            "liveCount": 1,
+            "type": "企业"
+        },
+        {
             "name": "美的冰箱旗舰店",
             "brand": "美的",
-            "sales": 122.35,
-            "volume": 1302,
-            "fans": 1088899,
+            "sales": 119.43,
+            "volume": 364,
+            "fans": 1088934,
+            "liveCount": 1,
+            "type": "官方号"
+        },
+        {
+            "name": "Haier海尔品牌智能家电",
+            "brand": "海尔",
+            "sales": 114.3,
+            "volume": 579,
+            "fans": 170115,
             "liveCount": 1,
             "type": "官方号"
         },
         {
             "name": "海尔品牌特卖",
             "brand": "Leader",
-            "sales": 109.15,
+            "sales": 111.01,
             "volume": 469,
             "fans": 218528,
             "liveCount": 1,
@@ -2771,35 +2855,44 @@
         {
             "name": "海尔零嵌冰箱",
             "brand": "海尔",
-            "sales": 108.54,
-            "volume": 234,
-            "fans": 18560,
+            "sales": 93.07,
+            "volume": 201,
+            "fans": 18536,
             "liveCount": 1,
             "type": "企业"
         },
         {
             "name": "海尔冰箱智能直播间",
             "brand": "海尔",
-            "sales": 104.78,
-            "volume": 385,
+            "sales": 90.42,
+            "volume": 331,
             "fans": 10734,
             "liveCount": 1,
             "type": "企业"
         },
         {
-            "name": "容声官方旗舰店",
-            "brand": "容声",
-            "sales": 103.19,
-            "volume": 371,
-            "fans": 577833,
+            "name": "美的官方旗舰店",
+            "brand": "美的",
+            "sales": 89.52,
+            "volume": 437,
+            "fans": 3498882,
+            "liveCount": 1,
+            "type": "官方号"
+        },
+        {
+            "name": "卡萨帝冰箱旗舰店",
+            "brand": "卡萨帝",
+            "sales": 89.11,
+            "volume": 99,
+            "fans": 267125,
             "liveCount": 1,
             "type": "官方号"
         },
         {
             "name": "海尔官方家电直播间",
             "brand": "Leader",
-            "sales": 103.15,
-            "volume": 418,
+            "sales": 88.47,
+            "volume": 362,
             "fans": 155298,
             "liveCount": 1,
             "type": "企业"
@@ -2807,296 +2900,143 @@
         {
             "name": "海尔小冰箱",
             "brand": "海尔",
-            "sales": 102.82,
-            "volume": 859,
+            "sales": 87.66,
+            "volume": 752,
             "fans": 164648,
             "liveCount": 1,
             "type": "企业"
         },
         {
-            "name": "美的冰箱",
-            "brand": "美的",
-            "sales": 89.58,
-            "volume": 190,
-            "fans": 2778,
-            "liveCount": 1,
-            "type": "企业"
-        },
-        {
-            "name": "容声官方旗舰店冰箱直播间",
-            "brand": "容声",
-            "sales": 87.94,
-            "volume": 562,
-            "fans": 87300,
-            "liveCount": 1,
-            "type": "官方号"
-        },
-        {
-            "name": "海尔冰箱旗舰店",
-            "brand": "海尔",
-            "sales": 85.47,
-            "volume": 4073,
-            "fans": 744605,
-            "liveCount": 1,
-            "type": "官方号"
-        },
-        {
             "name": "美的冰箱官方旗舰店",
             "brand": "美的",
-            "sales": 79.08,
-            "volume": 246,
+            "sales": 86.14,
+            "volume": 225,
             "fans": 38165,
-            "liveCount": 1,
-            "type": "官方号"
-        },
-        {
-            "name": "海尔冰箱品牌特卖直播间",
-            "brand": "Leader",
-            "sales": 73.63,
-            "volume": 302,
-            "fans": 113107,
-            "liveCount": 1,
-            "type": "官方号"
-        },
-        {
-            "name": "卡萨帝官方旗舰店",
-            "brand": "卡萨帝",
-            "sales": 73.18,
-            "volume": 82,
-            "fans": 139376,
-            "liveCount": 1,
-            "type": "官方号"
-        },
-        {
-            "name": "海尔官方旗舰店",
-            "brand": "海尔",
-            "sales": 72.08,
-            "volume": 198,
-            "fans": 3032191,
-            "liveCount": 1,
-            "type": "官方号"
-        },
-        {
-            "name": "卡萨帝冰箱旗舰店",
-            "brand": "卡萨帝",
-            "sales": 70.44,
-            "volume": 115,
-            "fans": 267125,
-            "liveCount": 1,
-            "type": "官方号"
-        },
-        {
-            "name": "美的官方旗舰店",
-            "brand": "美的",
-            "sales": 68.48,
-            "volume": 320,
-            "fans": 3501411,
-            "liveCount": 1,
-            "type": "官方号"
-        },
-        {
-            "name": "Midea美的官方旗舰店",
-            "brand": "美的",
-            "sales": 67.61,
-            "volume": 298,
-            "fans": 16367,
             "liveCount": 1,
             "type": "官方号"
         },
         {
             "name": "海尔家用电器直播间",
             "brand": "海尔",
-            "sales": 64.52,
-            "volume": 257,
-            "fans": 277332,
+            "sales": 80.44,
+            "volume": 325,
+            "fans": 277434,
             "liveCount": 1,
             "type": "官方号"
         },
         {
-            "name": "华凌冰箱官方旗舰店",
-            "brand": "华凌",
-            "sales": 60.72,
-            "volume": 351,
-            "fans": 23849,
-            "liveCount": 1,
-            "type": "官方号"
-        },
-        {
-            "name": "美的冰箱品牌直播间",
+            "name": "Midea美的官方旗舰店",
             "brand": "美的",
-            "sales": 59.74,
-            "volume": 3648,
-            "fans": 81694,
+            "sales": 77.85,
+            "volume": 329,
+            "fans": 16367,
             "liveCount": 1,
-            "type": "KOL"
+            "type": "官方号"
         },
         {
             "name": "容声冰箱旗舰店",
             "brand": "容声",
-            "sales": 58.41,
-            "volume": 226,
-            "fans": 1093502,
+            "sales": 60.5,
+            "volume": 216,
+            "fans": 1093397,
             "liveCount": 1,
             "type": "官方号"
         },
         {
-            "name": "美的冰箱旗舰店直播间",
-            "brand": "美的",
-            "sales": 57.49,
-            "volume": 325,
-            "fans": 135817,
+            "name": "卡萨帝官方旗舰店",
+            "brand": "卡萨帝",
+            "sales": 60.0,
+            "volume": 58,
+            "fans": 139274,
             "liveCount": 1,
             "type": "官方号"
         },
         {
-            "name": "美的多门冰箱旗舰店",
-            "brand": "美的",
-            "sales": 52.82,
-            "volume": 161,
-            "fans": 21204,
-            "liveCount": 1,
-            "type": "官方号"
-        },
-        {
-            "name": "美的家用冰箱品牌店",
-            "brand": "华凌",
-            "sales": 49.91,
-            "volume": 313,
-            "fans": 20348,
-            "liveCount": 1,
-            "type": "KOL"
-        },
-        {
-            "name": "容声冰箱1号直播间",
+            "name": "容声官方旗舰店冰箱直播间",
             "brand": "容声",
-            "sales": 48.9,
-            "volume": 160,
-            "fans": 30019,
+            "sales": 58.32,
+            "volume": 743,
+            "fans": 87300,
             "liveCount": 1,
             "type": "官方号"
         },
         {
-            "name": "美的小冰箱直播间",
-            "brand": "美的",
-            "sales": 48.74,
-            "volume": 445,
-            "fans": 24377,
+            "name": "海尔家用品牌冰箱",
+            "brand": "Leader",
+            "sales": 57.69,
+            "volume": 228,
+            "fans": 59438,
             "liveCount": 1,
             "type": "企业"
         },
         {
-            "name": "海尔冰箱旗舰店国补直播间",
-            "brand": "海尔",
-            "sales": 47.43,
-            "volume": 126,
-            "fans": 46764,
-            "liveCount": 1,
-            "type": "官方号"
-        },
-        {
-            "name": "海尔官方旗舰店云溪麦浪直播间",
-            "brand": "海尔",
-            "sales": 46.97,
-            "volume": 95,
-            "fans": 8734,
+            "name": "美的冰箱旗舰店直播间",
+            "brand": "美的",
+            "sales": 56.23,
+            "volume": 279,
+            "fans": 135767,
             "liveCount": 1,
             "type": "官方号"
         },
         {
             "name": "海尔家用冰箱旗舰号",
             "brand": "Leader",
-            "sales": 45.98,
-            "volume": 211,
+            "sales": 55.96,
+            "volume": 262,
             "fans": 10804,
             "liveCount": 1,
             "type": "KOL"
         },
         {
+            "name": "海尔官方旗舰店云溪麦浪直播间",
+            "brand": "海尔",
+            "sales": 54.01,
+            "volume": 104,
+            "fans": 8734,
+            "liveCount": 1,
+            "type": "官方号"
+        },
+        {
+            "name": "海尔云溪麦浪冰箱旗舰直播间",
+            "brand": "海尔",
+            "sales": 52.26,
+            "volume": 110,
+            "fans": 144267,
+            "liveCount": 1,
+            "type": "KOL"
+        },
+        {
+            "name": "海尔冰箱品牌特卖直播间",
+            "brand": "Leader",
+            "sales": 51.5,
+            "volume": 209,
+            "fans": 112984,
+            "liveCount": 1,
+            "type": "官方号"
+        },
+        {
+            "name": "容声冰箱官方认证直播间",
+            "brand": "容声",
+            "sales": 50.84,
+            "volume": 129,
+            "fans": 7549,
+            "liveCount": 1,
+            "type": "企业"
+        },
+        {
             "name": "海尔家用冰箱品牌直播间",
             "brand": "海尔",
-            "sales": 44.37,
-            "volume": 195,
+            "sales": 43.92,
+            "volume": 193,
             "fans": 20588,
-            "liveCount": 1,
-            "type": "企业"
-        },
-        {
-            "name": "容声家电官方直播间",
-            "brand": "容声",
-            "sales": 44.2,
-            "volume": 149,
-            "fans": 19006,
-            "liveCount": 1,
-            "type": "企业"
-        },
-        {
-            "name": "海尔零嵌冰箱官方直播间",
-            "brand": "Leader",
-            "sales": 41.79,
-            "volume": 154,
-            "fans": 43493,
-            "liveCount": 1,
-            "type": "企业"
-        },
-        {
-            "name": "海尔冰箱电器直播间",
-            "brand": "海尔",
-            "sales": 40.67,
-            "volume": 95,
-            "fans": 41646,
-            "liveCount": 1,
-            "type": "企业"
-        },
-        {
-            "name": "青岛智想电子商务有限公司",
-            "brand": "容声",
-            "sales": 40.12,
-            "volume": 115,
-            "fans": 55444,
-            "liveCount": 1,
-            "type": "官方号"
-        },
-        {
-            "name": "容声冰箱厂家官方直播间",
-            "brand": "容声",
-            "sales": 38.56,
-            "volume": 135,
-            "fans": 76638,
-            "liveCount": 1,
-            "type": "企业"
-        },
-        {
-            "name": "海尔智能冰箱旗舰店",
-            "brand": "Leader",
-            "sales": 37.65,
-            "volume": 130,
-            "fans": 1341051,
-            "liveCount": 1,
-            "type": "官方号"
-        },
-        {
-            "name": "Midea美的冰箱官方直播间",
-            "brand": "美的",
-            "sales": 37.44,
-            "volume": 144,
-            "fans": 3151,
-            "liveCount": 1,
-            "type": "企业"
-        },
-        {
-            "name": "海尔品牌家电甄选",
-            "brand": "海尔",
-            "sales": 36.47,
-            "volume": 127,
-            "fans": 3237,
             "liveCount": 1,
             "type": "企业"
         },
         {
             "name": "海尔官方旗舰店冰箱直播间",
             "brand": "海尔",
-            "sales": 36.15,
-            "volume": 112,
+            "sales": 43.17,
+            "volume": 113,
             "fans": 65709,
             "liveCount": 1,
             "type": "官方号"
@@ -3104,405 +3044,639 @@
         {
             "name": "东芝电器旗舰店",
             "brand": "东芝",
-            "sales": 35.4,
-            "volume": 52,
+            "sales": 43.04,
+            "volume": 64,
             "fans": 124716,
             "liveCount": 1,
             "type": "官方号"
         },
         {
-            "name": "容声冰箱官方甄选",
+            "name": "嘉伟室内设计",
             "brand": "容声",
-            "sales": 33.18,
-            "volume": 134,
-            "fans": 48011,
+            "sales": 41.3,
+            "volume": 68,
+            "fans": 4683318,
             "liveCount": 1,
             "type": "企业"
         },
         {
-            "name": "美的全屋智能家电旗舰店",
-            "brand": "华凌",
-            "sales": 32.71,
-            "volume": 189,
-            "fans": 42496,
+            "name": "Midea美的冰箱官方直播间",
+            "brand": "美的",
+            "sales": 40.64,
+            "volume": 113,
+            "fans": 2995,
+            "liveCount": 1,
+            "type": "企业"
+        },
+        {
+            "name": "海尔零嵌冰箱官方直播间",
+            "brand": "Leader",
+            "sales": 40.48,
+            "volume": 154,
+            "fans": 43327,
+            "liveCount": 1,
+            "type": "企业"
+        },
+        {
+            "name": "海尔冰箱品牌甄选",
+            "brand": "海尔",
+            "sales": 40.25,
+            "volume": 145,
+            "fans": 4857,
+            "liveCount": 1,
+            "type": "企业"
+        },
+        {
+            "name": "海尔冰箱电器直播间",
+            "brand": "海尔",
+            "sales": 39.61,
+            "volume": 91,
+            "fans": 41646,
+            "liveCount": 1,
+            "type": "企业"
+        },
+        {
+            "name": "美的多门冰箱旗舰店",
+            "brand": "美的",
+            "sales": 39.19,
+            "volume": 124,
+            "fans": 21204,
             "liveCount": 1,
             "type": "官方号"
         },
         {
-            "name": "容声集成家电旗舰店",
-            "brand": "容声",
-            "sales": 32.11,
-            "volume": 87,
-            "fans": 13790,
+            "name": "海尔冰箱旗舰店国补直播间",
+            "brand": "海尔",
+            "sales": 35.31,
+            "volume": 95,
+            "fans": 46764,
             "liveCount": 1,
             "type": "官方号"
+        },
+        {
+            "name": "海尔家用品牌小冰箱",
+            "brand": "海尔",
+            "sales": 35.19,
+            "volume": 302,
+            "fans": 42548,
+            "liveCount": 1,
+            "type": "企业"
+        },
+        {
+            "name": "容声冰箱家电直播间",
+            "brand": "容声",
+            "sales": 34.51,
+            "volume": 77,
+            "fans": 4378,
+            "liveCount": 1,
+            "type": "企业"
+        },
+        {
+            "name": "Haier海尔冰箱家电直播间",
+            "brand": "Leader",
+            "sales": 33.8,
+            "volume": 113,
+            "fans": 24125,
+            "liveCount": 1,
+            "type": "企业"
+        },
+        {
+            "name": "海尔品牌家电甄选",
+            "brand": "海尔",
+            "sales": 33.74,
+            "volume": 123,
+            "fans": 3237,
+            "liveCount": 1,
+            "type": "企业"
+        },
+        {
+            "name": "容声家电官方直播间",
+            "brand": "容声",
+            "sales": 33.47,
+            "volume": 113,
+            "fans": 19006,
+            "liveCount": 1,
+            "type": "企业"
+        },
+        {
+            "name": "电器指南淼聚",
+            "brand": "容声",
+            "sales": 33.39,
+            "volume": 68,
+            "fans": 25683,
+            "liveCount": 1,
+            "type": "企业"
         },
         {
             "name": "容声冰箱优选1号直播间",
             "brand": "容声",
-            "sales": 31.06,
-            "volume": 126,
+            "sales": 32.2,
+            "volume": 86,
             "fans": 11886,
             "liveCount": 1,
             "type": "企业"
         },
         {
-            "name": "Haier海尔冰箱甄选家电",
+            "name": "容声冰箱1号直播间",
+            "brand": "容声",
+            "sales": 32.0,
+            "volume": 105,
+            "fans": 30019,
+            "liveCount": 1,
+            "type": "官方号"
+        },
+        {
+            "name": "海尔智能冰箱旗舰店",
             "brand": "Leader",
-            "sales": 30.55,
-            "volume": 99,
-            "fans": 18254,
+            "sales": 31.72,
+            "volume": 109,
+            "fans": 1340790,
+            "liveCount": 1,
+            "type": "官方号"
+        },
+        {
+            "name": "容声冰箱精选",
+            "brand": "容声",
+            "sales": 30.86,
+            "volume": 70,
+            "fans": 11718,
             "liveCount": 1,
             "type": "企业"
         }
     ],
     "kolTop50": [
         {
-            "name": "冰箱之王",
-            "brand": "华凌",
-            "sales": 147.66,
-            "volume": 810,
-            "fans": 78195,
-            "liveCount": 1,
-            "type": "KOL"
-        },
-        {
             "name": "大家电华北仓2",
             "brand": "美的",
-            "sales": 108.19,
-            "volume": 552,
+            "sales": 111.01,
+            "volume": 555,
             "fans": 75914,
-            "liveCount": 1,
-            "type": "KOL"
-        },
-        {
-            "name": "美的家用小冰箱",
-            "brand": "美的",
-            "sales": 106.84,
-            "volume": 989,
-            "fans": 21710,
-            "liveCount": 1,
-            "type": "KOL"
-        },
-        {
-            "name": "肖恩子享生活",
-            "brand": "美的",
-            "sales": 90.63,
-            "volume": 129,
-            "fans": 515842,
             "liveCount": 1,
             "type": "KOL"
         },
         {
             "name": "电器哥梓涵",
             "brand": "美的",
-            "sales": 79.39,
-            "volume": 113,
-            "fans": 1777771,
+            "sales": 101.97,
+            "volume": 166,
+            "fans": 1777675,
             "liveCount": 1,
             "type": "KOL"
         },
         {
-            "name": "海尔生活家",
-            "brand": "海尔",
-            "sales": 72.38,
-            "volume": 269,
-            "fans": 629,
-            "liveCount": 1,
-            "type": "KOL"
-        },
-        {
-            "name": "青岛冰箱总厂",
-            "brand": "海尔",
-            "sales": 68.55,
-            "volume": 239,
-            "fans": 5902,
-            "liveCount": 1,
-            "type": "KOL"
-        },
-        {
-            "name": "海尔冰箱青岛总仓",
-            "brand": "海尔",
-            "sales": 64.68,
-            "volume": 238,
-            "fans": 104075,
-            "liveCount": 1,
-            "type": "KOL"
-        },
-        {
-            "name": "海尔冰箱总厂直发",
-            "brand": "海尔",
-            "sales": 56.92,
-            "volume": 211,
-            "fans": 50733,
-            "liveCount": 1,
-            "type": "KOL"
-        },
-        {
-            "name": "冰箱推荐官-莹姐",
+            "name": "肖恩子享生活",
             "brand": "美的",
-            "sales": 51.29,
-            "volume": 270,
-            "fans": 1161,
-            "liveCount": 1,
-            "type": "KOL"
-        },
-        {
-            "name": "冰箱新品推荐官",
-            "brand": "美的",
-            "sales": 43.93,
-            "volume": 232,
-            "fans": 935,
-            "liveCount": 1,
-            "type": "KOL"
-        },
-        {
-            "name": "海尔冰箱青岛补贴总仓",
-            "brand": "美的",
-            "sales": 39.78,
-            "volume": 209,
-            "fans": 2868,
-            "liveCount": 1,
-            "type": "KOL"
-        },
-        {
-            "name": "海尔冰箱青岛云仓",
-            "brand": "海尔",
-            "sales": 36.6,
-            "volume": 151,
-            "fans": 263,
-            "liveCount": 1,
-            "type": "KOL"
-        },
-        {
-            "name": "海尔冰箱国补直播间",
-            "brand": "海尔",
-            "sales": 34.44,
-            "volume": 106,
-            "fans": 14427,
-            "liveCount": 1,
-            "type": "KOL"
-        },
-        {
-            "name": "容声冰箱商城",
-            "brand": "容声",
-            "sales": 34.15,
-            "volume": 104,
-            "fans": 61896,
-            "liveCount": 1,
-            "type": "KOL"
-        },
-        {
-            "name": "美的冰箱华北总仓",
-            "brand": "华凌",
-            "sales": 33.09,
-            "volume": 183,
-            "fans": 54789,
-            "liveCount": 1,
-            "type": "KOL"
-        },
-        {
-            "name": "高端华凌冰箱",
-            "brand": "华凌",
-            "sales": 32.52,
-            "volume": 185,
-            "fans": 4892,
+            "sales": 78.69,
+            "volume": 112,
+            "fans": 515763,
             "liveCount": 1,
             "type": "KOL"
         },
         {
             "name": "冰箱大家电推荐官-莹莹",
             "brand": "华凌",
-            "sales": 32.39,
-            "volume": 181,
+            "sales": 78.38,
+            "volume": 438,
             "fans": 558,
             "liveCount": 1,
             "type": "KOL"
         },
         {
-            "name": "郭子本郭",
+            "name": "海尔冰箱青岛总仓",
+            "brand": "海尔",
+            "sales": 75.04,
+            "volume": 276,
+            "fans": 104075,
+            "liveCount": 1,
+            "type": "KOL"
+        },
+        {
+            "name": "海尔生活家",
+            "brand": "海尔",
+            "sales": 71.25,
+            "volume": 264,
+            "fans": 629,
+            "liveCount": 1,
+            "type": "KOL"
+        },
+        {
+            "name": "美的家用小冰箱",
             "brand": "美的",
-            "sales": 27.98,
-            "volume": 40,
-            "fans": 315821,
+            "sales": 65.05,
+            "volume": 631,
+            "fans": 21710,
             "liveCount": 1,
             "type": "KOL"
         },
         {
-            "name": "冰箱青岛总仓",
+            "name": "青岛冰箱总厂",
+            "brand": "海尔",
+            "sales": 62.47,
+            "volume": 217,
+            "fans": 5902,
+            "liveCount": 1,
+            "type": "KOL"
+        },
+        {
+            "name": "海尔冰箱总厂直发",
+            "brand": "海尔",
+            "sales": 52.7,
+            "volume": 195,
+            "fans": 49674,
+            "liveCount": 1,
+            "type": "KOL"
+        },
+        {
+            "name": "海尔之家",
             "brand": "Leader",
-            "sales": 25.77,
-            "volume": 86,
-            "fans": 67076,
+            "sales": 44.46,
+            "volume": 232,
+            "fans": 171840,
             "liveCount": 1,
             "type": "KOL"
         },
         {
-            "name": "卡萨帝冰箱洗衣机直播间",
-            "brand": "卡萨帝",
-            "sales": 24.79,
-            "volume": 28,
-            "fans": 11962,
+            "name": "华凌神机 （美的集团）总部号",
+            "brand": "华凌",
+            "sales": 39.93,
+            "volume": 265,
+            "fans": 8023,
             "liveCount": 1,
             "type": "KOL"
         },
         {
-            "name": "海尔智能家电折扣总仓",
-            "brand": "Leader",
-            "sales": 22.18,
-            "volume": 95,
-            "fans": 5274,
+            "name": "Haier冰箱青岛总仓",
+            "brand": "海尔",
+            "sales": 38.43,
+            "volume": 135,
+            "fans": 55981,
             "liveCount": 1,
             "type": "KOL"
         },
         {
-            "name": "海尔智慧生活2号仓",
-            "brand": "Leader",
-            "sales": 14.21,
-            "volume": 63,
-            "fans": 1951,
+            "name": "冰箱青岛仓",
+            "brand": "海尔",
+            "sales": 35.28,
+            "volume": 122,
+            "fans": 20097,
             "liveCount": 1,
             "type": "KOL"
         },
         {
-            "name": "青岛Haier冰箱专场66",
-            "brand": "Leader",
-            "sales": 13.65,
-            "volume": 62,
-            "fans": 27587,
+            "name": "海尔冰箱国补直播间",
+            "brand": "海尔",
+            "sales": 34.73,
+            "volume": 109,
+            "fans": 14427,
             "liveCount": 1,
             "type": "KOL"
         },
         {
             "name": "海尔青岛3号仓",
             "brand": "Leader",
-            "sales": 13.43,
-            "volume": 60,
+            "sales": 33.99,
+            "volume": 153,
             "fans": 58496,
             "liveCount": 1,
             "type": "KOL"
         },
         {
-            "name": "奥马冰箱源头直发",
+            "name": "容声冰箱商城",
+            "brand": "容声",
+            "sales": 31.16,
+            "volume": 93,
+            "fans": 61896,
+            "liveCount": 1,
+            "type": "KOL"
+        },
+        {
+            "name": "电器哥梓涵",
+            "brand": "容声",
+            "sales": 30.32,
+            "volume": 48,
+            "fans": 1777639,
+            "liveCount": 1,
+            "type": "KOL"
+        },
+        {
+            "name": "郭子本郭",
+            "brand": "美的",
+            "sales": 28.68,
+            "volume": 41,
+            "fans": 315821,
+            "liveCount": 1,
+            "type": "KOL"
+        },
+        {
+            "name": "海尔冰箱青岛补贴总仓",
+            "brand": "美的",
+            "sales": 28.4,
+            "volume": 149,
+            "fans": 2868,
+            "liveCount": 1,
+            "type": "KOL"
+        },
+        {
+            "name": "青岛Haier冰箱专场66",
+            "brand": "Leader",
+            "sales": 25.12,
+            "volume": 113,
+            "fans": 27590,
+            "liveCount": 1,
+            "type": "KOL"
+        },
+        {
+            "name": "冰箱青岛总仓",
+            "brand": "Leader",
+            "sales": 21.94,
+            "volume": 71,
+            "fans": 67076,
+            "liveCount": 1,
+            "type": "KOL"
+        },
+        {
+            "name": "家电会说话·万家榜",
+            "brand": "海尔",
+            "sales": 21.64,
+            "volume": 35,
+            "fans": 172161,
+            "liveCount": 1,
+            "type": "KOL"
+        },
+        {
+            "name": "小温讲家电",
+            "brand": "海尔",
+            "sales": 21.38,
+            "volume": 27,
+            "fans": 82042,
+            "liveCount": 1,
+            "type": "KOL"
+        },
+        {
+            "name": "海尔智能家电折扣总仓",
+            "brand": "Leader",
+            "sales": 20.4,
+            "volume": 90,
+            "fans": 5274,
+            "liveCount": 1,
+            "type": "KOL"
+        },
+        {
+            "name": "海尔冰箱青岛云仓",
+            "brand": "海尔",
+            "sales": 19.78,
+            "volume": 82,
+            "fans": 263,
+            "liveCount": 1,
+            "type": "KOL"
+        },
+        {
+            "name": "海尔智慧生活2号仓",
+            "brand": "Leader",
+            "sales": 19.14,
+            "volume": 87,
+            "fans": 1951,
+            "liveCount": 1,
+            "type": "KOL"
+        },
+        {
+            "name": "海尔冰箱直播间",
+            "brand": "海尔",
+            "sales": 18.76,
+            "volume": 62,
+            "fans": 6045,
+            "liveCount": 1,
+            "type": "KOL"
+        },
+        {
+            "name": "巴呐呐严选",
+            "brand": "美的",
+            "sales": 18.37,
+            "volume": 39,
+            "fans": 100670,
+            "liveCount": 1,
+            "type": "KOL"
+        },
+        {
+            "name": "海尔冰箱新品活动直播间",
+            "brand": "海尔",
+            "sales": 17.69,
+            "volume": 61,
+            "fans": 2379,
+            "liveCount": 1,
+            "type": "KOL"
+        },
+        {
+            "name": "容声冰箱冷柜直播间",
+            "brand": "容声",
+            "sales": 17.21,
+            "volume": 80,
+            "fans": 23722,
+            "liveCount": 1,
+            "type": "KOL"
+        },
+        {
+            "name": "冰箱市场部",
+            "brand": "海尔",
+            "sales": 17.15,
+            "volume": 60,
+            "fans": 22629,
+            "liveCount": 1,
+            "type": "KOL"
+        },
+        {
+            "name": "冰箱新品推荐官",
+            "brand": "美的",
+            "sales": 16.95,
+            "volume": 90,
+            "fans": 935,
+            "liveCount": 1,
+            "type": "KOL"
+        },
+        {
+            "name": "巴呐呐严选总汇",
+            "brand": "美的",
+            "sales": 16.49,
+            "volume": 35,
+            "fans": 445614,
+            "liveCount": 1,
+            "type": "KOL"
+        },
+        {
+            "name": "郭子本郭",
+            "brand": "容声",
+            "sales": 16.14,
+            "volume": 27,
+            "fans": 315821,
+            "liveCount": 1,
+            "type": "KOL"
+        },
+        {
+            "name": "海尔冰箱青岛大仓",
+            "brand": "海尔",
+            "sales": 15.88,
+            "volume": 66,
+            "fans": 636,
+            "liveCount": 1,
+            "type": "KOL"
+        },
+        {
+            "name": "美的智能冰箱店",
+            "brand": "美的",
+            "sales": 13.93,
+            "volume": 68,
+            "fans": 2246,
+            "liveCount": 1,
+            "type": "KOL"
+        },
+        {
+            "name": "大家电活动号⛳️",
+            "brand": "美的",
+            "sales": 13.71,
+            "volume": 70,
+            "fans": 1920,
+            "liveCount": 1,
+            "type": "KOL"
+        },
+        {
+            "name": "巴呐呐严选",
+            "brand": "容声",
+            "sales": 13.48,
+            "volume": 25,
+            "fans": 100672,
+            "liveCount": 1,
+            "type": "KOL"
+        },
+        {
+            "name": "冰箱推荐官—大漂亮",
+            "brand": "华凌",
+            "sales": 13.24,
+            "volume": 74,
+            "fans": 1831,
+            "liveCount": 1,
+            "type": "KOL"
+        },
+        {
+            "name": "肖恩子享生活",
+            "brand": "海尔",
+            "sales": 13.07,
+            "volume": 16,
+            "fans": 515763,
+            "liveCount": 1,
+            "type": "KOL"
+        },
+        {
+            "name": "美的冰箱新品活动号",
+            "brand": "美的",
+            "sales": 13.02,
+            "volume": 70,
+            "fans": 1562,
+            "liveCount": 1,
+            "type": "KOL"
+        },
+        {
+            "name": "冰箱华北仓总仓",
+            "brand": "美的",
+            "sales": 12.85,
+            "volume": 75,
+            "fans": 1248,
+            "liveCount": 1,
+            "type": "KOL"
+        },
+        {
+            "name": "冰箱新品推荐官-林",
+            "brand": "华凌",
+            "sales": 12.53,
+            "volume": 70,
+            "fans": 2732,
+            "liveCount": 1,
+            "type": "KOL"
+        },
+        {
+            "name": "美的冰箱商城小冰箱",
+            "brand": "美的",
+            "sales": 12.35,
+            "volume": 104,
+            "fans": 48813,
+            "liveCount": 1,
+            "type": "KOL"
+        },
+        {
+            "name": "卡萨帝冰箱洗衣机直播间",
+            "brand": "卡萨帝",
+            "sales": 11.92,
+            "volume": 13,
+            "fans": 11962,
+            "liveCount": 1,
+            "type": "KOL"
+        },
+        {
+            "name": "冰箱推荐官-娜娜",
             "brand": "华凌",
             "sales": 11.81,
             "volume": 66,
-            "fans": 19986,
+            "fans": 1496,
             "liveCount": 1,
             "type": "KOL"
         },
         {
-            "name": "高端冰箱总仓",
+            "name": "海尔冰箱推荐官小琪",
+            "brand": "Leader",
+            "sales": 11.06,
+            "volume": 113,
+            "fans": 14591,
+            "liveCount": 1,
+            "type": "KOL"
+        },
+        {
+            "name": "攒劲好家电",
+            "brand": "容声",
+            "sales": 10.98,
+            "volume": 17,
+            "fans": 1281,
+            "liveCount": 1,
+            "type": "KOL"
+        },
+        {
+            "name": "美的超薄零嵌直播间",
+            "brand": "美的",
+            "sales": 10.42,
+            "volume": 27,
+            "fans": 1306,
+            "liveCount": 1,
+            "type": "KOL"
+        },
+        {
+            "name": "高端华凌冰箱",
             "brand": "华凌",
-            "sales": 10.2,
-            "volume": 57,
-            "fans": 917,
-            "liveCount": 1,
-            "type": "KOL"
-        },
-        {
-            "name": "华凌智能冰箱直播间",
-            "brand": "华凌",
-            "sales": 7.8,
-            "volume": 32,
-            "fans": 5117,
-            "liveCount": 1,
-            "type": "KOL"
-        },
-        {
-            "name": "营座讲家电",
-            "brand": "华凌",
-            "sales": 7.55,
-            "volume": 15,
-            "fans": 656051,
-            "liveCount": 1,
-            "type": "KOL"
-        },
-        {
-            "name": "肖恩子享生活",
-            "brand": "卡萨帝",
-            "sales": 0,
-            "volume": 0,
-            "fans": 515842,
-            "liveCount": 1,
-            "type": "KOL"
-        },
-        {
-            "name": "郭子本郭",
-            "brand": "卡萨帝",
-            "sales": 0,
-            "volume": 0,
-            "fans": 315821,
-            "liveCount": 1,
-            "type": "KOL"
-        },
-        {
-            "name": "爱吃土豆",
-            "brand": "东芝",
-            "sales": 0,
-            "volume": 0,
-            "fans": 1349,
-            "liveCount": 1,
-            "type": "KOL"
-        },
-        {
-            "name": "肖恩子享生活",
-            "brand": "东芝",
-            "sales": 0,
-            "volume": 0,
-            "fans": 515842,
-            "liveCount": 1,
-            "type": "KOL"
-        },
-        {
-            "name": "杨杨好物",
-            "brand": "东芝",
-            "sales": 0,
-            "volume": 0,
-            "fans": 12668,
-            "liveCount": 1,
-            "type": "KOL"
-        },
-        {
-            "name": "营销总部-大雄（无境）",
-            "brand": "东芝",
-            "sales": 0,
-            "volume": 0,
-            "fans": 3623,
-            "liveCount": 1,
-            "type": "KOL"
-        },
-        {
-            "name": "郭子本郭",
-            "brand": "东芝",
-            "sales": 0,
-            "volume": 0,
-            "fans": 315821,
+            "sales": 9.48,
+            "volume": 53,
+            "fans": 4892,
             "liveCount": 1,
             "type": "KOL"
         }
     ],
     "brandCounts": {
-        "海尔": 14,
-        "美的": 12,
-        "容声": 19,
-        "Leader": 15,
-        "华凌": 12,
+        "美的": 163,
+        "海尔": 128,
+        "容声": 77,
+        "Leader": 73,
+        "华凌": 20,
         "卡萨帝": 10,
-        "东芝": 13,
-        "COLMO": 13
+        "东芝": 11,
+        "COLMO": 12
     },
     "kolCounts": {
-        "海尔": 6,
-        "美的": 8,
-        "容声": 1,
-        "Leader": 5,
-        "华凌": 8,
+        "美的": 282,
+        "海尔": 184,
+        "容声": 32,
+        "Leader": 92,
+        "华凌": 41,
         "卡萨帝": 3,
-        "东芝": 5
+        "东芝": 7
     }
 }
-        };;
+        };;;
 
 
         const brandColors = {
@@ -15095,6 +15269,7 @@
         function renderBrandCompareCards() {
             const data = currentPeriod === 'weekly' ? topRoomsData.weekly.brandTop50 : topRoomsData.monthly.brandTop50;
             const periodLabel = currentPeriod === 'weekly' ? '周度销售额' : '月累销售额';
+            const isWeekly = currentPeriod === 'weekly';
             
             // 计算各品牌数据
             const brandStats = {};
@@ -15105,7 +15280,10 @@
                     sales: b.salesWan,
                     marketShare: (b.salesWan / totalSales * 100).toFixed(1),
                     avgPrice: b.avgPrice,
-                    activeRate: b.activeRate
+                    activeRate: b.activeRate,
+                    // 环比数据
+                    salesChangePct: b.salesChangePct || 0,
+                    rankChange: b.rankChange || 0
                 };
             });
             
@@ -15118,8 +15296,20 @@
             const container = document.getElementById('brand-compare-cards');
             if (container) {
                 container.innerHTML = brands.map(b => {
-                    const stats = brandStats[b.key] || { sales: 0, marketShare: 0, avgPrice: 0, activeRate: 0 };
+                    const stats = brandStats[b.key] || { sales: 0, marketShare: 0, avgPrice: 0, activeRate: 0, salesChangePct: 0, rankChange: 0 };
                     const rateClass = stats.activeRate >= 30 ? 'highlight-success' : (stats.activeRate >= 15 ? '' : 'highlight-danger');
+                    
+                    // 环比显示
+                    let comparisonHtml = '';
+                    if (isWeekly && stats.salesChangePct !== 0) {
+                        const changeColor = stats.salesChangePct > 0 ? '#10b981' : '#ef4444';
+                        const changeIcon = stats.salesChangePct > 0 ? 'mdi-trending-up' : 'mdi-trending-down';
+                        const changeText = stats.salesChangePct > 0 ? `+${stats.salesChangePct}%` : `${stats.salesChangePct}%`;
+                        comparisonHtml = `<div style="font-size: 11px; color: ${changeColor}; margin-top: 2px;">
+                            <i class="mdi ${changeIcon}" style="font-size: 12px;"></i> ${changeText}
+                        </div>`;
+                    }
+                    
                     return `<div class="compare-card">
                         <div class="compare-header">
                             <div class="brand-logo ${b.logoClass}">${b.key}</div>
@@ -15132,6 +15322,7 @@
                             <div class="metric-item">
                                 <div class="metric-label">${periodLabel}</div>
                                 <div class="metric-value">${Math.round(stats.sales)}万</div>
+                                ${comparisonHtml}
                             </div>
                             <div class="metric-item">
                                 <div class="metric-label">市占</div>
