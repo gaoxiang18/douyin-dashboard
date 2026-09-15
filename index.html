@@ -1441,7 +1441,11 @@
         "prevVolume": 12618,
         "volumeChangePct": -5.5,
         "prevRank": 1,
-        "rankChange": 0
+        "rankChange": 0,
+        "prevBrandSales": 1654.34,
+        "prevKolSales": 559.26,
+        "brandSalesChangePct": 19.6,
+        "kolSalesChangePct": 10.7
     },
     {
         "brand": "美的",
@@ -1466,7 +1470,11 @@
         "prevVolume": 12742,
         "volumeChangePct": -40.1,
         "prevRank": 2,
-        "rankChange": 0
+        "rankChange": 0,
+        "prevBrandSales": 1237.13,
+        "prevKolSales": 719.2,
+        "brandSalesChangePct": -3.6,
+        "kolSalesChangePct": -17.1
     },
     {
         "brand": "容声",
@@ -1491,7 +1499,11 @@
         "prevVolume": 4515,
         "volumeChangePct": 7.4,
         "prevRank": 3,
-        "rankChange": 0
+        "rankChange": 0,
+        "prevBrandSales": 1035.97,
+        "prevKolSales": 167.42,
+        "brandSalesChangePct": -4.0,
+        "kolSalesChangePct": -10.2
     },
     {
         "brand": "Leader",
@@ -1516,7 +1528,11 @@
         "prevVolume": 4180,
         "volumeChangePct": -2.7,
         "prevRank": 4,
-        "rankChange": 0
+        "rankChange": 0,
+        "prevBrandSales": 945.63,
+        "prevKolSales": 113.61,
+        "brandSalesChangePct": -19.3,
+        "kolSalesChangePct": 82.9
     },
     {
         "brand": "华凌",
@@ -1541,7 +1557,11 @@
         "prevVolume": 3476,
         "volumeChangePct": -49.3,
         "prevRank": 5,
-        "rankChange": 0
+        "rankChange": 0,
+        "prevBrandSales": 292.57,
+        "prevKolSales": 344.6,
+        "brandSalesChangePct": -64.5,
+        "kolSalesChangePct": -39.9
     },
     {
         "brand": "卡萨帝",
@@ -1566,7 +1586,11 @@
         "prevVolume": 319,
         "volumeChangePct": -20.1,
         "prevRank": 6,
-        "rankChange": 0
+        "rankChange": 0,
+        "prevBrandSales": 233.35,
+        "prevKolSales": 24.79,
+        "brandSalesChangePct": -1.9,
+        "kolSalesChangePct": -51.9
     },
     {
         "brand": "东芝",
@@ -1591,7 +1615,11 @@
         "prevVolume": 87,
         "volumeChangePct": 752.9,
         "prevRank": 7,
-        "rankChange": 0
+        "rankChange": 0,
+        "prevBrandSales": 54.89,
+        "prevKolSales": 0,
+        "brandSalesChangePct": 5.1,
+        "kolSalesChangePct": 0
     },
     {
         "brand": "COLMO",
@@ -1616,7 +1644,11 @@
         "prevVolume": 18,
         "volumeChangePct": 16.7,
         "prevRank": 8,
-        "rankChange": 0
+        "rankChange": 0,
+        "prevBrandSales": 16.57,
+        "prevKolSales": 0,
+        "brandSalesChangePct": 16.8,
+        "kolSalesChangePct": 0
     }
 ];
         
@@ -1900,7 +1932,11 @@ function switchPeriod(period) {
                 prevSales: brand.prevSalesWan,
                 salesChangePct: brand.salesChangePct,
                 prevVolume: brand.prevVolume,
-                volumeChangePct: brand.volumeChangePct
+                volumeChangePct: brand.volumeChangePct,
+                prevBrandSales: brand.prevBrandSales || 0,
+                brandSalesChangePct: brand.brandSalesChangePct || 0,
+                prevKolSales: brand.prevKolSales || 0,
+                kolSalesChangePct: brand.kolSalesChangePct || 0
             };
         }
 
@@ -16049,8 +16085,8 @@ function switchPeriod(period) {
                         <div class="kpi-change">
                             <i class="mdi mdi-information"></i> ${mideaData.brandCount}个直播间 | 动销${mideaData.brandActive}个
                         </div>
-                        ${isWeeklyW2 && mideaComp ? `<div style="font-size: 11px; color: ${mideaComp.salesChangePct > 0 ? '#10b981' : '#ef4444'}; margin-top: 4px;">
-                            <i class="mdi mdi-${mideaComp.salesChangePct > 0 ? 'trending-up' : 'trending-down'}"></i> 环比${mideaComp.salesChangePct > 0 ? '+' : ''}${mideaComp.salesChangePct}%
+                        ${isWeeklyW2 && mideaComp ? `<div style="font-size: 11px; color: ${mideaComp.brandSalesChangePct > 0 ? '#10b981' : '#ef4444'}; margin-top: 4px;">
+                            <i class="mdi mdi-${mideaComp.brandSalesChangePct > 0 ? 'trending-up' : 'trending-down'}"></i> 环比${mideaComp.brandSalesChangePct > 0 ? '+' : ''}${mideaComp.brandSalesChangePct}%
                         </div>` : ''}
                     </div>
                     <div class="kpi-card">
@@ -16062,8 +16098,8 @@ function switchPeriod(period) {
                         <div class="kpi-change">
                             <i class="mdi mdi-information"></i> ${haierData.brandCount}个直播间 | 动销${haierData.brandActive}个
                         </div>
-                        ${isWeeklyW2 && haierComp ? `<div style="font-size: 11px; color: ${haierComp.salesChangePct > 0 ? '#10b981' : '#ef4444'}; margin-top: 4px;">
-                            <i class="mdi mdi-${haierComp.salesChangePct > 0 ? 'trending-up' : 'trending-down'}"></i> 环比${haierComp.salesChangePct > 0 ? '+' : ''}${haierComp.salesChangePct}%
+                        ${isWeeklyW2 && haierComp ? `<div style="font-size: 11px; color: ${haierComp.brandSalesChangePct > 0 ? '#10b981' : '#ef4444'}; margin-top: 4px;">
+                            <i class="mdi mdi-${haierComp.brandSalesChangePct > 0 ? 'trending-up' : 'trending-down'}"></i> 环比${haierComp.brandSalesChangePct > 0 ? '+' : ''}${haierComp.brandSalesChangePct}%
                         </div>` : ''}
                     </div>
                     <div class="kpi-card">
@@ -16124,8 +16160,8 @@ function switchPeriod(period) {
                         <div class="kpi-change">
                             <i class="mdi mdi-information"></i> ${mideaData.kolCount}个 | 动销${mideaData.kolActive}个 (${mideaKolRate}%)
                         </div>
-                        ${isWeeklyW2 && mideaComp ? `<div style="font-size: 11px; color: ${mideaComp.salesChangePct > 0 ? '#10b981' : '#ef4444'}; margin-top: 4px;">
-                            <i class="mdi mdi-${mideaComp.salesChangePct > 0 ? 'trending-up' : 'trending-down'}"></i> 环比${mideaComp.salesChangePct > 0 ? '+' : ''}${mideaComp.salesChangePct}%
+                        ${isWeeklyW2 && mideaComp ? `<div style="font-size: 11px; color: ${mideaComp.kolSalesChangePct > 0 ? '#10b981' : '#ef4444'}; margin-top: 4px;">
+                            <i class="mdi mdi-${mideaComp.kolSalesChangePct > 0 ? 'trending-up' : 'trending-down'}"></i> 环比${mideaComp.kolSalesChangePct > 0 ? '+' : ''}${mideaComp.kolSalesChangePct}%
                         </div>` : ''}
                     </div>
                     <div class="kpi-card">
@@ -16137,8 +16173,8 @@ function switchPeriod(period) {
                         <div class="kpi-change">
                             <i class="mdi mdi-information"></i> ${haierData.kolCount}个 | 动销${haierData.kolActive}个 (${haierKolRate}%)
                         </div>
-                        ${isWeeklyW2 && haierComp ? `<div style="font-size: 11px; color: ${haierComp.salesChangePct > 0 ? '#10b981' : '#ef4444'}; margin-top: 4px;">
-                            <i class="mdi mdi-${haierComp.salesChangePct > 0 ? 'trending-up' : 'trending-down'}"></i> 环比${haierComp.salesChangePct > 0 ? '+' : ''}${haierComp.salesChangePct}%
+                        ${isWeeklyW2 && haierComp ? `<div style="font-size: 11px; color: ${haierComp.kolSalesChangePct > 0 ? '#10b981' : '#ef4444'}; margin-top: 4px;">
+                            <i class="mdi mdi-${haierComp.kolSalesChangePct > 0 ? 'trending-up' : 'trending-down'}"></i> 环比${haierComp.kolSalesChangePct > 0 ? '+' : ''}${haierComp.kolSalesChangePct}%
                         </div>` : ''}
                     </div>
                     <div class="kpi-card">
