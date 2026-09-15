@@ -764,9 +764,19 @@
                 </div>
             </div>
 
-            <!-- KPI卡片 -->
+            // KPI卡片
             <div class="kpi-grid" id="overview-kpi-grid">
                 <!-- 动态渲染 -->
+            </div>
+
+            <!-- 美的9月目标达成 -->
+            <div class="chart-card" style="margin-bottom: 20px;">
+                <div class="chart-header">
+                    <span class="chart-title">美的冰箱 9月目标达成</span>
+                </div>
+                <div class="kpi-grid" id="midea-target-kpi">
+                    <!-- 动态渲染 -->
+                </div>
             </div>
 
             <!-- 图表区域 -->
@@ -1350,6 +1360,7 @@
             // 刷新所有KPI和表格
             renderBrandCompareCards();
             renderMideaLiveRooms();
+            renderMideaTarget();
             renderSalesKPI();
             renderBrandCompareKPI();
             renderBrandLiveKPI();
@@ -14261,6 +14272,7 @@
                     initChannelPieChart();
                     renderBrandCompareCards();
                     renderMideaLiveRooms();
+                    renderMideaTarget();
                     break;
                 case 'brand-live':
                     initBrandSelfLiveChart();
@@ -15181,6 +15193,82 @@
                     </div>`;
                 }).join('');
             }
+        }
+        
+        // 美的9月目标
+        const MIDEA_SEPTEMBER_TARGET = 10676; // 万元
+        
+        // 渲染美的9月目标达成
+        function renderMideaTarget() {
+            const mideaData = brandLiveData.find(b => b.name === '美的');
+            if (!mideaData) return;
+            
+            const currentSales = mideaData.salesWan;
+            const target = MIDEA_SEPTEMBER_TARGET;
+            const achieveRate = (currentSales / target * 100).toFixed(1);
+            const remaining = target - currentSales;
+            const progressPercent = Math.min(100, (currentSales / target * 100)).toFixed(1);
+            
+            // 根据达成率设置颜色
+            let rateColor = '#ef4444'; // 红色
+            let rateClass = 'highlight-danger';
+            if (achieveRate >= 100) {
+                rateColor = '#10b981';
+                rateClass = 'highlight-success';
+            } else if (achieveRate >= 80) {
+                rateColor = '#f59e0b';
+                rateClass = 'highlight';
+            } else if (achieveRate >= 60) {
+                rateColor = '#3b82f6';
+            }
+            
+            const container = document.getElementById('midea-target-kpi');
+            if (!container) return;
+            
+            container.innerHTML = `
+                <div class="kpi-card">
+                    <div class="kpi-header">
+                        <span class="kpi-title">9月目标</span>
+                        <div class="kpi-icon blue"><i class="mdi mdi-flag-checkered"></i></div>
+                    </div>
+                    <div class="kpi-value">${target.toLocaleString()}万</div>
+                    <div class="kpi-change">
+                        <i class="mdi mdi-calendar-month"></i> 2026年9月
+                    </div>
+                </div>
+                <div class="kpi-card">
+                    <div class="kpi-header">
+                        <span class="kpi-title">当前完成</span>
+                        <div class="kpi-icon green"><i class="mdi mdi-cash-multiple"></i></div>
+                    </div>
+                    <div class="kpi-value">${Math.round(currentSales).toLocaleString()}万</div>
+                    <div class="kpi-change up">
+                        <i class="mdi mdi-trending-up"></i> 截至${currentPeriod === 'weekly' ? '9/13' : '9/14'}
+                    </div>
+                </div>
+                <div class="kpi-card">
+                    <div class="kpi-header">
+                        <span class="kpi-title">达成率</span>
+                        <div class="kpi-icon orange"><i class="mdi mdi-chart-line"></i></div>
+                    </div>
+                    <div class="kpi-value" style="color: ${rateColor}">${achieveRate}%</div>
+                    <div class="kpi-change">
+                        <div style="width: 100%; background: rgba(255,255,255,0.1); border-radius: 4px; height: 8px; margin-top: 4px;">
+                            <div style="width: ${progressPercent}%; background: ${rateColor}; border-radius: 4px; height: 100%; transition: width 0.3s;"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="kpi-card">
+                    <div class="kpi-header">
+                        <span class="kpi-title">剩余目标</span>
+                        <div class="kpi-icon red"><i class="mdi mdi-target"></i></div>
+                    </div>
+                    <div class="kpi-value">${remaining > 0 ? Math.round(remaining).toLocaleString() + '万' : '已达成'}</div>
+                    <div class="kpi-change ${remaining > 0 ? 'down' : 'up'}">
+                        <i class="mdi mdi-${remaining > 0 ? 'arrow-down' : 'check'}"></i> ${remaining > 0 ? '需继续冲刺' : '恭喜完成'}
+                    </div>
+                </div>
+            `;
         }
         
         // 渲染美的动销直播间
