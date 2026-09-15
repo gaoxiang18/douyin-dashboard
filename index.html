@@ -720,6 +720,10 @@
                 <i class="mdi mdi-view-dashboard"></i>
                 <span>总览</span>
             </li>
+            <li class="nav-item" data-page="channel-compare">
+                <i class="mdi mdi-compare"></i>
+                <span>渠道对比</span>
+            </li>
             <li class="nav-item" data-page="sales">
                 <i class="mdi mdi-cash-multiple"></i>
                 <span>销售达成</span>
@@ -779,30 +783,6 @@
                 </div>
             </div>
 
-            <!-- 其他渠道核心品销售情况 -->
-            <div class="chart-card" style="margin-bottom: 20px;">
-                <div class="chart-header">
-                    <span class="chart-title">核心型号多渠道销售对比</span>
-                    <span class="chart-subtitle">自营 vs 天猫 vs POP vs 抖音</span>
-                </div>
-                <div class="kpi-grid" id="channel-compare-kpi">
-                    <!-- 动态渲染 -->
-                </div>
-                <div class="chart-container" style="height: 350px; margin-top: 20px;">
-                    <canvas id="channelCompareChart"></canvas>
-                </div>
-            </div>
-
-            <!-- 风险分析与建议 -->
-            <div class="chart-card" style="margin-bottom: 20px;">
-                <div class="chart-header">
-                    <span class="chart-title">风险分析与策略建议</span>
-                </div>
-                <div id="risk-analysis-content" style="padding: 20px;">
-                    <!-- 动态渲染 -->
-                </div>
-            </div>
-
             <!-- 图表区域 -->
             <div class="chart-grid">
                 <div class="chart-card">
@@ -826,6 +806,75 @@
             <!-- 竞品对比卡片 -->
             <div class="compare-grid" id="brand-compare-cards">
                 <!-- 动态渲染 -->
+            </div>
+        </div>
+
+        <!-- 渠道对比页面 -->
+        <div class="page" id="page-channel-compare">
+            <div class="top-bar">
+                <h2 class="page-title">核心型号多渠道销售对比</h2>
+                <div class="top-actions">
+                    <span style="color: var(--text-secondary); font-size: 13px;">
+                        <i class="mdi mdi-calendar"></i> 2026/09/01-09/13 | 数据来源: 其他渠道核心型号销售情况
+                    </span>
+                </div>
+            </div>
+
+            <!-- 渠道汇总KPI -->
+            <div class="kpi-grid" id="channel-compare-kpi">
+                <!-- 动态渲染 -->
+            </div>
+
+            <!-- 渠道趋势图 -->
+            <div class="chart-card" style="margin-bottom: 20px;">
+                <div class="chart-header">
+                    <span class="chart-title">各渠道日度销额趋势</span>
+                </div>
+                <div class="chart-container" style="height: 350px;">
+                    <canvas id="channelCompareChart"></canvas>
+                </div>
+            </div>
+
+            <!-- 分型号渠道对比表格 -->
+            <div class="chart-card" style="margin-bottom: 20px;">
+                <div class="chart-header">
+                    <span class="chart-title">分型号渠道销售对比</span>
+                    <span class="chart-subtitle">按型号编码匹配</span>
+                </div>
+                <div style="overflow-x: auto;">
+                    <table class="data-table" id="model-channel-table">
+                        <thead>
+                            <tr>
+                                <th>型号编码</th>
+                                <th>型号名称</th>
+                                <th style="text-align: right; color: #3b82f6;">自营(台)</th>
+                                <th style="text-align: right; color: #3b82f6;">自营(万)</th>
+                                <th style="text-align: right; color: #ef4444;">天猫(台)</th>
+                                <th style="text-align: right; color: #ef4444;">天猫(万)</th>
+                                <th style="text-align: right; color: #f59e0b;">POP(台)</th>
+                                <th style="text-align: right; color: #f59e0b;">POP(万)</th>
+                                <th style="text-align: right; color: #10b981;">抖音(台)</th>
+                                <th style="text-align: right; color: #10b981;">抖音(万)</th>
+                                <th style="text-align: right;">合计(台)</th>
+                                <th style="text-align: right;">合计(万)</th>
+                                <th style="text-align: right;">抖音占比</th>
+                            </tr>
+                        </thead>
+                        <tbody id="model-channel-tbody">
+                            <!-- 动态渲染 -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- 风险分析与建议 -->
+            <div class="chart-card">
+                <div class="chart-header">
+                    <span class="chart-title">风险分析与策略建议</span>
+                </div>
+                <div id="risk-analysis-content" style="padding: 20px;">
+                    <!-- 动态渲染 -->
+                </div>
             </div>
         </div>
 
@@ -14298,6 +14347,12 @@
                     renderMideaLiveRooms();
                     renderMideaTarget();
                     break;
+                case 'channel-compare':
+                    renderChannelCompareKPI();
+                    initChannelCompareChart();
+                    renderModelChannelTable();
+                    renderRiskAnalysis();
+                    break;
                 case 'brand-live':
                     initBrandSelfLiveChart();
                     initLiveRoomChart();
@@ -15581,6 +15636,75 @@
             html += '</div>';
             
             container.innerHTML = html;
+        }
+        
+        // 渲染分型号渠道对比表格
+        function renderModelChannelTable() {
+            if (!channelCompareData) return;
+            
+            const tbody = document.getElementById('model-channel-tbody');
+            if (!tbody) return;
+            
+            const models = channelCompareData.models;
+            
+            tbody.innerHTML = models.map((model, idx) => {
+                // 计算各渠道汇总
+                let selfQty = 0, selfAmt = 0;
+                let tmallQty = 0, tmallAmt = 0;
+                let popQty = 0, popAmt = 0;
+                let douyinQty = 0, douyinAmt = 0;
+                
+                model.daily.forEach(day => {
+                    selfQty += day.self.qty;
+                    tmallQty += day.tmall.qty;
+                    popQty += day.pop.qty;
+                    douyinQty += day.douyin.qty;
+                    
+                    // 解析销额
+                    const parseAmt = (val) => {
+                        if (!val) return 0;
+                        const str = String(val).replace('元', '').replace('万', '');
+                        return parseFloat(str) || 0;
+                    };
+                    selfAmt += parseAmt(day.self.amount);
+                    tmallAmt += parseAmt(day.tmall.amount);
+                    popAmt += parseAmt(day.pop.amount);
+                    douyinAmt += parseAmt(day.douyin.amount);
+                });
+                
+                const totalQty = selfQty + tmallQty + popQty + douyinQty;
+                const totalAmt = selfAmt + tmallAmt + popAmt + douyinAmt;
+                const douyinRatio = totalQty > 0 ? (douyinQty / totalQty * 100).toFixed(1) : '0.0';
+                
+                // 抖音占比颜色
+                let ratioColor = '#10b981';
+                if (parseFloat(douyinRatio) < 10) {
+                    ratioColor = '#ef4444';
+                } else if (parseFloat(douyinRatio) < 20) {
+                    ratioColor = '#f59e0b';
+                }
+                
+                // 截断型号名称
+                const shortName = model.name.length > 25 ? model.name.substring(0, 25) + '...' : model.name;
+                
+                return `
+                    <tr>
+                        <td style="font-family: monospace; font-size: 12px;">${model.code}</td>
+                        <td title="${model.name}">${shortName}</td>
+                        <td style="text-align: right; color: #3b82f6;">${selfQty.toLocaleString()}</td>
+                        <td style="text-align: right; color: #3b82f6;">${selfAmt.toFixed(1)}万</td>
+                        <td style="text-align: right; color: #ef4444;">${tmallQty.toLocaleString()}</td>
+                        <td style="text-align: right; color: #ef4444;">${tmallAmt.toFixed(1)}万</td>
+                        <td style="text-align: right; color: #f59e0b;">${popQty.toLocaleString()}</td>
+                        <td style="text-align: right; color: #f59e0b;">${popAmt.toFixed(1)}万</td>
+                        <td style="text-align: right; color: #10b981;">${douyinQty.toLocaleString()}</td>
+                        <td style="text-align: right; color: #10b981;">${douyinAmt.toFixed(1)}万</td>
+                        <td style="text-align: right; font-weight: bold;">${totalQty.toLocaleString()}</td>
+                        <td style="text-align: right; font-weight: bold;">${totalAmt.toFixed(1)}万</td>
+                        <td style="text-align: right; color: ${ratioColor}; font-weight: bold;">${douyinRatio}%</td>
+                    </tr>
+                `;
+            }).join('');
         }
         
         // 渲染美的动销直播间
