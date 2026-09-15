@@ -779,6 +779,30 @@
                 </div>
             </div>
 
+            <!-- 其他渠道核心品销售情况 -->
+            <div class="chart-card" style="margin-bottom: 20px;">
+                <div class="chart-header">
+                    <span class="chart-title">核心型号多渠道销售对比</span>
+                    <span class="chart-subtitle">自营 vs 天猫 vs POP vs 抖音</span>
+                </div>
+                <div class="kpi-grid" id="channel-compare-kpi">
+                    <!-- 动态渲染 -->
+                </div>
+                <div class="chart-container" style="height: 350px; margin-top: 20px;">
+                    <canvas id="channelCompareChart"></canvas>
+                </div>
+            </div>
+
+            <!-- 风险分析与建议 -->
+            <div class="chart-card" style="margin-bottom: 20px;">
+                <div class="chart-header">
+                    <span class="chart-title">风险分析与策略建议</span>
+                </div>
+                <div id="risk-analysis-content" style="padding: 20px;">
+                    <!-- 动态渲染 -->
+                </div>
+            </div>
+
             <!-- 图表区域 -->
             <div class="chart-grid">
                 <div class="chart-card">
@@ -15271,6 +15295,294 @@
             `;
         }
         
+        // 渠道对比数据
+        let channelCompareData = null;
+        
+        // 加载渠道对比数据
+        async function loadChannelCompareData() {
+            try {
+                const response = await fetch('data/channel_compare.json');
+                channelCompareData = await response.json();
+                renderChannelCompareKPI();
+                initChannelCompareChart();
+                renderRiskAnalysis();
+            } catch (e) {
+                console.error('加载渠道对比数据失败:', e);
+            }
+        }
+        
+        // 渲染渠道对比KPI
+        function renderChannelCompareKPI() {
+            if (!channelCompareData) return;
+            
+            const summary = channelCompareData.channel_summary;
+            const container = document.getElementById('channel-compare-kpi');
+            if (!container) return;
+            
+            const channels = [
+                { key: 'self', name: '自营', color: '#3b82f6', icon: 'mdi-store' },
+                { key: 'tmall', name: '天猫', color: '#ef4444', icon: 'mdi-shopping' },
+                { key: 'pop', name: 'POP', color: '#f59e0b', icon: 'mdi-storefront' },
+                { key: 'douyin', name: '抖音', color: '#10b981', icon: 'mdi-video' }
+            ];
+            
+            container.innerHTML = channels.map(ch => {
+                const data = summary[ch.key];
+                const amount = data.amount.toFixed(1);
+                const qty = data.qty.toLocaleString();
+                
+                return `
+                    <div class="kpi-card">
+                        <div class="kpi-header">
+                            <span class="kpi-title">${ch.name}</span>
+                            <div class="kpi-icon" style="background: ${ch.color}20; color: ${ch.color};">
+                                <i class="mdi ${ch.icon}"></i>
+                            </div>
+                        </div>
+                        <div class="kpi-value">${amount}万</div>
+                        <div class="kpi-change">
+                            <i class="mdi mdi-package-variant"></i> ${qty}台
+                        </div>
+                    </div>
+                `;
+            }).join('');
+        }
+        
+        // 初始化渠道对比图表
+        function initChannelCompareChart() {
+            if (!channelCompareData) return;
+            
+            const ctx = document.getElementById('channelCompareChart');
+            if (!ctx) return;
+            
+            if (charts.channelCompare) charts.channelCompare.destroy();
+            
+            const daily = channelCompareData.daily_summary;
+            const labels = daily.map(d => d.date.substring(5)); // 只显示月-日
+            
+            charts.channelCompare = new Chart(ctx, {
+                type: 'line',
+                data: {
+                    labels: labels,
+                    datasets: [
+                        {
+                            label: '自营',
+                            data: daily.map(d => d.self.amount),
+                            borderColor: '#3b82f6',
+                            backgroundColor: '#3b82f620',
+                            tension: 0.4,
+                            fill: false
+                        },
+                        {
+                            label: '天猫',
+                            data: daily.map(d => d.tmall.amount),
+                            borderColor: '#ef4444',
+                            backgroundColor: '#ef444420',
+                            tension: 0.4,
+                            fill: false
+                        },
+                        {
+                            label: 'POP',
+                            data: daily.map(d => d.pop.amount),
+                            borderColor: '#f59e0b',
+                            backgroundColor: '#f59e0b20',
+                            tension: 0.4,
+                            fill: false
+                        },
+                        {
+                            label: '抖音',
+                            data: daily.map(d => d.douyin.amount),
+                            borderColor: '#10b981',
+                            backgroundColor: '#10b98120',
+                            tension: 0.4,
+                            fill: false
+                        }
+                    ]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        legend: {
+                            position: 'top',
+                            labels: { color: '#a0a0a0' }
+                        },
+                        tooltip: {
+                            callbacks: {
+                                label: function(context) {
+                                    return context.dataset.label + ': ' + context.parsed.y.toFixed(1) + '万';
+                                }
+                            }
+                        }
+                    },
+                    scales: {
+                        y: {
+                            beginAtZero: true,
+                            grid: { color: 'rgba(255,255,255,0.1)' },
+                            ticks: { 
+                                color: '#a0a0a0',
+                                callback: function(value) {
+                                    return value + '万';
+                                }
+                            }
+                        },
+                        x: {
+                            grid: { color: 'rgba(255,255,255,0.1)' },
+                            ticks: { color: '#a0a0a0' }
+                        }
+                    }
+                }
+            });
+        }
+        
+        // 渲染风险分析与建议
+        function renderRiskAnalysis() {
+            if (!channelCompareData) return;
+            
+            const container = document.getElementById('risk-analysis-content');
+            if (!container) return;
+            
+            const summary = channelCompareData.channel_summary;
+            const mideaData = brandLiveData.find(b => b.name === '美的');
+            
+            // 计算各渠道占比
+            const totalAmount = summary.self.amount + summary.tmall.amount + summary.pop.amount + summary.douyin.amount;
+            const douyinRatio = (summary.douyin.amount / totalAmount * 100).toFixed(1);
+            const selfRatio = (summary.self.amount / totalAmount * 100).toFixed(1);
+            
+            // 计算抖音与自营的控比
+            const douyinToSelfRatio = (summary.douyin.amount / summary.self.amount * 100).toFixed(1);
+            
+            // 分析风险点
+            let risks = [];
+            let suggestions = [];
+            
+            // 风险1：抖音渠道占比过低
+            if (parseFloat(douyinRatio) < 15) {
+                risks.push({
+                    level: 'high',
+                    title: '抖音渠道占比偏低',
+                    desc: `抖音渠道销额占比仅${douyinRatio}%，远低于自营渠道${selfRatio}%`,
+                    detail: '抖音作为新兴渠道，在核心型号上的销售贡献不足，与自营渠道差距明显'
+                });
+                suggestions.push({
+                    priority: 'high',
+                    title: '加大抖音渠道投入',
+                    actions: [
+                        '增加抖音直播间场次和时长，提升曝光',
+                        '针对核心型号（637、497、598）制定抖音专属促销策略',
+                        '加强与头部达人合作，提升带货能力',
+                        '优化抖音商品卡，提升自然流量转化'
+                    ]
+                });
+            }
+            
+            // 风险2：抖音与自营控比失衡
+            if (parseFloat(douyinToSelfRatio) < 20) {
+                risks.push({
+                    level: 'high',
+                    title: '抖音与自营控比失衡',
+                    desc: `抖音/自营控比仅${douyinToSelfRatio}%，渠道发展不均衡`,
+                    detail: '自营渠道过于强势，抖音渠道未能有效承接流量和转化'
+                });
+                suggestions.push({
+                    priority: 'high',
+                    title: '优化渠道结构',
+                    actions: [
+                        '制定抖音渠道专项增长计划，目标控比提升至30%+',
+                        '抖音渠道差异化选品，避免与自营直接竞争',
+                        '利用抖音内容优势，打造爆款型号',
+                        '加强抖音与自营的协同，形成流量闭环'
+                    ]
+                });
+            }
+            
+            // 风险3：核心型号在抖音表现不佳
+            const topModels = channelCompareData.models.slice(0, 5);
+            const weakDouyinModels = topModels.filter(m => {
+                const douyinQty = m.daily.reduce((sum, d) => sum + d.douyin.qty, 0);
+                const totalQty = m.daily.reduce((sum, d) => sum + d.self.qty + d.tmall.qty + d.pop.qty + d.douyin.qty, 0);
+                return (douyinQty / totalQty) < 0.15;
+            });
+            
+            if (weakDouyinModels.length > 0) {
+                risks.push({
+                    level: 'medium',
+                    title: '核心型号抖音表现弱',
+                    desc: `${weakDouyinModels.length}个核心型号在抖音渠道占比低于15%`,
+                    detail: weakDouyinModels.map(m => m.name.substring(0, 20)).join('、') + '等型号'
+                });
+                suggestions.push({
+                    priority: 'medium',
+                    title: '核心型号抖音专项提升',
+                    actions: [
+                        '针对弱势型号制定抖音专属推广方案',
+                        '增加抖音直播间对这些型号的讲解和展示',
+                        '抖音渠道专属优惠券或赠品策略',
+                        '分析竞品在抖音的成功案例，借鉴经验'
+                    ]
+                });
+            }
+            
+            // 渲染风险分析
+            let html = '<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">';
+            
+            // 左侧：风险点
+            html += '<div>';
+            html += '<h4 style="color: #ef4444; margin-bottom: 15px;"><i class="mdi mdi-alert-circle"></i> 风险点识别</h4>';
+            
+            if (risks.length === 0) {
+                html += '<p style="color: #a0a0a0;">暂无明显风险</p>';
+            } else {
+                risks.forEach((risk, idx) => {
+                    const levelColor = risk.level === 'high' ? '#ef4444' : '#f59e0b';
+                    const levelText = risk.level === 'high' ? '高风险' : '中风险';
+                    
+                    html += `
+                        <div style="background: ${levelColor}10; border-left: 3px solid ${levelColor}; padding: 12px; margin-bottom: 10px; border-radius: 4px;">
+                            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
+                                <strong style="color: ${levelColor};">${risk.title}</strong>
+                                <span class="tag" style="background: ${levelColor}; color: white;">${levelText}</span>
+                            </div>
+                            <p style="color: #e0e0e0; margin: 5px 0; font-size: 13px;">${risk.desc}</p>
+                            <p style="color: #a0a0a0; margin: 5px 0; font-size: 12px;">${risk.detail}</p>
+                        </div>
+                    `;
+                });
+            }
+            html += '</div>';
+            
+            // 右侧：策略建议
+            html += '<div>';
+            html += '<h4 style="color: #10b981; margin-bottom: 15px;"><i class="mdi mdi-lightbulb"></i> 策略建议</h4>';
+            
+            if (suggestions.length === 0) {
+                html += '<p style="color: #a0a0a0;">暂无建议</p>';
+            } else {
+                suggestions.forEach((sug, idx) => {
+                    const priorityColor = sug.priority === 'high' ? '#ef4444' : '#f59e0b';
+                    const priorityText = sug.priority === 'high' ? '高优先' : '中优先';
+                    
+                    html += `
+                        <div style="background: ${priorityColor}10; border-left: 3px solid ${priorityColor}; padding: 12px; margin-bottom: 10px; border-radius: 4px;">
+                            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
+                                <strong style="color: ${priorityColor};">${sug.title}</strong>
+                                <span class="tag" style="background: ${priorityColor}; color: white;">${priorityText}</span>
+                            </div>
+                            <ul style="margin: 5px 0; padding-left: 20px; color: #e0e0e0; font-size: 13px;">
+                                ${sug.actions.map(action => `<li>${action}</li>`).join('')}
+                            </ul>
+                        </div>
+                    `;
+                });
+            }
+            html += '</div>';
+            
+            html += '</div>';
+            
+            container.innerHTML = html;
+        }
+        
         // 渲染美的动销直播间
         function renderMideaLiveRooms() {
             const mideaData = brandLiveData.find(b => b.name === '美的');
@@ -15445,6 +15757,8 @@
             renderModelChartSelect();
             renderModelMonitorTable();
             initModelDailyChart();
+            // 加载渠道对比数据
+            loadChannelCompareData();
         });
     </script>
 </body>

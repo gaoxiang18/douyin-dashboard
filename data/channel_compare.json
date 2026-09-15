@@ -1,0 +1,5852 @@
+{
+  "dates": [
+    "2026-09-01",
+    "2026-09-02",
+    "2026-09-03",
+    "2026-09-04",
+    "2026-09-05",
+    "2026-09-06",
+    "2026-09-07",
+    "2026-09-08",
+    "2026-09-09",
+    "2026-09-10",
+    "2026-09-11",
+    "2026-09-12",
+    "2026-09-13"
+  ],
+  "models": [
+    {
+      "code": "31031050003306",
+      "name": "美的 冰箱 MR-637WKPEA 榭湖银",
+      "daily": [
+        {
+          "date": "2026-09-01",
+          "self": {
+            "qty": 173,
+            "amount": "42.2万元"
+          },
+          "tmall": {
+            "qty": 72,
+            "amount": "13.6万"
+          },
+          "pop": {
+            "qty": 80,
+            "amount": "15.3万"
+          },
+          "douyin": {
+            "qty": 30,
+            "amount": "5.7万"
+          }
+        },
+        {
+          "date": "2026-09-02",
+          "self": {
+            "qty": 173,
+            "amount": "42.2万元"
+          },
+          "tmall": {
+            "qty": 85,
+            "amount": "16.0万"
+          },
+          "pop": {
+            "qty": 57,
+            "amount": "11.1万"
+          },
+          "douyin": {
+            "qty": 27,
+            "amount": "5.1万"
+          }
+        },
+        {
+          "date": "2026-09-03",
+          "self": {
+            "qty": 132,
+            "amount": "32.2万元"
+          },
+          "tmall": {
+            "qty": 68,
+            "amount": "12.8万"
+          },
+          "pop": {
+            "qty": 80,
+            "amount": "15.8万"
+          },
+          "douyin": {
+            "qty": 29,
+            "amount": "5.5万"
+          }
+        },
+        {
+          "date": "2026-09-04",
+          "self": {
+            "qty": 150,
+            "amount": "36.6万元"
+          },
+          "tmall": {
+            "qty": 60,
+            "amount": "11.4万"
+          },
+          "pop": {
+            "qty": 85,
+            "amount": "16.5万"
+          },
+          "douyin": {
+            "qty": 24,
+            "amount": "4.6万"
+          }
+        },
+        {
+          "date": "2026-09-05",
+          "self": {
+            "qty": 155,
+            "amount": "38.1万元"
+          },
+          "tmall": {
+            "qty": 91,
+            "amount": "17.2万"
+          },
+          "pop": {
+            "qty": 80,
+            "amount": "15.6万"
+          },
+          "douyin": {
+            "qty": 21,
+            "amount": "4.0万"
+          }
+        },
+        {
+          "date": "2026-09-06",
+          "self": {
+            "qty": 157,
+            "amount": "38.3万元"
+          },
+          "tmall": {
+            "qty": 81,
+            "amount": "15.2万"
+          },
+          "pop": {
+            "qty": 73,
+            "amount": "14.3万"
+          },
+          "douyin": {
+            "qty": 32,
+            "amount": "6.1万"
+          }
+        },
+        {
+          "date": "2026-09-07",
+          "self": {
+            "qty": 163,
+            "amount": "39.6万"
+          },
+          "tmall": {
+            "qty": 60,
+            "amount": "11.5万"
+          },
+          "pop": {
+            "qty": 75,
+            "amount": "14.4万"
+          },
+          "douyin": {
+            "qty": 28,
+            "amount": "5.3万"
+          }
+        },
+        {
+          "date": "2026-09-08",
+          "self": {
+            "qty": 114,
+            "amount": "27.8万元"
+          },
+          "tmall": {
+            "qty": 60,
+            "amount": "11.5万"
+          },
+          "pop": {
+            "qty": 70,
+            "amount": "13.3万"
+          },
+          "douyin": {
+            "qty": 26,
+            "amount": "4.9万"
+          }
+        },
+        {
+          "date": "2026-09-09",
+          "self": {
+            "qty": 157,
+            "amount": "37.5万元"
+          },
+          "tmall": {
+            "qty": 60,
+            "amount": "11.5万"
+          },
+          "pop": {
+            "qty": 79,
+            "amount": "15.6万"
+          },
+          "douyin": {
+            "qty": 18,
+            "amount": "3.4万"
+          }
+        },
+        {
+          "date": "2026-09-10",
+          "self": {
+            "qty": 164,
+            "amount": "36.7万元"
+          },
+          "tmall": {
+            "qty": 67,
+            "amount": "12.7万"
+          },
+          "pop": {
+            "qty": 70,
+            "amount": "13.5万"
+          },
+          "douyin": {
+            "qty": 21,
+            "amount": "4.0万"
+          }
+        },
+        {
+          "date": "2026-09-11",
+          "self": {
+            "qty": 300,
+            "amount": "64.4万元"
+          },
+          "tmall": {
+            "qty": 51,
+            "amount": "9.7万"
+          },
+          "pop": {
+            "qty": 71,
+            "amount": "13.4万"
+          },
+          "douyin": {
+            "qty": 32,
+            "amount": "6.1万"
+          }
+        },
+        {
+          "date": "2026-09-12",
+          "self": {
+            "qty": 166,
+            "amount": "39.6万元"
+          },
+          "tmall": {
+            "qty": 51,
+            "amount": "9.7万"
+          },
+          "pop": {
+            "qty": 69,
+            "amount": "13.2万"
+          },
+          "douyin": {
+            "qty": 24,
+            "amount": "4.6万"
+          }
+        },
+        {
+          "date": "2026-09-13",
+          "self": {
+            "qty": 190,
+            "amount": "45.1万元"
+          },
+          "tmall": {
+            "qty": 51,
+            "amount": "9.7万"
+          },
+          "pop": {
+            "qty": 63,
+            "amount": "12.0万"
+          },
+          "douyin": {
+            "qty": 29,
+            "amount": "5.5万"
+          }
+        }
+      ]
+    },
+    {
+      "code": "31031040007333",
+      "name": "美的 冰箱 MR-497WSPEA 榭湖银",
+      "daily": [
+        {
+          "date": "2026-09-01",
+          "self": {
+            "qty": 144,
+            "amount": "34.9万"
+          },
+          "tmall": {
+            "qty": 84,
+            "amount": "16.9万"
+          },
+          "pop": {
+            "qty": 107,
+            "amount": "21.9万"
+          },
+          "douyin": {
+            "qty": 255,
+            "amount": "48.4万"
+          }
+        },
+        {
+          "date": "2026-09-02",
+          "self": {
+            "qty": 135,
+            "amount": "34.6万"
+          },
+          "tmall": {
+            "qty": 81,
+            "amount": "16.2万"
+          },
+          "pop": {
+            "qty": 77,
+            "amount": "16.1万"
+          },
+          "douyin": {
+            "qty": 154,
+            "amount": "29.2万"
+          }
+        },
+        {
+          "date": "2026-09-03",
+          "self": {
+            "qty": 115,
+            "amount": "29.6万"
+          },
+          "tmall": {
+            "qty": 81,
+            "amount": "16.4万"
+          },
+          "pop": {
+            "qty": 88,
+            "amount": "18.9万"
+          },
+          "douyin": {
+            "qty": 162,
+            "amount": "30.8万"
+          }
+        },
+        {
+          "date": "2026-09-04",
+          "self": {
+            "qty": 134,
+            "amount": "34.2万"
+          },
+          "tmall": {
+            "qty": 78,
+            "amount": "15.6万"
+          },
+          "pop": {
+            "qty": 69,
+            "amount": "14.3万"
+          },
+          "douyin": {
+            "qty": 105,
+            "amount": "19.9万"
+          }
+        },
+        {
+          "date": "2026-09-05",
+          "self": {
+            "qty": 144,
+            "amount": "36.9万"
+          },
+          "tmall": {
+            "qty": 83,
+            "amount": "16.7万"
+          },
+          "pop": {
+            "qty": 80,
+            "amount": "16.7万"
+          },
+          "douyin": {
+            "qty": 191,
+            "amount": "36.3万"
+          }
+        },
+        {
+          "date": "2026-09-06",
+          "self": {
+            "qty": 153,
+            "amount": "39.0万"
+          },
+          "tmall": {
+            "qty": 72,
+            "amount": "14.5万"
+          },
+          "pop": {
+            "qty": 101,
+            "amount": "21.0万"
+          },
+          "douyin": {
+            "qty": 126,
+            "amount": "23.9万"
+          }
+        },
+        {
+          "date": "2026-09-07",
+          "self": {
+            "qty": 151,
+            "amount": "38.1万"
+          },
+          "tmall": {
+            "qty": 91,
+            "amount": "18.3万"
+          },
+          "pop": {
+            "qty": 81,
+            "amount": "17.1万"
+          },
+          "douyin": {
+            "qty": 94,
+            "amount": "17.9万"
+          }
+        },
+        {
+          "date": "2026-09-08",
+          "self": {
+            "qty": 131,
+            "amount": "33.6万"
+          },
+          "tmall": {
+            "qty": 91,
+            "amount": "18.3万"
+          },
+          "pop": {
+            "qty": 70,
+            "amount": "15.0万"
+          },
+          "douyin": {
+            "qty": 192,
+            "amount": "36.5万"
+          }
+        },
+        {
+          "date": "2026-09-09",
+          "self": {
+            "qty": 129,
+            "amount": "32.4万"
+          },
+          "tmall": {
+            "qty": 91,
+            "amount": "18.3万"
+          },
+          "pop": {
+            "qty": 77,
+            "amount": "16.4万"
+          },
+          "douyin": {
+            "qty": 125,
+            "amount": "23.7万"
+          }
+        },
+        {
+          "date": "2026-09-10",
+          "self": {
+            "qty": 113,
+            "amount": "28.7万"
+          },
+          "tmall": {
+            "qty": 59,
+            "amount": "11.8万"
+          },
+          "pop": {
+            "qty": 90,
+            "amount": "19.6万"
+          },
+          "douyin": {
+            "qty": 123,
+            "amount": "23.4万"
+          }
+        },
+        {
+          "date": "2026-09-11",
+          "self": {
+            "qty": 114,
+            "amount": "28.9万元"
+          },
+          "tmall": {
+            "qty": 69,
+            "amount": "14.2万"
+          },
+          "pop": {
+            "qty": 76,
+            "amount": "16.6万"
+          },
+          "douyin": {
+            "qty": 130,
+            "amount": "24.7万"
+          }
+        },
+        {
+          "date": "2026-09-12",
+          "self": {
+            "qty": 93,
+            "amount": "23.5万元"
+          },
+          "tmall": {
+            "qty": 69,
+            "amount": "14.2万"
+          },
+          "pop": {
+            "qty": 100,
+            "amount": "21.2万"
+          },
+          "douyin": {
+            "qty": 104,
+            "amount": "19.7万"
+          }
+        },
+        {
+          "date": "2026-09-13",
+          "self": {
+            "qty": 90,
+            "amount": "22.5万元"
+          },
+          "tmall": {
+            "qty": 69,
+            "amount": "14.2万"
+          },
+          "pop": {
+            "qty": 55,
+            "amount": "11.9万"
+          },
+          "douyin": {
+            "qty": 82,
+            "amount": "15.6万"
+          }
+        }
+      ]
+    },
+    {
+      "code": "31031050003321",
+      "name": "美的 冰箱 MR-598WKPEA 钛钢灰-星烁",
+      "daily": [
+        {
+          "date": "2026-09-01",
+          "self": {
+            "qty": 199,
+            "amount": "39.3万元"
+          },
+          "tmall": {
+            "qty": 101,
+            "amount": "17.0万"
+          },
+          "pop": {
+            "qty": 45,
+            "amount": "7.8万"
+          },
+          "douyin": {
+            "qty": 15,
+            "amount": "2.5万"
+          }
+        },
+        {
+          "date": "2026-09-02",
+          "self": {
+            "qty": 169,
+            "amount": "35.2万元"
+          },
+          "tmall": {
+            "qty": 102,
+            "amount": "17.2万"
+          },
+          "pop": {
+            "qty": 56,
+            "amount": "9.4万"
+          },
+          "douyin": {
+            "qty": 25,
+            "amount": "4.2万"
+          }
+        },
+        {
+          "date": "2026-09-03",
+          "self": {
+            "qty": 148,
+            "amount": "30.8万元"
+          },
+          "tmall": {
+            "qty": 94,
+            "amount": "15.7万"
+          },
+          "pop": {
+            "qty": 45,
+            "amount": "7.4万"
+          },
+          "douyin": {
+            "qty": 19,
+            "amount": "3.2万"
+          }
+        },
+        {
+          "date": "2026-09-04",
+          "self": {
+            "qty": 156,
+            "amount": "32.4万元"
+          },
+          "tmall": {
+            "qty": 104,
+            "amount": "17.6万"
+          },
+          "pop": {
+            "qty": 45,
+            "amount": "7.3万"
+          },
+          "douyin": {
+            "qty": 29,
+            "amount": "4.9万"
+          }
+        },
+        {
+          "date": "2026-09-05",
+          "self": {
+            "qty": 169,
+            "amount": "34.9万元"
+          },
+          "tmall": {
+            "qty": 86,
+            "amount": "14.4万"
+          },
+          "pop": {
+            "qty": 61,
+            "amount": "10.0万"
+          },
+          "douyin": {
+            "qty": 32,
+            "amount": "5.4万"
+          }
+        },
+        {
+          "date": "2026-09-06",
+          "self": {
+            "qty": 177,
+            "amount": "37.1万元"
+          },
+          "tmall": {
+            "qty": 140,
+            "amount": "23.5万"
+          },
+          "pop": {
+            "qty": 44,
+            "amount": "7.5万"
+          },
+          "douyin": {
+            "qty": 31,
+            "amount": "5.3万"
+          }
+        },
+        {
+          "date": "2026-09-07",
+          "self": {
+            "qty": 160,
+            "amount": "33.7万"
+          },
+          "tmall": {
+            "qty": 115,
+            "amount": "19.2万"
+          },
+          "pop": {
+            "qty": 47,
+            "amount": "8.0万"
+          },
+          "douyin": {
+            "qty": 47,
+            "amount": "8.0万"
+          }
+        },
+        {
+          "date": "2026-09-08",
+          "self": {
+            "qty": 153,
+            "amount": "31.7万元"
+          },
+          "tmall": {
+            "qty": 115,
+            "amount": "19.2万"
+          },
+          "pop": {
+            "qty": 38,
+            "amount": "6.3万"
+          },
+          "douyin": {
+            "qty": 37,
+            "amount": "6.3万"
+          }
+        },
+        {
+          "date": "2026-09-09",
+          "self": {
+            "qty": 151,
+            "amount": "32.1万元"
+          },
+          "tmall": {
+            "qty": 115,
+            "amount": "19.2万"
+          },
+          "pop": {
+            "qty": 49,
+            "amount": "8.3万"
+          },
+          "douyin": {
+            "qty": 25,
+            "amount": "4.2万"
+          }
+        },
+        {
+          "date": "2026-09-10",
+          "self": {
+            "qty": 193,
+            "amount": "38.0万元"
+          },
+          "tmall": {
+            "qty": 126,
+            "amount": "20.9万"
+          },
+          "pop": {
+            "qty": 46,
+            "amount": "7.6万"
+          },
+          "douyin": {
+            "qty": 10,
+            "amount": "1.7万"
+          }
+        },
+        {
+          "date": "2026-09-11",
+          "self": {
+            "qty": 308,
+            "amount": "55.9万元"
+          },
+          "tmall": {
+            "qty": 127,
+            "amount": "20.7万"
+          },
+          "pop": {
+            "qty": 44,
+            "amount": "7.6万"
+          },
+          "douyin": {
+            "qty": 15,
+            "amount": "2.5万"
+          }
+        },
+        {
+          "date": "2026-09-12",
+          "self": {
+            "qty": 222,
+            "amount": "44.4万元"
+          },
+          "tmall": {
+            "qty": 127,
+            "amount": "20.7万"
+          },
+          "pop": {
+            "qty": 25,
+            "amount": "4.2万"
+          },
+          "douyin": {
+            "qty": 17,
+            "amount": "2.9万"
+          }
+        },
+        {
+          "date": "2026-09-13",
+          "self": {
+            "qty": 157,
+            "amount": "33.0万元"
+          },
+          "tmall": {
+            "qty": 127,
+            "amount": "20.7万"
+          },
+          "pop": {
+            "qty": 22,
+            "amount": "3.8万"
+          },
+          "douyin": {
+            "qty": 15,
+            "amount": "2.5万"
+          }
+        }
+      ]
+    },
+    {
+      "code": "31031040007348",
+      "name": "美的 冰箱 MR-550WUFJDIZE 云隐白",
+      "daily": [
+        {
+          "date": "2026-09-01",
+          "self": {
+            "qty": 10,
+            "amount": "6.9万元"
+          },
+          "tmall": {
+            "qty": 16,
+            "amount": "9.7万"
+          },
+          "pop": {
+            "qty": 9,
+            "amount": "5.4万"
+          },
+          "douyin": {
+            "qty": 9,
+            "amount": "4.8万"
+          }
+        },
+        {
+          "date": "2026-09-02",
+          "self": {
+            "qty": 7,
+            "amount": "5.2万元"
+          },
+          "tmall": {
+            "qty": 6,
+            "amount": "3.6万"
+          },
+          "pop": {
+            "qty": 7,
+            "amount": "4.1万"
+          },
+          "douyin": {
+            "qty": 4,
+            "amount": "2.2万"
+          }
+        },
+        {
+          "date": "2026-09-03",
+          "self": {
+            "qty": 1,
+            "amount": "0.6万"
+          },
+          "tmall": {
+            "qty": 3,
+            "amount": "1.8万"
+          },
+          "pop": {
+            "qty": 4,
+            "amount": "2.4万"
+          },
+          "douyin": {
+            "qty": 2,
+            "amount": "1.0万"
+          }
+        },
+        {
+          "date": "2026-09-04",
+          "self": {
+            "qty": 4,
+            "amount": "2.8万"
+          },
+          "tmall": {
+            "qty": 5,
+            "amount": "3.0万"
+          },
+          "pop": {
+            "qty": 3,
+            "amount": "1.8万"
+          },
+          "douyin": {
+            "qty": 4,
+            "amount": "2.1万"
+          }
+        },
+        {
+          "date": "2026-09-05",
+          "self": {
+            "qty": 4,
+            "amount": "3.0万"
+          },
+          "tmall": {
+            "qty": 3,
+            "amount": "1.8万"
+          },
+          "pop": {
+            "qty": 7,
+            "amount": "4.3万"
+          },
+          "douyin": {
+            "qty": 5,
+            "amount": "2.9万"
+          }
+        },
+        {
+          "date": "2026-09-06",
+          "self": {
+            "qty": 8,
+            "amount": "5.9万"
+          },
+          "tmall": {
+            "qty": 3,
+            "amount": "1.8万"
+          },
+          "pop": {
+            "qty": 3,
+            "amount": "1.8万"
+          },
+          "douyin": {
+            "qty": 3,
+            "amount": "1.4万"
+          }
+        },
+        {
+          "date": "2026-09-07",
+          "self": {
+            "qty": 5,
+            "amount": "3.7万"
+          },
+          "tmall": {
+            "qty": 4,
+            "amount": "2.4万"
+          },
+          "pop": {
+            "qty": 6,
+            "amount": "3.5万"
+          },
+          "douyin": {
+            "qty": 1,
+            "amount": "0.6万"
+          }
+        },
+        {
+          "date": "2026-09-08",
+          "self": {
+            "qty": 8,
+            "amount": "6.0万"
+          },
+          "tmall": {
+            "qty": 4,
+            "amount": "2.4万"
+          },
+          "pop": {
+            "qty": 5,
+            "amount": "3.0万"
+          },
+          "douyin": {
+            "qty": 4,
+            "amount": "2.6万"
+          }
+        },
+        {
+          "date": "2026-09-09",
+          "self": {
+            "qty": 1,
+            "amount": "0.8万"
+          },
+          "tmall": {
+            "qty": 4,
+            "amount": "2.4万"
+          },
+          "pop": {
+            "qty": 2,
+            "amount": "1.3万"
+          },
+          "douyin": {
+            "qty": 1,
+            "amount": "0.6万"
+          }
+        },
+        {
+          "date": "2026-09-10",
+          "self": {
+            "qty": 49,
+            "amount": "39.0万"
+          },
+          "tmall": {
+            "qty": 3,
+            "amount": "1.7万"
+          },
+          "pop": {
+            "qty": 60,
+            "amount": "35.5万"
+          },
+          "douyin": {
+            "qty": 9,
+            "amount": "4.5万"
+          }
+        },
+        {
+          "date": "2026-09-11",
+          "self": {
+            "qty": 67,
+            "amount": "53.4万"
+          },
+          "tmall": {
+            "qty": 4,
+            "amount": "2.1万"
+          },
+          "pop": {
+            "qty": 1,
+            "amount": "0.6万"
+          },
+          "douyin": {
+            "qty": 4,
+            "amount": "2.2万"
+          }
+        },
+        {
+          "date": "2026-09-12",
+          "self": {
+            "qty": 6,
+            "amount": "4.6万"
+          },
+          "tmall": {
+            "qty": 4,
+            "amount": "2.1万"
+          },
+          "pop": {
+            "qty": 4,
+            "amount": "1.9万"
+          },
+          "douyin": {
+            "qty": 6,
+            "amount": "2.6万"
+          }
+        },
+        {
+          "date": "2026-09-13",
+          "self": {
+            "qty": 4,
+            "amount": "3.1万"
+          },
+          "tmall": {
+            "qty": 4,
+            "amount": "2.1万"
+          },
+          "pop": {
+            "qty": 2,
+            "amount": "1.2万"
+          },
+          "douyin": {
+            "qty": 8,
+            "amount": "4.7万"
+          }
+        }
+      ]
+    },
+    {
+      "code": "31031040007349",
+      "name": "美的 冰箱 MR-550WUFJDIZE 流光黛",
+      "daily": [
+        {
+          "date": "2026-09-01",
+          "self": {
+            "qty": 1,
+            "amount": "0.8万"
+          },
+          "tmall": {
+            "qty": 9,
+            "amount": "5.3万"
+          },
+          "pop": {
+            "qty": 6,
+            "amount": "3.5万"
+          },
+          "douyin": {
+            "qty": 7,
+            "amount": "3.8万"
+          }
+        },
+        {
+          "date": "2026-09-02",
+          "self": {
+            "qty": 0,
+            "amount": 0
+          },
+          "tmall": {
+            "qty": 1,
+            "amount": "0.6万"
+          },
+          "pop": {
+            "qty": 5,
+            "amount": "3.0万"
+          },
+          "douyin": {
+            "qty": 5,
+            "amount": "3.0万"
+          }
+        },
+        {
+          "date": "2026-09-03",
+          "self": {
+            "qty": 1,
+            "amount": "0.8万"
+          },
+          "tmall": {
+            "qty": 1,
+            "amount": "0.6万"
+          },
+          "pop": {
+            "qty": 1,
+            "amount": "0.6万"
+          },
+          "douyin": {
+            "qty": 5,
+            "amount": "2.2万"
+          }
+        },
+        {
+          "date": "2026-09-04",
+          "self": {
+            "qty": 10,
+            "amount": "7.3万"
+          },
+          "tmall": {
+            "qty": 6,
+            "amount": "3.2万"
+          },
+          "pop": {
+            "qty": 15,
+            "amount": "8.8万"
+          },
+          "douyin": {
+            "qty": 4,
+            "amount": "1.5万"
+          }
+        },
+        {
+          "date": "2026-09-05",
+          "self": {
+            "qty": 8,
+            "amount": "6.0万"
+          },
+          "tmall": {
+            "qty": 7,
+            "amount": "3.9万"
+          },
+          "pop": {
+            "qty": 4,
+            "amount": "2.3万"
+          },
+          "douyin": {
+            "qty": 10,
+            "amount": "4.2万"
+          }
+        },
+        {
+          "date": "2026-09-06",
+          "self": {
+            "qty": 11,
+            "amount": "7.8万"
+          },
+          "tmall": {
+            "qty": 9,
+            "amount": "5.2万"
+          },
+          "pop": {
+            "qty": 4,
+            "amount": "2.3万"
+          },
+          "douyin": {
+            "qty": 9,
+            "amount": "4.0万"
+          }
+        },
+        {
+          "date": "2026-09-07",
+          "self": {
+            "qty": 7,
+            "amount": "4.8万"
+          },
+          "tmall": {
+            "qty": 7,
+            "amount": "3.9万"
+          },
+          "pop": {
+            "qty": 7,
+            "amount": "4.1万"
+          },
+          "douyin": {
+            "qty": 11,
+            "amount": "4.9万"
+          }
+        },
+        {
+          "date": "2026-09-08",
+          "self": {
+            "qty": 4,
+            "amount": "3.0万"
+          },
+          "tmall": {
+            "qty": 7,
+            "amount": "3.9万"
+          },
+          "pop": {
+            "qty": 3,
+            "amount": "1.7万"
+          },
+          "douyin": {
+            "qty": 8,
+            "amount": "3.7万"
+          }
+        },
+        {
+          "date": "2026-09-09",
+          "self": {
+            "qty": 0,
+            "amount": "0.0万"
+          },
+          "tmall": {
+            "qty": 7,
+            "amount": "3.9万"
+          },
+          "pop": {
+            "qty": 0,
+            "amount": "0.0万"
+          },
+          "douyin": {
+            "qty": 14,
+            "amount": "5.3万"
+          }
+        },
+        {
+          "date": "2026-09-10",
+          "self": {
+            "qty": 54,
+            "amount": "41.5万"
+          },
+          "tmall": {
+            "qty": 5,
+            "amount": "2.9万"
+          },
+          "pop": {
+            "qty": 28,
+            "amount": "17.4万"
+          },
+          "douyin": {
+            "qty": 15,
+            "amount": "7.4万"
+          }
+        },
+        {
+          "date": "2026-09-11",
+          "self": {
+            "qty": 27,
+            "amount": "20.6万"
+          },
+          "tmall": {
+            "qty": 10,
+            "amount": "5.4万"
+          },
+          "pop": {
+            "qty": 5,
+            "amount": "3.1万"
+          },
+          "douyin": {
+            "qty": 14,
+            "amount": "6.2万"
+          }
+        },
+        {
+          "date": "2026-09-12",
+          "self": {
+            "qty": 5,
+            "amount": "3.5万"
+          },
+          "tmall": {
+            "qty": 10,
+            "amount": "5.4万"
+          },
+          "pop": {
+            "qty": 2,
+            "amount": "1.2万"
+          },
+          "douyin": {
+            "qty": 9,
+            "amount": "4.4万"
+          }
+        },
+        {
+          "date": "2026-09-13",
+          "self": {
+            "qty": 11,
+            "amount": "7.9万"
+          },
+          "tmall": {
+            "qty": 10,
+            "amount": "5.4万"
+          },
+          "pop": {
+            "qty": 2,
+            "amount": "1.2万"
+          },
+          "douyin": {
+            "qty": 11,
+            "amount": "5.5万"
+          }
+        }
+      ]
+    },
+    {
+      "code": "31031040007331",
+      "name": "美的 冰箱 BCD-520WUFJDPZ(E) 云隐白",
+      "daily": [
+        {
+          "date": "2026-09-01",
+          "self": {
+            "qty": 2,
+            "amount": "1.3万元"
+          },
+          "tmall": {
+            "qty": 2,
+            "amount": "1.0万"
+          },
+          "pop": {
+            "qty": 1,
+            "amount": "0.5万"
+          },
+          "douyin": {
+            "qty": 0,
+            "amount": "0.0万"
+          }
+        },
+        {
+          "date": "2026-09-02",
+          "self": {
+            "qty": 5,
+            "amount": "3.1万元"
+          },
+          "tmall": {
+            "qty": 2,
+            "amount": "1.0万"
+          },
+          "pop": {
+            "qty": 1,
+            "amount": "0.6万"
+          },
+          "douyin": {
+            "qty": 0,
+            "amount": "0.0万"
+          }
+        },
+        {
+          "date": "2026-09-03",
+          "self": {
+            "qty": 0,
+            "amount": "0.0万"
+          },
+          "tmall": {
+            "qty": 0,
+            "amount": "0.0万"
+          },
+          "pop": {
+            "qty": 1,
+            "amount": "0.4万"
+          },
+          "douyin": {
+            "qty": 0,
+            "amount": "0.0万"
+          }
+        },
+        {
+          "date": "2026-09-04",
+          "self": {
+            "qty": 0,
+            "amount": "0.0万"
+          },
+          "tmall": {
+            "qty": 0,
+            "amount": "0.0万"
+          },
+          "pop": {
+            "qty": 1,
+            "amount": "0.5万"
+          },
+          "douyin": {
+            "qty": 0,
+            "amount": "0.0万"
+          }
+        },
+        {
+          "date": "2026-09-05",
+          "self": {
+            "qty": 0,
+            "amount": "0.0万"
+          },
+          "tmall": {
+            "qty": 0,
+            "amount": "0.0万"
+          },
+          "pop": {
+            "qty": 1,
+            "amount": "0.5万"
+          },
+          "douyin": {
+            "qty": 0,
+            "amount": "0.0万"
+          }
+        },
+        {
+          "date": "2026-09-06",
+          "self": {
+            "qty": 1,
+            "amount": "0.6万"
+          },
+          "tmall": {
+            "qty": 1,
+            "amount": "0.5万"
+          },
+          "pop": {
+            "qty": 0,
+            "amount": "0.0万"
+          },
+          "douyin": {
+            "qty": 0,
+            "amount": "0.0万"
+          }
+        },
+        {
+          "date": "2026-09-07",
+          "self": {
+            "qty": 19,
+            "amount": "11.6万"
+          },
+          "tmall": {
+            "qty": 5,
+            "amount": "2.5万"
+          },
+          "pop": {
+            "qty": 11,
+            "amount": "5.3万"
+          },
+          "douyin": {
+            "qty": 6,
+            "amount": "2.2万"
+          }
+        },
+        {
+          "date": "2026-09-08",
+          "self": {
+            "qty": 6,
+            "amount": "3.7万"
+          },
+          "tmall": {
+            "qty": 5,
+            "amount": "2.5万"
+          },
+          "pop": {
+            "qty": 8,
+            "amount": "3.6万"
+          },
+          "douyin": {
+            "qty": 5,
+            "amount": "1.8万"
+          }
+        },
+        {
+          "date": "2026-09-09",
+          "self": {
+            "qty": 5,
+            "amount": "3.2万"
+          },
+          "tmall": {
+            "qty": 5,
+            "amount": "2.5万"
+          },
+          "pop": {
+            "qty": 0,
+            "amount": "0.0万"
+          },
+          "douyin": {
+            "qty": 1,
+            "amount": "0.5万"
+          }
+        },
+        {
+          "date": "2026-09-10",
+          "self": {
+            "qty": 29,
+            "amount": "19.0万"
+          },
+          "tmall": {
+            "qty": 2,
+            "amount": "1.0万"
+          },
+          "pop": {
+            "qty": 48,
+            "amount": "25.2万"
+          },
+          "douyin": {
+            "qty": 4,
+            "amount": "1.5万"
+          }
+        },
+        {
+          "date": "2026-09-11",
+          "self": {
+            "qty": 13,
+            "amount": "8.6万"
+          },
+          "tmall": {
+            "qty": 3,
+            "amount": "1.4万"
+          },
+          "pop": {
+            "qty": 1,
+            "amount": "0.5万"
+          },
+          "douyin": {
+            "qty": 0,
+            "amount": "0.0万"
+          }
+        },
+        {
+          "date": "2026-09-12",
+          "self": {
+            "qty": 7,
+            "amount": "4.3万"
+          },
+          "tmall": {
+            "qty": 3,
+            "amount": "1.4万"
+          },
+          "pop": {
+            "qty": 2,
+            "amount": "1.0万"
+          },
+          "douyin": {
+            "qty": 4,
+            "amount": "2.0万"
+          }
+        },
+        {
+          "date": "2026-09-13",
+          "self": {
+            "qty": 6,
+            "amount": "3.7万"
+          },
+          "tmall": {
+            "qty": 3,
+            "amount": "1.4万"
+          },
+          "pop": {
+            "qty": 0,
+            "amount": "0.0万"
+          },
+          "douyin": {
+            "qty": 7,
+            "amount": "2.8万"
+          }
+        }
+      ]
+    },
+    {
+      "code": "31031040007346",
+      "name": "美的 冰箱 BCD-520WUFJDPZ(E) 流光黛",
+      "daily": [
+        {
+          "date": "2026-09-01",
+          "self": {
+            "qty": 4,
+            "amount": "2.4万"
+          },
+          "tmall": {
+            "qty": 0,
+            "amount": "0.0万"
+          },
+          "pop": {
+            "qty": 1,
+            "amount": "0.5万"
+          },
+          "douyin": {
+            "qty": 0,
+            "amount": "0.0万"
+          }
+        },
+        {
+          "date": "2026-09-02",
+          "self": {
+            "qty": 2,
+            "amount": "1.2万"
+          },
+          "tmall": {
+            "qty": 1,
+            "amount": "0.5万"
+          },
+          "pop": {
+            "qty": 3,
+            "amount": "1.6万"
+          },
+          "douyin": {
+            "qty": 0,
+            "amount": "0.0万"
+          }
+        },
+        {
+          "date": "2026-09-03",
+          "self": {
+            "qty": 0,
+            "amount": "0.0万"
+          },
+          "tmall": {
+            "qty": 0,
+            "amount": "0.0万"
+          },
+          "pop": {
+            "qty": 3,
+            "amount": "1.5万"
+          },
+          "douyin": {
+            "qty": 0,
+            "amount": "0.0万"
+          }
+        },
+        {
+          "date": "2026-09-04",
+          "self": {
+            "qty": 0,
+            "amount": "0.0万"
+          },
+          "tmall": {
+            "qty": 0,
+            "amount": "0.0万"
+          },
+          "pop": {
+            "qty": 2,
+            "amount": "1.0万"
+          },
+          "douyin": {
+            "qty": 0,
+            "amount": "0.0万"
+          }
+        },
+        {
+          "date": "2026-09-05",
+          "self": {
+            "qty": 0,
+            "amount": "0.0万"
+          },
+          "tmall": {
+            "qty": 0,
+            "amount": "0.0万"
+          },
+          "pop": {
+            "qty": 1,
+            "amount": "0.5万"
+          },
+          "douyin": {
+            "qty": 0,
+            "amount": "0.0万"
+          }
+        },
+        {
+          "date": "2026-09-06",
+          "self": {
+            "qty": 1,
+            "amount": "0.6万"
+          },
+          "tmall": {
+            "qty": 0,
+            "amount": "0.0万"
+          },
+          "pop": {
+            "qty": 1,
+            "amount": "0.5万"
+          },
+          "douyin": {
+            "qty": 0,
+            "amount": "0.0万"
+          }
+        },
+        {
+          "date": "2026-09-07",
+          "self": {
+            "qty": 14,
+            "amount": "8.4万"
+          },
+          "tmall": {
+            "qty": 7,
+            "amount": "3.4万"
+          },
+          "pop": {
+            "qty": 9,
+            "amount": "4.4万"
+          },
+          "douyin": {
+            "qty": 5,
+            "amount": "1.5万"
+          }
+        },
+        {
+          "date": "2026-09-08",
+          "self": {
+            "qty": 8,
+            "amount": "4.7万"
+          },
+          "tmall": {
+            "qty": 7,
+            "amount": "3.4万"
+          },
+          "pop": {
+            "qty": 2,
+            "amount": "1.0万"
+          },
+          "douyin": {
+            "qty": 2,
+            "amount": "0.9万"
+          }
+        },
+        {
+          "date": "2026-09-09",
+          "self": {
+            "qty": 1,
+            "amount": "0.6万"
+          },
+          "tmall": {
+            "qty": 7,
+            "amount": "3.4万"
+          },
+          "pop": {
+            "qty": 1,
+            "amount": "0.5万"
+          },
+          "douyin": {
+            "qty": 2,
+            "amount": "0.6万"
+          }
+        },
+        {
+          "date": "2026-09-10",
+          "self": {
+            "qty": 35,
+            "amount": "22.3万"
+          },
+          "tmall": {
+            "qty": 2,
+            "amount": "1.0万"
+          },
+          "pop": {
+            "qty": 42,
+            "amount": "21.5万"
+          },
+          "douyin": {
+            "qty": 2,
+            "amount": "0.8万"
+          }
+        },
+        {
+          "date": "2026-09-11",
+          "self": {
+            "qty": 14,
+            "amount": "8.6万"
+          },
+          "tmall": {
+            "qty": 1,
+            "amount": "0.5万"
+          },
+          "pop": {
+            "qty": 2,
+            "amount": "1.0万"
+          },
+          "douyin": {
+            "qty": 3,
+            "amount": "1.4万"
+          }
+        },
+        {
+          "date": "2026-09-12",
+          "self": {
+            "qty": 3,
+            "amount": "1.8万"
+          },
+          "tmall": {
+            "qty": 1,
+            "amount": "0.5万"
+          },
+          "pop": {
+            "qty": 3,
+            "amount": "1.4万"
+          },
+          "douyin": {
+            "qty": 2,
+            "amount": "0.8万"
+          }
+        },
+        {
+          "date": "2026-09-13",
+          "self": {
+            "qty": 6,
+            "amount": "3.6万"
+          },
+          "tmall": {
+            "qty": 1,
+            "amount": "0.5万"
+          },
+          "pop": {
+            "qty": 3,
+            "amount": "1.6万"
+          },
+          "douyin": {
+            "qty": 1,
+            "amount": "0.5万"
+          }
+        }
+      ]
+    },
+    {
+      "code": "31031040006924",
+      "name": "美的 冰箱 MR-508WUFPZE 星尘白",
+      "daily": [
+        {
+          "date": "2026-09-01",
+          "self": {
+            "qty": 11,
+            "amount": "5.0万元"
+          },
+          "tmall": {
+            "qty": 10,
+            "amount": "3.5万"
+          },
+          "pop": {
+            "qty": 6,
+            "amount": "2.2万"
+          },
+          "douyin": {
+            "qty": 9,
+            "amount": "3.6万"
+          }
+        },
+        {
+          "date": "2026-09-02",
+          "self": {
+            "qty": 18,
+            "amount": "8.0万元"
+          },
+          "tmall": {
+            "qty": 17,
+            "amount": "5.9万"
+          },
+          "pop": {
+            "qty": 8,
+            "amount": "2.9万"
+          },
+          "douyin": {
+            "qty": 10,
+            "amount": "3.4万"
+          }
+        },
+        {
+          "date": "2026-09-03",
+          "self": {
+            "qty": 8,
+            "amount": "3.5万"
+          },
+          "tmall": {
+            "qty": 7,
+            "amount": "2.4万"
+          },
+          "pop": {
+            "qty": 11,
+            "amount": "3.8万"
+          },
+          "douyin": {
+            "qty": 3,
+            "amount": "1.2万"
+          }
+        },
+        {
+          "date": "2026-09-04",
+          "self": {
+            "qty": 13,
+            "amount": "5.8万"
+          },
+          "tmall": {
+            "qty": 11,
+            "amount": "3.8万"
+          },
+          "pop": {
+            "qty": 14,
+            "amount": "5.1万"
+          },
+          "douyin": {
+            "qty": 8,
+            "amount": "3.1万"
+          }
+        },
+        {
+          "date": "2026-09-05",
+          "self": {
+            "qty": 18,
+            "amount": "8.2万"
+          },
+          "tmall": {
+            "qty": 15,
+            "amount": "5.2万"
+          },
+          "pop": {
+            "qty": 8,
+            "amount": "2.8万"
+          },
+          "douyin": {
+            "qty": 13,
+            "amount": "4.3万"
+          }
+        },
+        {
+          "date": "2026-09-06",
+          "self": {
+            "qty": 14,
+            "amount": "6.3万"
+          },
+          "tmall": {
+            "qty": 19,
+            "amount": "6.6万"
+          },
+          "pop": {
+            "qty": 8,
+            "amount": "2.8万"
+          },
+          "douyin": {
+            "qty": 5,
+            "amount": "2.0万"
+          }
+        },
+        {
+          "date": "2026-09-07",
+          "self": {
+            "qty": 16,
+            "amount": "7.1万元"
+          },
+          "tmall": {
+            "qty": 13,
+            "amount": "4.5万"
+          },
+          "pop": {
+            "qty": 6,
+            "amount": "2.2万"
+          },
+          "douyin": {
+            "qty": 13,
+            "amount": "4.7万"
+          }
+        },
+        {
+          "date": "2026-09-08",
+          "self": {
+            "qty": 5,
+            "amount": "2.3万"
+          },
+          "tmall": {
+            "qty": 13,
+            "amount": "4.5万"
+          },
+          "pop": {
+            "qty": 5,
+            "amount": "1.8万"
+          },
+          "douyin": {
+            "qty": 8,
+            "amount": "2.9万"
+          }
+        },
+        {
+          "date": "2026-09-09",
+          "self": {
+            "qty": 7,
+            "amount": "3.2万"
+          },
+          "tmall": {
+            "qty": 13,
+            "amount": "4.5万"
+          },
+          "pop": {
+            "qty": 5,
+            "amount": "1.9万"
+          },
+          "douyin": {
+            "qty": 7,
+            "amount": "2.8万"
+          }
+        },
+        {
+          "date": "2026-09-10",
+          "self": {
+            "qty": 13,
+            "amount": "6.0万"
+          },
+          "tmall": {
+            "qty": 12,
+            "amount": "4.2万"
+          },
+          "pop": {
+            "qty": 16,
+            "amount": "5.4万"
+          },
+          "douyin": {
+            "qty": 8,
+            "amount": "3.1万"
+          }
+        },
+        {
+          "date": "2026-09-11",
+          "self": {
+            "qty": 8,
+            "amount": "3.6万"
+          },
+          "tmall": {
+            "qty": 14,
+            "amount": "4.9万"
+          },
+          "pop": {
+            "qty": 10,
+            "amount": "3.6万"
+          },
+          "douyin": {
+            "qty": 8,
+            "amount": "3.2万"
+          }
+        },
+        {
+          "date": "2026-09-12",
+          "self": {
+            "qty": 15,
+            "amount": "6.6万"
+          },
+          "tmall": {
+            "qty": 14,
+            "amount": "4.9万"
+          },
+          "pop": {
+            "qty": 6,
+            "amount": "2.2万"
+          },
+          "douyin": {
+            "qty": 11,
+            "amount": "4.3万"
+          }
+        },
+        {
+          "date": "2026-09-13",
+          "self": {
+            "qty": 17,
+            "amount": "7.7万"
+          },
+          "tmall": {
+            "qty": 14,
+            "amount": "4.9万"
+          },
+          "pop": {
+            "qty": 6,
+            "amount": "2.2万"
+          },
+          "douyin": {
+            "qty": 21,
+            "amount": "8.6万"
+          }
+        }
+      ]
+    },
+    {
+      "code": "31031040Z04981",
+      "name": "美的 冰箱 MR-508WUFPZE 星尘黛",
+      "daily": [
+        {
+          "date": "2026-09-01",
+          "self": {
+            "qty": 0,
+            "amount": 0
+          },
+          "tmall": {
+            "qty": 8,
+            "amount": "2.7万"
+          },
+          "pop": {
+            "qty": 6,
+            "amount": "2.1万"
+          },
+          "douyin": {
+            "qty": 5,
+            "amount": "1.9万"
+          }
+        },
+        {
+          "date": "2026-09-02",
+          "self": {
+            "qty": 0,
+            "amount": 0
+          },
+          "tmall": {
+            "qty": 6,
+            "amount": "2.1万"
+          },
+          "pop": {
+            "qty": 11,
+            "amount": "3.8万"
+          },
+          "douyin": {
+            "qty": 3,
+            "amount": "1.0万"
+          }
+        },
+        {
+          "date": "2026-09-03",
+          "self": {
+            "qty": 0,
+            "amount": 0
+          },
+          "tmall": {
+            "qty": 8,
+            "amount": "2.7万"
+          },
+          "pop": {
+            "qty": 11,
+            "amount": "3.9万"
+          },
+          "douyin": {
+            "qty": 5,
+            "amount": "1.9万"
+          }
+        },
+        {
+          "date": "2026-09-04",
+          "self": {
+            "qty": 0,
+            "amount": 0
+          },
+          "tmall": {
+            "qty": 5,
+            "amount": "1.7万"
+          },
+          "pop": {
+            "qty": 6,
+            "amount": "2.0万"
+          },
+          "douyin": {
+            "qty": 4,
+            "amount": "1.3万"
+          }
+        },
+        {
+          "date": "2026-09-05",
+          "self": {
+            "qty": 0,
+            "amount": 0
+          },
+          "tmall": {
+            "qty": 9,
+            "amount": "3.0万"
+          },
+          "pop": {
+            "qty": 4,
+            "amount": "1.4万"
+          },
+          "douyin": {
+            "qty": 5,
+            "amount": "1.5万"
+          }
+        },
+        {
+          "date": "2026-09-06",
+          "self": {
+            "qty": 0,
+            "amount": 0
+          },
+          "tmall": {
+            "qty": 9,
+            "amount": "3.1万"
+          },
+          "pop": {
+            "qty": 10,
+            "amount": "3.4万"
+          },
+          "douyin": {
+            "qty": 9,
+            "amount": "3.2万"
+          }
+        },
+        {
+          "date": "2026-09-07",
+          "self": {
+            "qty": 0,
+            "amount": "0.0万"
+          },
+          "tmall": {
+            "qty": 11,
+            "amount": "3.7万"
+          },
+          "pop": {
+            "qty": 16,
+            "amount": "5.6万"
+          },
+          "douyin": {
+            "qty": 4,
+            "amount": "1.4万"
+          }
+        },
+        {
+          "date": "2026-09-08",
+          "self": {
+            "qty": 0,
+            "amount": "0.0万"
+          },
+          "tmall": {
+            "qty": 11,
+            "amount": "3.7万"
+          },
+          "pop": {
+            "qty": 9,
+            "amount": "3.2万"
+          },
+          "douyin": {
+            "qty": 8,
+            "amount": "3.0万"
+          }
+        },
+        {
+          "date": "2026-09-09",
+          "self": {
+            "qty": 4,
+            "amount": "1.5万"
+          },
+          "tmall": {
+            "qty": 11,
+            "amount": "3.7万"
+          },
+          "pop": {
+            "qty": 6,
+            "amount": "2.0万"
+          },
+          "douyin": {
+            "qty": 5,
+            "amount": "1.7万"
+          }
+        },
+        {
+          "date": "2026-09-10",
+          "self": {
+            "qty": 6,
+            "amount": "2.3万"
+          },
+          "tmall": {
+            "qty": 8,
+            "amount": "2.7万"
+          },
+          "pop": {
+            "qty": 4,
+            "amount": "1.4万"
+          },
+          "douyin": {
+            "qty": 5,
+            "amount": "1.9万"
+          }
+        },
+        {
+          "date": "2026-09-11",
+          "self": {
+            "qty": 11,
+            "amount": "4.3万"
+          },
+          "tmall": {
+            "qty": 5,
+            "amount": "1.7万"
+          },
+          "pop": {
+            "qty": 7,
+            "amount": "2.4万"
+          },
+          "douyin": {
+            "qty": 5,
+            "amount": "1.4万"
+          }
+        },
+        {
+          "date": "2026-09-12",
+          "self": {
+            "qty": 7,
+            "amount": "2.7万"
+          },
+          "tmall": {
+            "qty": 5,
+            "amount": "1.7万"
+          },
+          "pop": {
+            "qty": 5,
+            "amount": "1.8万"
+          },
+          "douyin": {
+            "qty": 2,
+            "amount": "0.7万"
+          }
+        },
+        {
+          "date": "2026-09-13",
+          "self": {
+            "qty": 9,
+            "amount": "3.5万"
+          },
+          "tmall": {
+            "qty": 5,
+            "amount": "1.7万"
+          },
+          "pop": {
+            "qty": 4,
+            "amount": "1.4万"
+          },
+          "douyin": {
+            "qty": 0,
+            "amount": "0.0万"
+          }
+        }
+      ]
+    },
+    {
+      "code": "31031040007289",
+      "name": "美的 冰箱 MR-508WUSPZEA 星尘白",
+      "daily": [
+        {
+          "date": "2026-09-01",
+          "self": {
+            "qty": 12,
+            "amount": "4.8万"
+          },
+          "tmall": {
+            "qty": 4,
+            "amount": "1.2万"
+          },
+          "pop": {
+            "qty": 3,
+            "amount": "1.0万"
+          },
+          "douyin": {
+            "qty": 8,
+            "amount": "2.8万元"
+          }
+        },
+        {
+          "date": "2026-09-02",
+          "self": {
+            "qty": 20,
+            "amount": "8万"
+          },
+          "tmall": {
+            "qty": 8,
+            "amount": "2.5万"
+          },
+          "pop": {
+            "qty": 2,
+            "amount": "0.6万"
+          },
+          "douyin": {
+            "qty": 0,
+            "amount": "0.0万元"
+          }
+        },
+        {
+          "date": "2026-09-03",
+          "self": {
+            "qty": 14,
+            "amount": "5.7万"
+          },
+          "tmall": {
+            "qty": 3,
+            "amount": "0.9万"
+          },
+          "pop": {
+            "qty": 5,
+            "amount": "1.6万"
+          },
+          "douyin": {
+            "qty": 9,
+            "amount": "3.1万元"
+          }
+        },
+        {
+          "date": "2026-09-04",
+          "self": {
+            "qty": 23,
+            "amount": "9.4万"
+          },
+          "tmall": {
+            "qty": 19,
+            "amount": "5.7万"
+          },
+          "pop": {
+            "qty": 3,
+            "amount": "1.0万"
+          },
+          "douyin": {
+            "qty": 9,
+            "amount": "3.1万元"
+          }
+        },
+        {
+          "date": "2026-09-05",
+          "self": {
+            "qty": 18,
+            "amount": "7.1万"
+          },
+          "tmall": {
+            "qty": 6,
+            "amount": "1.9万"
+          },
+          "pop": {
+            "qty": 1,
+            "amount": "0.3万"
+          },
+          "douyin": {
+            "qty": 16,
+            "amount": "5.6万元"
+          }
+        },
+        {
+          "date": "2026-09-06",
+          "self": {
+            "qty": 31,
+            "amount": "12.4万"
+          },
+          "tmall": {
+            "qty": 8,
+            "amount": "2.5万"
+          },
+          "pop": {
+            "qty": 2,
+            "amount": "0.6万"
+          },
+          "douyin": {
+            "qty": 7,
+            "amount": "2.4万元"
+          }
+        },
+        {
+          "date": "2026-09-07",
+          "self": {
+            "qty": 33,
+            "amount": "13.3万"
+          },
+          "tmall": {
+            "qty": 5,
+            "amount": "1.6万"
+          },
+          "pop": {
+            "qty": 3,
+            "amount": "1.0万"
+          },
+          "douyin": {
+            "qty": 7,
+            "amount": "2.4万元"
+          }
+        },
+        {
+          "date": "2026-09-08",
+          "self": {
+            "qty": 24,
+            "amount": "9.7万"
+          },
+          "tmall": {
+            "qty": 5,
+            "amount": "1.6万"
+          },
+          "pop": {
+            "qty": 2,
+            "amount": "0.6万"
+          },
+          "douyin": {
+            "qty": 5,
+            "amount": "1.7万元"
+          }
+        },
+        {
+          "date": "2026-09-09",
+          "self": {
+            "qty": 16,
+            "amount": "6.4万"
+          },
+          "tmall": {
+            "qty": 5,
+            "amount": "1.6万"
+          },
+          "pop": {
+            "qty": 4,
+            "amount": "1.4万"
+          },
+          "douyin": {
+            "qty": 8,
+            "amount": "2.8万元"
+          }
+        },
+        {
+          "date": "2026-09-10",
+          "self": {
+            "qty": 20,
+            "amount": "8.1万"
+          },
+          "tmall": {
+            "qty": 4,
+            "amount": "1.3万"
+          },
+          "pop": {
+            "qty": 4,
+            "amount": "1.3万"
+          },
+          "douyin": {
+            "qty": 8,
+            "amount": "2.8万元"
+          }
+        },
+        {
+          "date": "2026-09-11",
+          "self": {
+            "qty": 69,
+            "amount": "22.8万"
+          },
+          "tmall": {
+            "qty": 6,
+            "amount": "1.9万"
+          },
+          "pop": {
+            "qty": 2,
+            "amount": "0.6万"
+          },
+          "douyin": {
+            "qty": 16,
+            "amount": "5.6万元"
+          }
+        },
+        {
+          "date": "2026-09-12",
+          "self": {
+            "qty": 41,
+            "amount": "13.9万"
+          },
+          "tmall": {
+            "qty": 6,
+            "amount": "1.9万"
+          },
+          "pop": {
+            "qty": 3,
+            "amount": "1.0万"
+          },
+          "douyin": {
+            "qty": 5,
+            "amount": "1.7万元"
+          }
+        },
+        {
+          "date": "2026-09-13",
+          "self": {
+            "qty": 25,
+            "amount": "8.4万"
+          },
+          "tmall": {
+            "qty": 6,
+            "amount": "1.9万"
+          },
+          "pop": {
+            "qty": 5,
+            "amount": "1.7万"
+          },
+          "douyin": {
+            "qty": 9,
+            "amount": "3.1万元"
+          }
+        }
+      ]
+    },
+    {
+      "code": "31031040Z04982",
+      "name": "美的 冰箱 MR-508WUSPZE 星尘黛",
+      "daily": [
+        {
+          "date": "2026-09-01",
+          "self": {
+            "qty": 14,
+            "amount": "5.6万"
+          },
+          "tmall": {
+            "qty": 10,
+            "amount": "3.2万"
+          },
+          "pop": {
+            "qty": 11,
+            "amount": "3.1万"
+          },
+          "douyin": {
+            "qty": 9,
+            "amount": "3.1万元"
+          }
+        },
+        {
+          "date": "2026-09-02",
+          "self": {
+            "qty": 14,
+            "amount": "5.6万"
+          },
+          "tmall": {
+            "qty": 12,
+            "amount": "3.7万"
+          },
+          "pop": {
+            "qty": 15,
+            "amount": "4.9万"
+          },
+          "douyin": {
+            "qty": 7,
+            "amount": "2.4万元"
+          }
+        },
+        {
+          "date": "2026-09-03",
+          "self": {
+            "qty": 9,
+            "amount": "3.6万元"
+          },
+          "tmall": {
+            "qty": 14,
+            "amount": "4.4万"
+          },
+          "pop": {
+            "qty": 10,
+            "amount": "3.2万"
+          },
+          "douyin": {
+            "qty": 8,
+            "amount": "2.8万元"
+          }
+        },
+        {
+          "date": "2026-09-04",
+          "self": {
+            "qty": 14,
+            "amount": "5.6万元"
+          },
+          "tmall": {
+            "qty": 6,
+            "amount": "1.8万"
+          },
+          "pop": {
+            "qty": 10,
+            "amount": "3.3万"
+          },
+          "douyin": {
+            "qty": 7,
+            "amount": "2.4万元"
+          }
+        },
+        {
+          "date": "2026-09-05",
+          "self": {
+            "qty": 12,
+            "amount": "4.9万元"
+          },
+          "tmall": {
+            "qty": 11,
+            "amount": "3.4万"
+          },
+          "pop": {
+            "qty": 12,
+            "amount": "3.8万"
+          },
+          "douyin": {
+            "qty": 8,
+            "amount": "2.8万元"
+          }
+        },
+        {
+          "date": "2026-09-06",
+          "self": {
+            "qty": 6,
+            "amount": "2.4万元"
+          },
+          "tmall": {
+            "qty": 12,
+            "amount": "3.8万"
+          },
+          "pop": {
+            "qty": 3,
+            "amount": "0.9万"
+          },
+          "douyin": {
+            "qty": 9,
+            "amount": "3.1万元"
+          }
+        },
+        {
+          "date": "2026-09-07",
+          "self": {
+            "qty": 5,
+            "amount": "2.0万"
+          },
+          "tmall": {
+            "qty": 9,
+            "amount": "2.8万"
+          },
+          "pop": {
+            "qty": 10,
+            "amount": "3.4万"
+          },
+          "douyin": {
+            "qty": 6,
+            "amount": "2.1万元"
+          }
+        },
+        {
+          "date": "2026-09-08",
+          "self": {
+            "qty": 10,
+            "amount": "4.0万"
+          },
+          "tmall": {
+            "qty": 9,
+            "amount": "2.8万"
+          },
+          "pop": {
+            "qty": 10,
+            "amount": "3.2万"
+          },
+          "douyin": {
+            "qty": 7,
+            "amount": "2.4万元"
+          }
+        },
+        {
+          "date": "2026-09-09",
+          "self": {
+            "qty": 4,
+            "amount": "1.6万"
+          },
+          "tmall": {
+            "qty": 9,
+            "amount": "2.8万"
+          },
+          "pop": {
+            "qty": 10,
+            "amount": "3.0万"
+          },
+          "douyin": {
+            "qty": 9,
+            "amount": "3.1万元"
+          }
+        },
+        {
+          "date": "2026-09-10",
+          "self": {
+            "qty": 6,
+            "amount": "2.4万"
+          },
+          "tmall": {
+            "qty": 10,
+            "amount": "3.2万"
+          },
+          "pop": {
+            "qty": 13,
+            "amount": "4.2万"
+          },
+          "douyin": {
+            "qty": 6,
+            "amount": "2.1万元"
+          }
+        },
+        {
+          "date": "2026-09-11",
+          "self": {
+            "qty": 7,
+            "amount": "2.8万元"
+          },
+          "tmall": {
+            "qty": 13,
+            "amount": "4.1万"
+          },
+          "pop": {
+            "qty": 12,
+            "amount": "4.0万"
+          },
+          "douyin": {
+            "qty": 7,
+            "amount": "2.4万元"
+          }
+        },
+        {
+          "date": "2026-09-12",
+          "self": {
+            "qty": 4,
+            "amount": "1.6万元"
+          },
+          "tmall": {
+            "qty": 13,
+            "amount": "4.1万"
+          },
+          "pop": {
+            "qty": 7,
+            "amount": "2.3万"
+          },
+          "douyin": {
+            "qty": 4,
+            "amount": "1.4万元"
+          }
+        },
+        {
+          "date": "2026-09-13",
+          "self": {
+            "qty": 5,
+            "amount": "2.0万元"
+          },
+          "tmall": {
+            "qty": 13,
+            "amount": "4.1万"
+          },
+          "pop": {
+            "qty": 7,
+            "amount": "2.4万"
+          },
+          "douyin": {
+            "qty": 10,
+            "amount": "3.5万元"
+          }
+        }
+      ]
+    },
+    {
+      "code": "31031040007062",
+      "name": "美的 冰箱 MR-519WUSPZE 云隐白（自营530）",
+      "daily": [
+        {
+          "date": "2026-09-01",
+          "self": {
+            "qty": 7,
+            "amount": "2.9万"
+          },
+          "tmall": {
+            "qty": 3,
+            "amount": "1.1万"
+          },
+          "pop": {
+            "qty": 1,
+            "amount": "0.4万"
+          },
+          "douyin": {
+            "qty": 4,
+            "amount": "1.6万元"
+          }
+        },
+        {
+          "date": "2026-09-02",
+          "self": {
+            "qty": 9,
+            "amount": "4.2万"
+          },
+          "tmall": {
+            "qty": 2,
+            "amount": "0.8万"
+          },
+          "pop": {
+            "qty": 1,
+            "amount": "0.4万"
+          },
+          "douyin": {
+            "qty": 2,
+            "amount": "0.8万元"
+          }
+        },
+        {
+          "date": "2026-09-03",
+          "self": {
+            "qty": 5,
+            "amount": "2.5万"
+          },
+          "tmall": {
+            "qty": 0,
+            "amount": "0.0万"
+          },
+          "pop": {
+            "qty": 2,
+            "amount": "0.9万"
+          },
+          "douyin": {
+            "qty": 2,
+            "amount": "0.8万元"
+          }
+        },
+        {
+          "date": "2026-09-04",
+          "self": {
+            "qty": 16,
+            "amount": "8.2万"
+          },
+          "tmall": {
+            "qty": 2,
+            "amount": "0.7万"
+          },
+          "pop": {
+            "qty": 0,
+            "amount": "0.0万"
+          },
+          "douyin": {
+            "qty": 3,
+            "amount": "1.2万元"
+          }
+        },
+        {
+          "date": "2026-09-05",
+          "self": {
+            "qty": 20,
+            "amount": "9.5万"
+          },
+          "tmall": {
+            "qty": 1,
+            "amount": "0.3万"
+          },
+          "pop": {
+            "qty": 0,
+            "amount": "0.0万"
+          },
+          "douyin": {
+            "qty": 1,
+            "amount": "0.4万元"
+          }
+        },
+        {
+          "date": "2026-09-06",
+          "self": {
+            "qty": 11,
+            "amount": "5.3万"
+          },
+          "tmall": {
+            "qty": 3,
+            "amount": "1.2万"
+          },
+          "pop": {
+            "qty": 1,
+            "amount": "0.4万"
+          },
+          "douyin": {
+            "qty": 1,
+            "amount": "0.4万元"
+          }
+        },
+        {
+          "date": "2026-09-07",
+          "self": {
+            "qty": 7,
+            "amount": "3.5万"
+          },
+          "tmall": {
+            "qty": 4,
+            "amount": "1.4万"
+          },
+          "pop": {
+            "qty": 0,
+            "amount": "0.0万"
+          },
+          "douyin": {
+            "qty": 3,
+            "amount": "1.2万元"
+          }
+        },
+        {
+          "date": "2026-09-08",
+          "self": {
+            "qty": 10,
+            "amount": "4.6万"
+          },
+          "tmall": {
+            "qty": 4,
+            "amount": "1.4万"
+          },
+          "pop": {
+            "qty": 1,
+            "amount": "0.5万"
+          },
+          "douyin": {
+            "qty": 1,
+            "amount": "0.4万元"
+          }
+        },
+        {
+          "date": "2026-09-09",
+          "self": {
+            "qty": 8,
+            "amount": "3.5万"
+          },
+          "tmall": {
+            "qty": 4,
+            "amount": "1.4万"
+          },
+          "pop": {
+            "qty": 0,
+            "amount": "0.0万"
+          },
+          "douyin": {
+            "qty": 5,
+            "amount": "2.0万元"
+          }
+        },
+        {
+          "date": "2026-09-10",
+          "self": {
+            "qty": 16,
+            "amount": "8.1万"
+          },
+          "tmall": {
+            "qty": 3,
+            "amount": "1.1万"
+          },
+          "pop": {
+            "qty": 0,
+            "amount": "0.0万"
+          },
+          "douyin": {
+            "qty": 4,
+            "amount": "1.6万元"
+          }
+        },
+        {
+          "date": "2026-09-11",
+          "self": {
+            "qty": 22,
+            "amount": "10.2万"
+          },
+          "tmall": {
+            "qty": 2,
+            "amount": "0.8万"
+          },
+          "pop": {
+            "qty": 0,
+            "amount": "0.0万"
+          },
+          "douyin": {
+            "qty": 4,
+            "amount": "1.6万元"
+          }
+        },
+        {
+          "date": "2026-09-12",
+          "self": {
+            "qty": 12,
+            "amount": "5.4万"
+          },
+          "tmall": {
+            "qty": 2,
+            "amount": "0.8万"
+          },
+          "pop": {
+            "qty": 0,
+            "amount": "0.0万"
+          },
+          "douyin": {
+            "qty": 0,
+            "amount": "0.0万元"
+          }
+        },
+        {
+          "date": "2026-09-13",
+          "self": {
+            "qty": 9,
+            "amount": "4.0万"
+          },
+          "tmall": {
+            "qty": 2,
+            "amount": "0.8万"
+          },
+          "pop": {
+            "qty": 1,
+            "amount": "0.4万"
+          },
+          "douyin": {
+            "qty": 6,
+            "amount": "2.4万元"
+          }
+        }
+      ]
+    },
+    {
+      "code": "31031040007082",
+      "name": "美的 冰箱 MR-519WUFPZE 云隐白（自营530）",
+      "daily": [
+        {
+          "date": "2026-09-01",
+          "self": {
+            "qty": 13,
+            "amount": "6.3万元"
+          },
+          "tmall": {
+            "qty": 1,
+            "amount": "0.4万"
+          },
+          "pop": {
+            "qty": 9,
+            "amount": "3.1万"
+          },
+          "douyin": {
+            "qty": 2,
+            "amount": "0.8万"
+          }
+        },
+        {
+          "date": "2026-09-02",
+          "self": {
+            "qty": 14,
+            "amount": "6.4万元"
+          },
+          "tmall": {
+            "qty": 1,
+            "amount": "0.4万"
+          },
+          "pop": {
+            "qty": 8,
+            "amount": "2.9万"
+          },
+          "douyin": {
+            "qty": 4,
+            "amount": "1.7万"
+          }
+        },
+        {
+          "date": "2026-09-03",
+          "self": {
+            "qty": 14,
+            "amount": "7.0万"
+          },
+          "tmall": {
+            "qty": 4,
+            "amount": "1.6万"
+          },
+          "pop": {
+            "qty": 6,
+            "amount": "1.8万"
+          },
+          "douyin": {
+            "qty": 2,
+            "amount": "0.8万"
+          }
+        },
+        {
+          "date": "2026-09-04",
+          "self": {
+            "qty": 12,
+            "amount": "6.0万"
+          },
+          "tmall": {
+            "qty": 1,
+            "amount": "0.3万"
+          },
+          "pop": {
+            "qty": 3,
+            "amount": "1.0万"
+          },
+          "douyin": {
+            "qty": 3,
+            "amount": "1.2万"
+          }
+        },
+        {
+          "date": "2026-09-05",
+          "self": {
+            "qty": 36,
+            "amount": "17.1万"
+          },
+          "tmall": {
+            "qty": 1,
+            "amount": "0.4万"
+          },
+          "pop": {
+            "qty": 6,
+            "amount": "1.8万"
+          },
+          "douyin": {
+            "qty": 7,
+            "amount": "3.5万"
+          }
+        },
+        {
+          "date": "2026-09-06",
+          "self": {
+            "qty": 18,
+            "amount": "8.4万"
+          },
+          "tmall": {
+            "qty": 2,
+            "amount": "0.8万"
+          },
+          "pop": {
+            "qty": 5,
+            "amount": "1.5万"
+          },
+          "douyin": {
+            "qty": 6,
+            "amount": "2.4万"
+          }
+        },
+        {
+          "date": "2026-09-07",
+          "self": {
+            "qty": 22,
+            "amount": "10.6万"
+          },
+          "tmall": {
+            "qty": 3,
+            "amount": "1.1万"
+          },
+          "pop": {
+            "qty": 7,
+            "amount": "2.3万"
+          },
+          "douyin": {
+            "qty": 5,
+            "amount": "2.2万"
+          }
+        },
+        {
+          "date": "2026-09-08",
+          "self": {
+            "qty": 34,
+            "amount": "16.4万"
+          },
+          "tmall": {
+            "qty": 3,
+            "amount": "1.1万"
+          },
+          "pop": {
+            "qty": 1,
+            "amount": "0.3万"
+          },
+          "douyin": {
+            "qty": 16,
+            "amount": "6.7万"
+          }
+        },
+        {
+          "date": "2026-09-09",
+          "self": {
+            "qty": 20,
+            "amount": "10.0万"
+          },
+          "tmall": {
+            "qty": 3,
+            "amount": "1.1万"
+          },
+          "pop": {
+            "qty": 5,
+            "amount": "1.6万"
+          },
+          "douyin": {
+            "qty": 3,
+            "amount": "1.2万"
+          }
+        },
+        {
+          "date": "2026-09-10",
+          "self": {
+            "qty": 39,
+            "amount": "18.6万"
+          },
+          "tmall": {
+            "qty": 3,
+            "amount": "1.2万"
+          },
+          "pop": {
+            "qty": 5,
+            "amount": "1.7万"
+          },
+          "douyin": {
+            "qty": 6,
+            "amount": "2.5万"
+          }
+        },
+        {
+          "date": "2026-09-11",
+          "self": {
+            "qty": 54,
+            "amount": "25.4万"
+          },
+          "tmall": {
+            "qty": 3,
+            "amount": "1.1万"
+          },
+          "pop": {
+            "qty": 5,
+            "amount": "1.6万"
+          },
+          "douyin": {
+            "qty": 4,
+            "amount": "1.6万"
+          }
+        },
+        {
+          "date": "2026-09-12",
+          "self": {
+            "qty": 20,
+            "amount": "9.2万"
+          },
+          "tmall": {
+            "qty": 3,
+            "amount": "1.1万"
+          },
+          "pop": {
+            "qty": 7,
+            "amount": "2.4万"
+          },
+          "douyin": {
+            "qty": 6,
+            "amount": "2.5万"
+          }
+        },
+        {
+          "date": "2026-09-13",
+          "self": {
+            "qty": 14,
+            "amount": "6.5万"
+          },
+          "tmall": {
+            "qty": 3,
+            "amount": "1.1万"
+          },
+          "pop": {
+            "qty": 7,
+            "amount": "2.0万"
+          },
+          "douyin": {
+            "qty": 8,
+            "amount": "3.3万"
+          }
+        }
+      ]
+    },
+    {
+      "code": "31031040007344",
+      "name": "美的 冰箱 BCD-600WUFJDIZ(E) 流光白",
+      "daily": [
+        {
+          "date": "2026-09-01",
+          "self": {
+            "qty": 3,
+            "amount": "2.5万元"
+          },
+          "tmall": {
+            "qty": 7,
+            "amount": "4.7万"
+          },
+          "pop": {
+            "qty": 2,
+            "amount": "1.4万"
+          },
+          "douyin": {
+            "qty": 4,
+            "amount": "2.7万"
+          }
+        },
+        {
+          "date": "2026-09-02",
+          "self": {
+            "qty": 3,
+            "amount": "2.6万元"
+          },
+          "tmall": {
+            "qty": 3,
+            "amount": "2.1万"
+          },
+          "pop": {
+            "qty": 3,
+            "amount": "2.1万"
+          },
+          "douyin": {
+            "qty": 1,
+            "amount": "0.5万"
+          }
+        },
+        {
+          "date": "2026-09-03",
+          "self": {
+            "qty": 0,
+            "amount": "0万"
+          },
+          "tmall": {
+            "qty": 0,
+            "amount": "0.0万"
+          },
+          "pop": {
+            "qty": 0,
+            "amount": "0.0万"
+          },
+          "douyin": {
+            "qty": 3,
+            "amount": "1.9万"
+          }
+        },
+        {
+          "date": "2026-09-04",
+          "self": {
+            "qty": 16,
+            "amount": "14.0万"
+          },
+          "tmall": {
+            "qty": 3,
+            "amount": "2.0万"
+          },
+          "pop": {
+            "qty": 5,
+            "amount": "3.6万"
+          },
+          "douyin": {
+            "qty": 13,
+            "amount": "7.9万"
+          }
+        },
+        {
+          "date": "2026-09-05",
+          "self": {
+            "qty": 24,
+            "amount": "20.0万"
+          },
+          "tmall": {
+            "qty": 4,
+            "amount": "2.4万"
+          },
+          "pop": {
+            "qty": 1,
+            "amount": "0.7万"
+          },
+          "douyin": {
+            "qty": 8,
+            "amount": "4.8万"
+          }
+        },
+        {
+          "date": "2026-09-06",
+          "self": {
+            "qty": 15,
+            "amount": "12.6万"
+          },
+          "tmall": {
+            "qty": 5,
+            "amount": "3.2万"
+          },
+          "pop": {
+            "qty": 2,
+            "amount": "1.4万"
+          },
+          "douyin": {
+            "qty": 5,
+            "amount": "3.3万"
+          }
+        },
+        {
+          "date": "2026-09-07",
+          "self": {
+            "qty": 18,
+            "amount": "15.1万"
+          },
+          "tmall": {
+            "qty": 9,
+            "amount": "6.0万"
+          },
+          "pop": {
+            "qty": 2,
+            "amount": "1.4万"
+          },
+          "douyin": {
+            "qty": 1,
+            "amount": "0.7万"
+          }
+        },
+        {
+          "date": "2026-09-08",
+          "self": {
+            "qty": 14,
+            "amount": "11.6万"
+          },
+          "tmall": {
+            "qty": 9,
+            "amount": "6.0万"
+          },
+          "pop": {
+            "qty": 2,
+            "amount": "1.5万"
+          },
+          "douyin": {
+            "qty": 1,
+            "amount": "0.5万"
+          }
+        },
+        {
+          "date": "2026-09-09",
+          "self": {
+            "qty": 1,
+            "amount": "0.9万"
+          },
+          "tmall": {
+            "qty": 9,
+            "amount": "6.0万"
+          },
+          "pop": {
+            "qty": 0,
+            "amount": "0.0万"
+          },
+          "douyin": {
+            "qty": 4,
+            "amount": "1.5万"
+          }
+        },
+        {
+          "date": "2026-09-10",
+          "self": {
+            "qty": 19,
+            "amount": "16.4万"
+          },
+          "tmall": {
+            "qty": 1,
+            "amount": "0.7万"
+          },
+          "pop": {
+            "qty": 21,
+            "amount": "15.2万"
+          },
+          "douyin": {
+            "qty": 5,
+            "amount": "3.0万"
+          }
+        },
+        {
+          "date": "2026-09-11",
+          "self": {
+            "qty": 0,
+            "amount": null
+          },
+          "tmall": {
+            "qty": 5,
+            "amount": "3.3万"
+          },
+          "pop": {
+            "qty": 1,
+            "amount": "0.8万"
+          },
+          "douyin": {
+            "qty": 9,
+            "amount": "5.3万"
+          }
+        },
+        {
+          "date": "2026-09-12",
+          "self": {
+            "qty": 0,
+            "amount": null
+          },
+          "tmall": {
+            "qty": 5,
+            "amount": "3.3万"
+          },
+          "pop": {
+            "qty": 0,
+            "amount": "0.0万"
+          },
+          "douyin": {
+            "qty": 6,
+            "amount": "3.9万"
+          }
+        },
+        {
+          "date": "2026-09-13",
+          "self": {
+            "qty": 0,
+            "amount": null
+          },
+          "tmall": {
+            "qty": 5,
+            "amount": "3.3万"
+          },
+          "pop": {
+            "qty": 0,
+            "amount": "0.0万"
+          },
+          "douyin": {
+            "qty": 5,
+            "amount": "3.0万"
+          }
+        }
+      ]
+    },
+    {
+      "code": "31031040007345",
+      "name": "美的 冰箱 BCD-600WUFJDIZ(E) 流光黛",
+      "daily": [
+        {
+          "date": "2026-09-01",
+          "self": {
+            "qty": 2,
+            "amount": "1.7万元"
+          },
+          "tmall": {
+            "qty": 5,
+            "amount": "3.0万"
+          },
+          "pop": {
+            "qty": 1,
+            "amount": "0.7万"
+          },
+          "douyin": {
+            "qty": 3,
+            "amount": "1.9万"
+          }
+        },
+        {
+          "date": "2026-09-02",
+          "self": {
+            "qty": 0,
+            "amount": 0
+          },
+          "tmall": {
+            "qty": 0,
+            "amount": "0.0万"
+          },
+          "pop": {
+            "qty": 0,
+            "amount": "0.0万"
+          },
+          "douyin": {
+            "qty": 1,
+            "amount": "0.7万"
+          }
+        },
+        {
+          "date": "2026-09-03",
+          "self": {
+            "qty": 0,
+            "amount": "0.0万"
+          },
+          "tmall": {
+            "qty": 0,
+            "amount": "0.0万"
+          },
+          "pop": {
+            "qty": 0,
+            "amount": "0.0万"
+          },
+          "douyin": {
+            "qty": 1,
+            "amount": "0.5万"
+          }
+        },
+        {
+          "date": "2026-09-04",
+          "self": {
+            "qty": 14,
+            "amount": "11.8万"
+          },
+          "tmall": {
+            "qty": 2,
+            "amount": "1.2万"
+          },
+          "pop": {
+            "qty": 1,
+            "amount": "0.6万"
+          },
+          "douyin": {
+            "qty": 4,
+            "amount": "2.2万"
+          }
+        },
+        {
+          "date": "2026-09-05",
+          "self": {
+            "qty": 8,
+            "amount": "6.8万"
+          },
+          "tmall": {
+            "qty": 7,
+            "amount": "4.6万"
+          },
+          "pop": {
+            "qty": 4,
+            "amount": "2.8万"
+          },
+          "douyin": {
+            "qty": 4,
+            "amount": "2.2万"
+          }
+        },
+        {
+          "date": "2026-09-06",
+          "self": {
+            "qty": 8,
+            "amount": "6.8万"
+          },
+          "tmall": {
+            "qty": 3,
+            "amount": "2.0万"
+          },
+          "pop": {
+            "qty": 0,
+            "amount": "0.0万"
+          },
+          "douyin": {
+            "qty": 2,
+            "amount": "0.9万"
+          }
+        },
+        {
+          "date": "2026-09-07",
+          "self": {
+            "qty": 6,
+            "amount": "5.2万"
+          },
+          "tmall": {
+            "qty": 3,
+            "amount": "2.0万"
+          },
+          "pop": {
+            "qty": 2,
+            "amount": "1.3万"
+          },
+          "douyin": {
+            "qty": 1,
+            "amount": "0.7万"
+          }
+        },
+        {
+          "date": "2026-09-08",
+          "self": {
+            "qty": 3,
+            "amount": "2.4万"
+          },
+          "tmall": {
+            "qty": 3,
+            "amount": "2.0万"
+          },
+          "pop": {
+            "qty": 0,
+            "amount": "0.0万"
+          },
+          "douyin": {
+            "qty": 3,
+            "amount": "1.4万"
+          }
+        },
+        {
+          "date": "2026-09-09",
+          "self": {
+            "qty": 0,
+            "amount": 8162
+          },
+          "tmall": {
+            "qty": 3,
+            "amount": "2.0万"
+          },
+          "pop": {
+            "qty": 0,
+            "amount": "0.0万"
+          },
+          "douyin": {
+            "qty": 1,
+            "amount": "0.7万"
+          }
+        },
+        {
+          "date": "2026-09-10",
+          "self": {
+            "qty": 22,
+            "amount": "19.2万"
+          },
+          "tmall": {
+            "qty": 2,
+            "amount": "1.4万"
+          },
+          "pop": {
+            "qty": 18,
+            "amount": "13.2万"
+          },
+          "douyin": {
+            "qty": 7,
+            "amount": "4.3万"
+          }
+        },
+        {
+          "date": "2026-09-11",
+          "self": {
+            "qty": 0,
+            "amount": null
+          },
+          "tmall": {
+            "qty": 4,
+            "amount": "2.6万"
+          },
+          "pop": {
+            "qty": 2,
+            "amount": "1.3万"
+          },
+          "douyin": {
+            "qty": 2,
+            "amount": "1.2万"
+          }
+        },
+        {
+          "date": "2026-09-12",
+          "self": {
+            "qty": 0,
+            "amount": null
+          },
+          "tmall": {
+            "qty": 4,
+            "amount": "2.6万"
+          },
+          "pop": {
+            "qty": 2,
+            "amount": "1.3万"
+          },
+          "douyin": {
+            "qty": 4,
+            "amount": "2.3万"
+          }
+        },
+        {
+          "date": "2026-09-13",
+          "self": {
+            "qty": 0,
+            "amount": null
+          },
+          "tmall": {
+            "qty": 4,
+            "amount": "2.6万"
+          },
+          "pop": {
+            "qty": 0,
+            "amount": "0.0万"
+          },
+          "douyin": {
+            "qty": 3,
+            "amount": "2.2万"
+          }
+        }
+      ]
+    },
+    {
+      "code": "31031040007409",
+      "name": "美的 冰箱 MR-620WUFJDIZE 流光白",
+      "daily": [
+        {
+          "date": "2026-09-01",
+          "self": {
+            "qty": 0,
+            "amount": "0.0万"
+          },
+          "tmall": {
+            "qty": 0,
+            "amount": "0.0万"
+          },
+          "pop": {
+            "qty": 0,
+            "amount": "0.0万"
+          },
+          "douyin": {
+            "qty": 0,
+            "amount": "0.0万"
+          }
+        },
+        {
+          "date": "2026-09-02",
+          "self": {
+            "qty": 1,
+            "amount": "0.9万"
+          },
+          "tmall": {
+            "qty": 0,
+            "amount": "0.0万"
+          },
+          "pop": {
+            "qty": 2,
+            "amount": "1.8万"
+          },
+          "douyin": {
+            "qty": 0,
+            "amount": "0.0万"
+          }
+        },
+        {
+          "date": "2026-09-03",
+          "self": {
+            "qty": 0,
+            "amount": "0.0万"
+          },
+          "tmall": {
+            "qty": 0,
+            "amount": "0.0万"
+          },
+          "pop": {
+            "qty": 0,
+            "amount": "0.0万"
+          },
+          "douyin": {
+            "qty": 0,
+            "amount": "0.0万"
+          }
+        },
+        {
+          "date": "2026-09-04",
+          "self": {
+            "qty": 0,
+            "amount": "0.0万"
+          },
+          "tmall": {
+            "qty": 1,
+            "amount": "0.9万"
+          },
+          "pop": {
+            "qty": 0,
+            "amount": "0.0万"
+          },
+          "douyin": {
+            "qty": 0,
+            "amount": "0.0万"
+          }
+        },
+        {
+          "date": "2026-09-05",
+          "self": {
+            "qty": 0,
+            "amount": "0.0万"
+          },
+          "tmall": {
+            "qty": 0,
+            "amount": "0.0万"
+          },
+          "pop": {
+            "qty": 0,
+            "amount": "0.0万"
+          },
+          "douyin": {
+            "qty": 0,
+            "amount": "0.0万"
+          }
+        },
+        {
+          "date": "2026-09-06",
+          "self": {
+            "qty": 30,
+            "amount": "25.0万"
+          },
+          "tmall": {
+            "qty": 27,
+            "amount": "19.8万"
+          },
+          "pop": {
+            "qty": 9,
+            "amount": "7.1万"
+          },
+          "douyin": {
+            "qty": 64,
+            "amount": "53.0万"
+          }
+        },
+        {
+          "date": "2026-09-07",
+          "self": {
+            "qty": 12,
+            "amount": "10.6万"
+          },
+          "tmall": {
+            "qty": 53,
+            "amount": "43.5万"
+          },
+          "pop": {
+            "qty": 3,
+            "amount": "2.4万"
+          },
+          "douyin": {
+            "qty": 21,
+            "amount": "17.2万"
+          }
+        },
+        {
+          "date": "2026-09-08",
+          "self": {
+            "qty": 1,
+            "amount": "0.8万"
+          },
+          "tmall": {
+            "qty": 53,
+            "amount": "43.5万"
+          },
+          "pop": {
+            "qty": 1,
+            "amount": "0.7万"
+          },
+          "douyin": {
+            "qty": 1,
+            "amount": "0.4万"
+          }
+        },
+        {
+          "date": "2026-09-09",
+          "self": {
+            "qty": 6,
+            "amount": "5.4万"
+          },
+          "tmall": {
+            "qty": 53,
+            "amount": "43.5万"
+          },
+          "pop": {
+            "qty": 1,
+            "amount": "0.8万"
+          },
+          "douyin": {
+            "qty": 8,
+            "amount": "6.5万"
+          }
+        },
+        {
+          "date": "2026-09-10",
+          "self": {
+            "qty": 36,
+            "amount": "33.4万"
+          },
+          "tmall": {
+            "qty": 2,
+            "amount": "1.6万"
+          },
+          "pop": {
+            "qty": 3,
+            "amount": "2.4万"
+          },
+          "douyin": {
+            "qty": 13,
+            "amount": "9.7万"
+          }
+        },
+        {
+          "date": "2026-09-11",
+          "self": {
+            "qty": 0,
+            "amount": null
+          },
+          "tmall": {
+            "qty": 3,
+            "amount": "2.4万"
+          },
+          "pop": {
+            "qty": 1,
+            "amount": "0.6万"
+          },
+          "douyin": {
+            "qty": 18,
+            "amount": "15.0万"
+          }
+        },
+        {
+          "date": "2026-09-12",
+          "self": {
+            "qty": 0,
+            "amount": null
+          },
+          "tmall": {
+            "qty": 3,
+            "amount": "2.4万"
+          },
+          "pop": {
+            "qty": 2,
+            "amount": "1.6万"
+          },
+          "douyin": {
+            "qty": 2,
+            "amount": "1.6万"
+          }
+        },
+        {
+          "date": "2026-09-13",
+          "self": {
+            "qty": 0,
+            "amount": null
+          },
+          "tmall": {
+            "qty": 3,
+            "amount": "2.4万"
+          },
+          "pop": {
+            "qty": 3,
+            "amount": "2.2万"
+          },
+          "douyin": {
+            "qty": 0,
+            "amount": "0.0万"
+          }
+        }
+      ]
+    },
+    {
+      "code": "31031040007262",
+      "name": "美的 冰箱 MR-631WUSJDLZE 流光白",
+      "daily": [
+        {
+          "date": "2026-09-01",
+          "self": {
+            "qty": 10,
+            "amount": "6.8万"
+          },
+          "tmall": {
+            "qty": 1,
+            "amount": "0.5万"
+          },
+          "pop": {
+            "qty": 2,
+            "amount": "1.2万"
+          },
+          "douyin": {
+            "qty": 0,
+            "amount": "0.0万元"
+          }
+        },
+        {
+          "date": "2026-09-02",
+          "self": {
+            "qty": 4,
+            "amount": "2.9万"
+          },
+          "tmall": {
+            "qty": 1,
+            "amount": "0.6万"
+          },
+          "pop": {
+            "qty": 1,
+            "amount": "0.7万"
+          },
+          "douyin": {
+            "qty": 3,
+            "amount": "1.3万元"
+          }
+        },
+        {
+          "date": "2026-09-03",
+          "self": {
+            "qty": 0,
+            "amount": "0.0万"
+          },
+          "tmall": {
+            "qty": 1,
+            "amount": "0.5万"
+          },
+          "pop": {
+            "qty": 1,
+            "amount": "0.6万"
+          },
+          "douyin": {
+            "qty": 1,
+            "amount": "0.4万元"
+          }
+        },
+        {
+          "date": "2026-09-04",
+          "self": {
+            "qty": 22,
+            "amount": "15.0万"
+          },
+          "tmall": {
+            "qty": 5,
+            "amount": "2.7万"
+          },
+          "pop": {
+            "qty": 1,
+            "amount": "0.6万"
+          },
+          "douyin": {
+            "qty": 4,
+            "amount": "1.8万元"
+          }
+        },
+        {
+          "date": "2026-09-05",
+          "self": {
+            "qty": 19,
+            "amount": "12.9万"
+          },
+          "tmall": {
+            "qty": 2,
+            "amount": "1.1万"
+          },
+          "pop": {
+            "qty": 4,
+            "amount": "2.2万"
+          },
+          "douyin": {
+            "qty": 7,
+            "amount": "3.1万元"
+          }
+        },
+        {
+          "date": "2026-09-06",
+          "self": {
+            "qty": 13,
+            "amount": "8.9万"
+          },
+          "tmall": {
+            "qty": 2,
+            "amount": "1.1万"
+          },
+          "pop": {
+            "qty": 2,
+            "amount": "1.1万"
+          },
+          "douyin": {
+            "qty": 7,
+            "amount": "3.1万元"
+          }
+        },
+        {
+          "date": "2026-09-07",
+          "self": {
+            "qty": 16,
+            "amount": "11.1万"
+          },
+          "tmall": {
+            "qty": 3,
+            "amount": "1.5万"
+          },
+          "pop": {
+            "qty": 0,
+            "amount": "0.0万"
+          },
+          "douyin": {
+            "qty": 3,
+            "amount": "1.3万元"
+          }
+        },
+        {
+          "date": "2026-09-08",
+          "self": {
+            "qty": 7,
+            "amount": "4.7万"
+          },
+          "tmall": {
+            "qty": 3,
+            "amount": "1.5万"
+          },
+          "pop": {
+            "qty": 0,
+            "amount": "0.0万"
+          },
+          "douyin": {
+            "qty": 3,
+            "amount": "1.3万元"
+          }
+        },
+        {
+          "date": "2026-09-09",
+          "self": {
+            "qty": 1,
+            "amount": "0.8万"
+          },
+          "tmall": {
+            "qty": 3,
+            "amount": "1.5万"
+          },
+          "pop": {
+            "qty": 0,
+            "amount": "0.0万"
+          },
+          "douyin": {
+            "qty": 2,
+            "amount": "0.9万元"
+          }
+        },
+        {
+          "date": "2026-09-10",
+          "self": {
+            "qty": 29,
+            "amount": "20.9万"
+          },
+          "tmall": {
+            "qty": 9,
+            "amount": "4.8万"
+          },
+          "pop": {
+            "qty": 32,
+            "amount": "19.3万"
+          },
+          "douyin": {
+            "qty": 4,
+            "amount": "1.8万元"
+          }
+        },
+        {
+          "date": "2026-09-11",
+          "self": {
+            "qty": 23,
+            "amount": "16.2万"
+          },
+          "tmall": {
+            "qty": 4,
+            "amount": "2.2万"
+          },
+          "pop": {
+            "qty": 1,
+            "amount": "0.6万"
+          },
+          "douyin": {
+            "qty": 5,
+            "amount": "2.2万元"
+          }
+        },
+        {
+          "date": "2026-09-12",
+          "self": {
+            "qty": 5,
+            "amount": "3.6万"
+          },
+          "tmall": {
+            "qty": 4,
+            "amount": "2.2万"
+          },
+          "pop": {
+            "qty": 1,
+            "amount": "0.5万"
+          },
+          "douyin": {
+            "qty": 3,
+            "amount": "1.3万元"
+          }
+        },
+        {
+          "date": "2026-09-13",
+          "self": {
+            "qty": 5,
+            "amount": "3.5万"
+          },
+          "tmall": {
+            "qty": 4,
+            "amount": "2.2万"
+          },
+          "pop": {
+            "qty": 0,
+            "amount": "0.0万"
+          },
+          "douyin": {
+            "qty": 2,
+            "amount": "0.9万元"
+          }
+        }
+      ]
+    },
+    {
+      "code": "31031040007242",
+      "name": "美的 冰箱 MR-631WUSJDLZE 流光黛",
+      "daily": [
+        {
+          "date": "2026-09-01",
+          "self": {
+            "qty": 4,
+            "amount": "2.7万"
+          },
+          "tmall": {
+            "qty": 2,
+            "amount": "1.0万"
+          },
+          "pop": {
+            "qty": 3,
+            "amount": "1.2万"
+          },
+          "douyin": {
+            "qty": 0,
+            "amount": "0.0万元"
+          }
+        },
+        {
+          "date": "2026-09-02",
+          "self": {
+            "qty": 0,
+            "amount": "0.0万元"
+          },
+          "tmall": {
+            "qty": 3,
+            "amount": "1.7万"
+          },
+          "pop": {
+            "qty": 1,
+            "amount": "0.7万"
+          },
+          "douyin": {
+            "qty": 0,
+            "amount": "0.0万元"
+          }
+        },
+        {
+          "date": "2026-09-03",
+          "self": {
+            "qty": 0,
+            "amount": "0.0万"
+          },
+          "tmall": {
+            "qty": 0,
+            "amount": "0.0万"
+          },
+          "pop": {
+            "qty": 0,
+            "amount": "0.6万"
+          },
+          "douyin": {
+            "qty": 0,
+            "amount": "0.0万元"
+          }
+        },
+        {
+          "date": "2026-09-04",
+          "self": {
+            "qty": 13,
+            "amount": "8.8万"
+          },
+          "tmall": {
+            "qty": 2,
+            "amount": "1.1万"
+          },
+          "pop": {
+            "qty": 4,
+            "amount": "0.6万"
+          },
+          "douyin": {
+            "qty": 2,
+            "amount": "0.9万元"
+          }
+        },
+        {
+          "date": "2026-09-05",
+          "self": {
+            "qty": 12,
+            "amount": "8.3万"
+          },
+          "tmall": {
+            "qty": 1,
+            "amount": "0.5万"
+          },
+          "pop": {
+            "qty": 0,
+            "amount": "2.2万"
+          },
+          "douyin": {
+            "qty": 1,
+            "amount": "0.4万元"
+          }
+        },
+        {
+          "date": "2026-09-06",
+          "self": {
+            "qty": 11,
+            "amount": "7.7万"
+          },
+          "tmall": {
+            "qty": 8,
+            "amount": "4.4万"
+          },
+          "pop": {
+            "qty": 1,
+            "amount": "1.1万"
+          },
+          "douyin": {
+            "qty": 0,
+            "amount": "0.0万元"
+          }
+        },
+        {
+          "date": "2026-09-07",
+          "self": {
+            "qty": 10,
+            "amount": "6.8万"
+          },
+          "tmall": {
+            "qty": 4,
+            "amount": "2.2万"
+          },
+          "pop": {
+            "qty": 4,
+            "amount": "0.0万"
+          },
+          "douyin": {
+            "qty": 4,
+            "amount": "1.8万元"
+          }
+        },
+        {
+          "date": "2026-09-08",
+          "self": {
+            "qty": 14,
+            "amount": "9.5万"
+          },
+          "tmall": {
+            "qty": 4,
+            "amount": "2.2万"
+          },
+          "pop": {
+            "qty": 1,
+            "amount": "0.0万"
+          },
+          "douyin": {
+            "qty": 6,
+            "amount": "2.7万元"
+          }
+        },
+        {
+          "date": "2026-09-09",
+          "self": {
+            "qty": 0,
+            "amount": 0
+          },
+          "tmall": {
+            "qty": 4,
+            "amount": "2.2万"
+          },
+          "pop": {
+            "qty": 1,
+            "amount": "0.0万"
+          },
+          "douyin": {
+            "qty": 0,
+            "amount": "0.0万元"
+          }
+        },
+        {
+          "date": "2026-09-10",
+          "self": {
+            "qty": 28,
+            "amount": "20万"
+          },
+          "tmall": {
+            "qty": 4,
+            "amount": "2.0万"
+          },
+          "pop": {
+            "qty": 35,
+            "amount": "19.3万"
+          },
+          "douyin": {
+            "qty": 5,
+            "amount": "2.2万元"
+          }
+        },
+        {
+          "date": "2026-09-11",
+          "self": {
+            "qty": 34,
+            "amount": "24.7万"
+          },
+          "tmall": {
+            "qty": 3,
+            "amount": "1.6万"
+          },
+          "pop": {
+            "qty": 2,
+            "amount": "0.6万"
+          },
+          "douyin": {
+            "qty": 3,
+            "amount": "1.3万元"
+          }
+        },
+        {
+          "date": "2026-09-12",
+          "self": {
+            "qty": 7,
+            "amount": "5.0万"
+          },
+          "tmall": {
+            "qty": 3,
+            "amount": "1.6万"
+          },
+          "pop": {
+            "qty": 0,
+            "amount": "0.5万"
+          },
+          "douyin": {
+            "qty": 2,
+            "amount": "0.9万元"
+          }
+        },
+        {
+          "date": "2026-09-13",
+          "self": {
+            "qty": 6,
+            "amount": "4.0万"
+          },
+          "tmall": {
+            "qty": 3,
+            "amount": "1.6万"
+          },
+          "pop": {
+            "qty": 0,
+            "amount": "0.0万"
+          },
+          "douyin": {
+            "qty": 4,
+            "amount": "1.8万元"
+          }
+        }
+      ]
+    },
+    {
+      "code": "31031040Z04882",
+      "name": "美的 冰箱 BCD-601WUSPZM(E) 星尘白",
+      "daily": [
+        {
+          "date": "2026-09-01",
+          "self": {
+            "qty": 9,
+            "amount": "4.9万"
+          },
+          "tmall": {
+            "qty": 2,
+            "amount": "0.8万"
+          },
+          "pop": {
+            "qty": 5,
+            "amount": "2.1万"
+          },
+          "douyin": {
+            "qty": 10,
+            "amount": "4.2万元"
+          }
+        },
+        {
+          "date": "2026-09-02",
+          "self": {
+            "qty": 2,
+            "amount": "1.2万"
+          },
+          "tmall": {
+            "qty": 0,
+            "amount": "0.0万"
+          },
+          "pop": {
+            "qty": 0,
+            "amount": "0.0万"
+          },
+          "douyin": {
+            "qty": 2,
+            "amount": "0.8万元"
+          }
+        },
+        {
+          "date": "2026-09-03",
+          "self": {
+            "qty": 0,
+            "amount": "0.0万"
+          },
+          "tmall": {
+            "qty": 0,
+            "amount": "0.0万"
+          },
+          "pop": {
+            "qty": 0,
+            "amount": "0.0万"
+          },
+          "douyin": {
+            "qty": 1,
+            "amount": "0.4万元"
+          }
+        },
+        {
+          "date": "2026-09-04",
+          "self": {
+            "qty": 31,
+            "amount": "15.8万"
+          },
+          "tmall": {
+            "qty": 4,
+            "amount": "1.7万"
+          },
+          "pop": {
+            "qty": 6,
+            "amount": "2.6万"
+          },
+          "douyin": {
+            "qty": 14,
+            "amount": "5.9万元"
+          }
+        },
+        {
+          "date": "2026-09-05",
+          "self": {
+            "qty": 16,
+            "amount": "8.1万"
+          },
+          "tmall": {
+            "qty": 12,
+            "amount": "4.9万"
+          },
+          "pop": {
+            "qty": 6,
+            "amount": "2.5万"
+          },
+          "douyin": {
+            "qty": 12,
+            "amount": "5.0万元"
+          }
+        },
+        {
+          "date": "2026-09-06",
+          "self": {
+            "qty": 18,
+            "amount": "9.3万"
+          },
+          "tmall": {
+            "qty": 9,
+            "amount": "3.7万"
+          },
+          "pop": {
+            "qty": 3,
+            "amount": "1.2万"
+          },
+          "douyin": {
+            "qty": 4,
+            "amount": "1.7万元"
+          }
+        },
+        {
+          "date": "2026-09-07",
+          "self": {
+            "qty": 20,
+            "amount": "10.5万"
+          },
+          "tmall": {
+            "qty": 6,
+            "amount": "2.4万"
+          },
+          "pop": {
+            "qty": 3,
+            "amount": "1.3万"
+          },
+          "douyin": {
+            "qty": 3,
+            "amount": "1.3万元"
+          }
+        },
+        {
+          "date": "2026-09-08",
+          "self": {
+            "qty": 10,
+            "amount": "5.4万"
+          },
+          "tmall": {
+            "qty": 6,
+            "amount": "2.4万"
+          },
+          "pop": {
+            "qty": 2,
+            "amount": "0.8万"
+          },
+          "douyin": {
+            "qty": 6,
+            "amount": "2.5万元"
+          }
+        },
+        {
+          "date": "2026-09-09",
+          "self": {
+            "qty": 0,
+            "amount": 0
+          },
+          "tmall": {
+            "qty": 6,
+            "amount": "2.4万"
+          },
+          "pop": {
+            "qty": 0,
+            "amount": "0.0万"
+          },
+          "douyin": {
+            "qty": 1,
+            "amount": "0.4万元"
+          }
+        },
+        {
+          "date": "2026-09-10",
+          "self": {
+            "qty": 57,
+            "amount": "29万"
+          },
+          "tmall": {
+            "qty": 8,
+            "amount": "3.4万"
+          },
+          "pop": {
+            "qty": 43,
+            "amount": "19.4万"
+          },
+          "douyin": {
+            "qty": 11,
+            "amount": "4.6万元"
+          }
+        },
+        {
+          "date": "2026-09-11",
+          "self": {
+            "qty": 187,
+            "amount": "102.3万"
+          },
+          "tmall": {
+            "qty": 5,
+            "amount": "2.0万"
+          },
+          "pop": {
+            "qty": 3,
+            "amount": "1.4万"
+          },
+          "douyin": {
+            "qty": 6,
+            "amount": "2.5万元"
+          }
+        },
+        {
+          "date": "2026-09-12",
+          "self": {
+            "qty": 15,
+            "amount": "7.8万"
+          },
+          "tmall": {
+            "qty": 5,
+            "amount": "2.0万"
+          },
+          "pop": {
+            "qty": 2,
+            "amount": "0.8万"
+          },
+          "douyin": {
+            "qty": 4,
+            "amount": "1.7万元"
+          }
+        },
+        {
+          "date": "2026-09-13",
+          "self": {
+            "qty": 15,
+            "amount": "7.9万"
+          },
+          "tmall": {
+            "qty": 5,
+            "amount": "2.0万"
+          },
+          "pop": {
+            "qty": 5,
+            "amount": "2.1万"
+          },
+          "douyin": {
+            "qty": 2,
+            "amount": "0.8万元"
+          }
+        }
+      ]
+    },
+    {
+      "code": "31031040006122",
+      "name": "美的 冰箱 BCD-601WUSPZM(E) 海贝黛",
+      "daily": [
+        {
+          "date": "2026-09-01",
+          "self": {
+            "qty": 24,
+            "amount": "13.1万"
+          },
+          "tmall": {
+            "qty": 2,
+            "amount": "0.8万"
+          },
+          "pop": {
+            "qty": 6,
+            "amount": "2.6万"
+          },
+          "douyin": {
+            "qty": 11,
+            "amount": "4.6万元"
+          }
+        },
+        {
+          "date": "2026-09-02",
+          "self": {
+            "qty": 9,
+            "amount": "5万"
+          },
+          "tmall": {
+            "qty": 2,
+            "amount": "0.9万"
+          },
+          "pop": {
+            "qty": 9,
+            "amount": "4.2万"
+          },
+          "douyin": {
+            "qty": 2,
+            "amount": "0.8万元"
+          }
+        },
+        {
+          "date": "2026-09-03",
+          "self": {
+            "qty": 0,
+            "amount": "0.0万"
+          },
+          "tmall": {
+            "qty": 0,
+            "amount": "0.0万"
+          },
+          "pop": {
+            "qty": 4,
+            "amount": "1.8万"
+          },
+          "douyin": {
+            "qty": 0,
+            "amount": "0.0万元"
+          }
+        },
+        {
+          "date": "2026-09-04",
+          "self": {
+            "qty": 53,
+            "amount": "28.3万"
+          },
+          "tmall": {
+            "qty": 16,
+            "amount": "6.3万"
+          },
+          "pop": {
+            "qty": 19,
+            "amount": "8.3万"
+          },
+          "douyin": {
+            "qty": 7,
+            "amount": "2.9万元"
+          }
+        },
+        {
+          "date": "2026-09-05",
+          "self": {
+            "qty": 45,
+            "amount": "24.1万"
+          },
+          "tmall": {
+            "qty": 14,
+            "amount": "5.6万"
+          },
+          "pop": {
+            "qty": 8,
+            "amount": "3.4万"
+          },
+          "douyin": {
+            "qty": 14,
+            "amount": "5.9万元"
+          }
+        },
+        {
+          "date": "2026-09-06",
+          "self": {
+            "qty": 38,
+            "amount": "20.1万"
+          },
+          "tmall": {
+            "qty": 7,
+            "amount": "2.8万"
+          },
+          "pop": {
+            "qty": 8,
+            "amount": "3.4万"
+          },
+          "douyin": {
+            "qty": 2,
+            "amount": "0.8万元"
+          }
+        },
+        {
+          "date": "2026-09-07",
+          "self": {
+            "qty": 25,
+            "amount": "13.2万"
+          },
+          "tmall": {
+            "qty": 7,
+            "amount": "2.8万"
+          },
+          "pop": {
+            "qty": 5,
+            "amount": "2.2万"
+          },
+          "douyin": {
+            "qty": 5,
+            "amount": "2.1万元"
+          }
+        },
+        {
+          "date": "2026-09-08",
+          "self": {
+            "qty": 29,
+            "amount": "15.8万"
+          },
+          "tmall": {
+            "qty": 7,
+            "amount": "2.8万"
+          },
+          "pop": {
+            "qty": 13,
+            "amount": "5.1万"
+          },
+          "douyin": {
+            "qty": 12,
+            "amount": "5.0万元"
+          }
+        },
+        {
+          "date": "2026-09-09",
+          "self": {
+            "qty": 4,
+            "amount": "2.4万"
+          },
+          "tmall": {
+            "qty": 7,
+            "amount": "2.8万"
+          },
+          "pop": {
+            "qty": 1,
+            "amount": "0.4万"
+          },
+          "douyin": {
+            "qty": 4,
+            "amount": "1.7万元"
+          }
+        },
+        {
+          "date": "2026-09-10",
+          "self": {
+            "qty": 121,
+            "amount": "66万"
+          },
+          "tmall": {
+            "qty": 2,
+            "amount": "0.7万"
+          },
+          "pop": {
+            "qty": 42,
+            "amount": "18.5万"
+          },
+          "douyin": {
+            "qty": 9,
+            "amount": "3.8万元"
+          }
+        },
+        {
+          "date": "2026-09-11",
+          "self": {
+            "qty": 70,
+            "amount": "36.8万"
+          },
+          "tmall": {
+            "qty": 4,
+            "amount": "1.6万"
+          },
+          "pop": {
+            "qty": 7,
+            "amount": "2.9万"
+          },
+          "douyin": {
+            "qty": 7,
+            "amount": "2.9万元"
+          }
+        },
+        {
+          "date": "2026-09-12",
+          "self": {
+            "qty": 27,
+            "amount": "14.4万"
+          },
+          "tmall": {
+            "qty": 4,
+            "amount": "1.6万"
+          },
+          "pop": {
+            "qty": 6,
+            "amount": "2.6万"
+          },
+          "douyin": {
+            "qty": 5,
+            "amount": "2.1万元"
+          }
+        },
+        {
+          "date": "2026-09-13",
+          "self": {
+            "qty": 38,
+            "amount": "20.3万"
+          },
+          "tmall": {
+            "qty": 4,
+            "amount": "1.6万"
+          },
+          "pop": {
+            "qty": 11,
+            "amount": "4.6万"
+          },
+          "douyin": {
+            "qty": 7,
+            "amount": "2.9万元"
+          }
+        }
+      ]
+    },
+    {
+      "code": "31031040006922",
+      "name": "美的 冰箱 MR-633WUSIPZE 山海米",
+      "daily": [
+        {
+          "date": "2026-09-01",
+          "self": {
+            "qty": 5,
+            "amount": "3.9万"
+          },
+          "tmall": {
+            "qty": 3,
+            "amount": "1.9万"
+          },
+          "pop": {
+            "qty": 3,
+            "amount": "1.9万"
+          },
+          "douyin": {
+            "qty": 1,
+            "amount": "0.6万"
+          }
+        },
+        {
+          "date": "2026-09-02",
+          "self": {
+            "qty": 0,
+            "amount": "0万"
+          },
+          "tmall": {
+            "qty": 1,
+            "amount": "0.6万"
+          },
+          "pop": {
+            "qty": 3,
+            "amount": "2.1万"
+          },
+          "douyin": {
+            "qty": 1,
+            "amount": "0.6万"
+          }
+        },
+        {
+          "date": "2026-09-03",
+          "self": {
+            "qty": 0,
+            "amount": "0.0万"
+          },
+          "tmall": {
+            "qty": 0,
+            "amount": "0.0万"
+          },
+          "pop": {
+            "qty": 1,
+            "amount": "0.8万"
+          },
+          "douyin": {
+            "qty": 0,
+            "amount": "0.0万元"
+          }
+        },
+        {
+          "date": "2026-09-04",
+          "self": {
+            "qty": 16,
+            "amount": "12.8万"
+          },
+          "tmall": {
+            "qty": 5,
+            "amount": "3.1万"
+          },
+          "pop": {
+            "qty": 2,
+            "amount": "1.3万"
+          },
+          "douyin": {
+            "qty": 5,
+            "amount": "3.2万元"
+          }
+        },
+        {
+          "date": "2026-09-05",
+          "self": {
+            "qty": 12,
+            "amount": "9.5万"
+          },
+          "tmall": {
+            "qty": 1,
+            "amount": "0.6万"
+          },
+          "pop": {
+            "qty": 2,
+            "amount": "1.3万"
+          },
+          "douyin": {
+            "qty": 7,
+            "amount": "4.5万元"
+          }
+        },
+        {
+          "date": "2026-09-06",
+          "self": {
+            "qty": 7,
+            "amount": "5.7万"
+          },
+          "tmall": {
+            "qty": 2,
+            "amount": "1.3万"
+          },
+          "pop": {
+            "qty": 0,
+            "amount": "0.0万"
+          },
+          "douyin": {
+            "qty": 2,
+            "amount": "1.3万元"
+          }
+        },
+        {
+          "date": "2026-09-07",
+          "self": {
+            "qty": 14,
+            "amount": "11.5万"
+          },
+          "tmall": {
+            "qty": 4,
+            "amount": "2.6万"
+          },
+          "pop": {
+            "qty": 1,
+            "amount": "0.7万"
+          },
+          "douyin": {
+            "qty": 2,
+            "amount": "1.3万元"
+          }
+        },
+        {
+          "date": "2026-09-08",
+          "self": {
+            "qty": 11,
+            "amount": "8.9万"
+          },
+          "tmall": {
+            "qty": 4,
+            "amount": "2.6万"
+          },
+          "pop": {
+            "qty": 2,
+            "amount": "1.3万"
+          },
+          "douyin": {
+            "qty": 3,
+            "amount": "1.9万元"
+          }
+        },
+        {
+          "date": "2026-09-09",
+          "self": {
+            "qty": 0,
+            "amount": "0.0万"
+          },
+          "tmall": {
+            "qty": 4,
+            "amount": "2.6万"
+          },
+          "pop": {
+            "qty": 0,
+            "amount": "0.0万"
+          },
+          "douyin": {
+            "qty": 0,
+            "amount": "0.0万元"
+          }
+        },
+        {
+          "date": "2026-09-10",
+          "self": {
+            "qty": 45,
+            "amount": "38.5万"
+          },
+          "tmall": {
+            "qty": 7,
+            "amount": "4.1万"
+          },
+          "pop": {
+            "qty": 3,
+            "amount": "2.1万"
+          },
+          "douyin": {
+            "qty": 6,
+            "amount": "3.9万元"
+          }
+        },
+        {
+          "date": "2026-09-11",
+          "self": {
+            "qty": 58,
+            "amount": "49.2万"
+          },
+          "tmall": {
+            "qty": 3,
+            "amount": "1.8万"
+          },
+          "pop": {
+            "qty": 1,
+            "amount": "0.6万"
+          },
+          "douyin": {
+            "qty": 2,
+            "amount": "1.3万元"
+          }
+        },
+        {
+          "date": "2026-09-12",
+          "self": {
+            "qty": 11,
+            "amount": "8.9万"
+          },
+          "tmall": {
+            "qty": 3,
+            "amount": "1.8万"
+          },
+          "pop": {
+            "qty": 1,
+            "amount": "0.8万"
+          },
+          "douyin": {
+            "qty": 0,
+            "amount": "0.0万元"
+          }
+        },
+        {
+          "date": "2026-09-13",
+          "self": {
+            "qty": 14,
+            "amount": "11.2万"
+          },
+          "tmall": {
+            "qty": 3,
+            "amount": "1.8万"
+          },
+          "pop": {
+            "qty": 0,
+            "amount": "0.0万"
+          },
+          "douyin": {
+            "qty": 2,
+            "amount": "1.3万元"
+          }
+        }
+      ]
+    },
+    {
+      "code": "31031040007102",
+      "name": "美的 冰箱 MR-630WUFIGPZE 月光白",
+      "daily": [
+        {
+          "date": "2026-09-01",
+          "self": {
+            "qty": 15,
+            "amount": "15.6万"
+          },
+          "tmall": {
+            "qty": 5,
+            "amount": "3.1万"
+          },
+          "pop": {
+            "qty": 1,
+            "amount": "0.7万"
+          },
+          "douyin": {
+            "qty": 11,
+            "amount": "8万"
+          }
+        },
+        {
+          "date": "2026-09-02",
+          "self": {
+            "qty": 1,
+            "amount": "1万"
+          },
+          "tmall": {
+            "qty": 1,
+            "amount": "0.9万"
+          },
+          "pop": {
+            "qty": 2,
+            "amount": "1.9万"
+          },
+          "douyin": {
+            "qty": 4,
+            "amount": "2.9万"
+          }
+        },
+        {
+          "date": "2026-09-03",
+          "self": {
+            "qty": 0,
+            "amount": 0
+          },
+          "tmall": {
+            "qty": 1,
+            "amount": "0.9万"
+          },
+          "pop": {
+            "qty": 1,
+            "amount": "0.8万"
+          },
+          "douyin": {
+            "qty": 2,
+            "amount": "1.5万"
+          }
+        },
+        {
+          "date": "2026-09-04",
+          "self": {
+            "qty": 0,
+            "amount": 0
+          },
+          "tmall": {
+            "qty": 1,
+            "amount": "0.9万"
+          },
+          "pop": {
+            "qty": 0,
+            "amount": "0.0万"
+          },
+          "douyin": {
+            "qty": 3,
+            "amount": "2.8万"
+          }
+        },
+        {
+          "date": "2026-09-05",
+          "self": {
+            "qty": 0,
+            "amount": 0
+          },
+          "tmall": {
+            "qty": 1,
+            "amount": "0.9万"
+          },
+          "pop": {
+            "qty": 0,
+            "amount": "0.0万"
+          },
+          "douyin": {
+            "qty": 1,
+            "amount": "0.4万"
+          }
+        },
+        {
+          "date": "2026-09-06",
+          "self": {
+            "qty": 0,
+            "amount": 0
+          },
+          "tmall": {
+            "qty": 0,
+            "amount": "0.0万"
+          },
+          "pop": {
+            "qty": 1,
+            "amount": "0.8万"
+          },
+          "douyin": {
+            "qty": 4,
+            "amount": "2.5万"
+          }
+        },
+        {
+          "date": "2026-09-07",
+          "self": {
+            "qty": 2,
+            "amount": "2.0万"
+          },
+          "tmall": {
+            "qty": 0,
+            "amount": "0.0万"
+          },
+          "pop": {
+            "qty": 0,
+            "amount": "0.0万"
+          },
+          "douyin": {
+            "qty": 0,
+            "amount": "0.0万"
+          }
+        },
+        {
+          "date": "2026-09-08",
+          "self": {
+            "qty": 1,
+            "amount": "1.0万"
+          },
+          "tmall": {
+            "qty": 0,
+            "amount": "0.0万"
+          },
+          "pop": {
+            "qty": 0,
+            "amount": "0.0万"
+          },
+          "douyin": {
+            "qty": 0,
+            "amount": "0.0万"
+          }
+        },
+        {
+          "date": "2026-09-09",
+          "self": {
+            "qty": 2,
+            "amount": "1.9万"
+          },
+          "tmall": {
+            "qty": 0,
+            "amount": "0.0万"
+          },
+          "pop": {
+            "qty": 1,
+            "amount": "1.0万"
+          },
+          "douyin": {
+            "qty": 0,
+            "amount": "0.0万"
+          }
+        },
+        {
+          "date": "2026-09-10",
+          "self": {
+            "qty": 0,
+            "amount": "0.0万"
+          },
+          "tmall": {
+            "qty": 0,
+            "amount": "0.0万"
+          },
+          "pop": {
+            "qty": 0,
+            "amount": "0.0万"
+          },
+          "douyin": {
+            "qty": 0,
+            "amount": "0.0万"
+          }
+        },
+        {
+          "date": "2026-09-11",
+          "self": {
+            "qty": 1,
+            "amount": "1.0万"
+          },
+          "tmall": {
+            "qty": 0,
+            "amount": "0.0万"
+          },
+          "pop": {
+            "qty": 0,
+            "amount": "0.0万"
+          },
+          "douyin": {
+            "qty": 1,
+            "amount": "0.9万"
+          }
+        },
+        {
+          "date": "2026-09-12",
+          "self": {
+            "qty": 0,
+            "amount": "0.0万"
+          },
+          "tmall": {
+            "qty": 0,
+            "amount": "0.0万"
+          },
+          "pop": {
+            "qty": 0,
+            "amount": "0.0万"
+          },
+          "douyin": {
+            "qty": 1,
+            "amount": "0.9万"
+          }
+        },
+        {
+          "date": "2026-09-13",
+          "self": {
+            "qty": 1,
+            "amount": "1.0万"
+          },
+          "tmall": {
+            "qty": 0,
+            "amount": "0.0万"
+          },
+          "pop": {
+            "qty": 0,
+            "amount": "0.0万"
+          },
+          "douyin": {
+            "qty": 47,
+            "amount": "36.9万"
+          }
+        }
+      ]
+    }
+  ],
+  "channel_summary": {
+    "self": {
+      "qty": 9448,
+      "amount": 11487.299999999994
+    },
+    "tmall": {
+      "qty": 4705,
+      "amount": 1280.1999999999996
+    },
+    "pop": {
+      "qty": 3824,
+      "amount": 1086.4999999999998
+    },
+    "douyin": {
+      "qty": 3788,
+      "amount": 1096.6
+    }
+  },
+  "daily_summary": [
+    {
+      "date": "2026-09-01",
+      "self": {
+        "qty": 662,
+        "amount": 203.60000000000002
+      },
+      "tmall": {
+        "qty": 347,
+        "amount": 91.4
+      },
+      "pop": {
+        "qty": 308,
+        "amount": 78.60000000000001
+      },
+      "douyin": {
+        "qty": 393,
+        "amount": 100.99999999999999
+      }
+    },
+    {
+      "date": "2026-09-02",
+      "self": {
+        "qty": 586,
+        "amount": 167.29999999999998
+      },
+      "tmall": {
+        "qty": 335,
+        "amount": 77.30000000000001
+      },
+      "pop": {
+        "qty": 272,
+        "amount": 74.9
+      },
+      "douyin": {
+        "qty": 255,
+        "amount": 60.599999999999994
+      }
+    },
+    {
+      "date": "2026-09-03",
+      "self": {
+        "qty": 447,
+        "amount": 116.3
+      },
+      "tmall": {
+        "qty": 285,
+        "amount": 60.699999999999996
+      },
+      "pop": {
+        "qty": 274,
+        "amount": 66.8
+      },
+      "douyin": {
+        "qty": 254,
+        "amount": 57.99999999999999
+      }
+    },
+    {
+      "date": "2026-09-04",
+      "self": {
+        "qty": 697,
+        "amount": 254.80000000000004
+      },
+      "tmall": {
+        "qty": 336,
+        "amount": 84.7
+      },
+      "pop": {
+        "qty": 294,
+        "amount": 80.19999999999997
+      },
+      "douyin": {
+        "qty": 252,
+        "amount": 72.9
+      }
+    },
+    {
+      "date": "2026-09-05",
+      "self": {
+        "qty": 720,
+        "amount": 255.40000000000003
+      },
+      "tmall": {
+        "qty": 355,
+        "amount": 88.8
+      },
+      "pop": {
+        "qty": 290,
+        "amount": 75.09999999999998
+      },
+      "douyin": {
+        "qty": 363,
+        "amount": 97.2
+      }
+    },
+    {
+      "date": "2026-09-06",
+      "self": {
+        "qty": 728,
+        "amount": 260.20000000000005
+      },
+      "tmall": {
+        "qty": 422,
+        "amount": 116.99999999999999
+      },
+      "pop": {
+        "qty": 281,
+        "amount": 73.09999999999998
+      },
+      "douyin": {
+        "qty": 328,
+        "amount": 120.79999999999998
+      }
+    },
+    {
+      "date": "2026-09-07",
+      "self": {
+        "qty": 725,
+        "amount": 262.4
+      },
+      "tmall": {
+        "qty": 423,
+        "amount": 139.29999999999998
+      },
+      "pop": {
+        "qty": 298,
+        "amount": 80.60000000000001
+      },
+      "douyin": {
+        "qty": 270,
+        "amount": 80.8
+      }
+    },
+    {
+      "date": "2026-09-08",
+      "self": {
+        "qty": 597,
+        "amount": 207.60000000000005
+      },
+      "tmall": {
+        "qty": 423,
+        "amount": 139.29999999999998
+      },
+      "pop": {
+        "qty": 245,
+        "amount": 62.900000000000006
+      },
+      "douyin": {
+        "qty": 354,
+        "amount": 89.50000000000003
+      }
+    },
+    {
+      "date": "2026-09-09",
+      "self": {
+        "qty": 517,
+        "amount": 8306.199999999999
+      },
+      "tmall": {
+        "qty": 423,
+        "amount": 139.29999999999998
+      },
+      "pop": {
+        "qty": 242,
+        "amount": 54.19999999999999
+      },
+      "douyin": {
+        "qty": 243,
+        "amount": 63.6
+      }
+    },
+    {
+      "date": "2026-09-10",
+      "self": {
+        "qty": 1094,
+        "amount": 514.0999999999999
+      },
+      "tmall": {
+        "qty": 339,
+        "amount": 84.4
+      },
+      "pop": {
+        "qty": 623,
+        "amount": 263.70000000000005
+      },
+      "douyin": {
+        "qty": 281,
+        "amount": 90.6
+      }
+    },
+    {
+      "date": "2026-09-11",
+      "self": {
+        "qty": 1387,
+        "amount": 539.7
+      },
+      "tmall": {
+        "qty": 339,
+        "amount": 85.99999999999997
+      },
+      "pop": {
+        "qty": 254,
+        "amount": 63.800000000000004
+      },
+      "douyin": {
+        "qty": 295,
+        "amount": 91.50000000000001
+      }
+    },
+    {
+      "date": "2026-09-12",
+      "self": {
+        "qty": 666,
+        "amount": 200.79999999999998
+      },
+      "tmall": {
+        "qty": 339,
+        "amount": 85.99999999999997
+      },
+      "pop": {
+        "qty": 247,
+        "amount": 61.89999999999999
+      },
+      "douyin": {
+        "qty": 221,
+        "amount": 62.29999999999999
+      }
+    },
+    {
+      "date": "2026-09-13",
+      "self": {
+        "qty": 622,
+        "amount": 198.9
+      },
+      "tmall": {
+        "qty": 339,
+        "amount": 85.99999999999997
+      },
+      "pop": {
+        "qty": 196,
+        "amount": 50.7
+      },
+      "douyin": {
+        "qty": 279,
+        "amount": 107.79999999999998
+      }
+    }
+  ]
+}
