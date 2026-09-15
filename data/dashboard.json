@@ -1,0 +1,124 @@
+{
+  "lastUpdate": "2026-09-14 14:00:00",
+  "overview": {
+    "totalGMV": 13712100,
+    "totalOrders": 5156,
+    "avgOrderValue": 2659.45,
+    "liveGMV": 11048100,
+    "productCardGMV": 2656000,
+    "contentGMV": 8095,
+    "liveRatio": 80.6,
+    "momGMV": 16.96,
+    "momOrders": -0.5,
+    "yoyGMV": 52.36,
+    "yoyOrders": 33.75
+  },
+  "salesTrend": [
+    {
+      "date": "2026-09-06",
+      "gmv": 11720000,
+      "orders": 5182,
+      "live": 9500000
+    },
+    {
+      "date": "2026-09-07",
+      "gmv": 12050000,
+      "orders": 5200,
+      "live": 9700000
+    },
+    {
+      "date": "2026-09-08",
+      "gmv": 11500000,
+      "orders": 5050,
+      "live": 9200000
+    },
+    {
+      "date": "2026-09-09",
+      "gmv": 11800000,
+      "orders": 5100,
+      "live": 9400000
+    },
+    {
+      "date": "2026-09-10",
+      "gmv": 12200000,
+      "orders": 5250,
+      "live": 9800000
+    },
+    {
+      "date": "2026-09-11",
+      "gmv": 11723000,
+      "orders": 5182,
+      "live": 8807000
+    },
+    {
+      "date": "2026-09-12",
+      "gmv": 13712100,
+      "orders": 5156,
+      "live": 11048100
+    }
+  ],
+  "liveRoomData": [
+    {
+      "name": "美的官方旗舰店",
+      "gmv": 6065400,
+      "orders": 2280,
+      "viewers": 125000,
+      "duration": 18.5,
+      "avgPrice": 2660
+    },
+    {
+      "name": "美的冰箱旗舰店",
+      "gmv": 3500000,
+      "orders": 1450,
+      "viewers": 85000,
+      "duration": 16.0,
+      "avgPrice": 2414
+    },
+    {
+      "name": "美的厨房电器旗舰店",
+      "gmv": 1482700,
+      "orders": 620,
+      "viewers": 45000,
+      "duration": 14.5,
+      "avgPrice": 2391
+    }
+  ],
+  "competitorData": [
+    {
+      "name": "美的",
+      "rank": 5,
+      "gmv": 13712100,
+      "orders": 5156,
+      "avgPrice": 2659.45,
+      "liveGMV": 11048100,
+      "selfLive": 6065400,
+      "talentLive": 4982600,
+      "productCard": 2656000,
+      "mom": 16.96,
+      "yoy": 52.36
+    },
+    {
+      "name": "海尔",
+      "rank": 7,
+      "gmv": 10566300,
+      "orders": 5953,
+      "avgPrice": 1774.95,
+      "liveGMV": 8577000,
+      "selfLive": 3659500,
+      "talentLive": 4917500,
+      "productCard": 1988300,
+      "mom": -6.6,
+      "yoy": 0.22
+    }
+  ],
+  "controlRatio": {
+    "salesAmount": 129.8,
+    "salesVolume": 86.6,
+    "avgPrice": 149.8,
+    "productCount": 103.9,
+    "liveGMV": 128.8,
+    "selfLive": 165.7,
+    "talentLive": 101.3,
+    "productCard": 133.6
+  }
+}
