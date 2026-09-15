@@ -1186,10 +1186,7 @@
                             <td><span class="highlight-success">153.3%</span></td>
                             <td><span class="tag tag-success">领先</span></td>
                         </tr>
-                    </tbody>
-                </table>
             </div>
-        </div>
 
         <!-- 核心型号日度销售监控页面 -->
         <div class="page" id="page-model-monitor">
@@ -1408,123 +1405,7 @@
         </div>
     </main>
 
-    <script>
-        // 数据周期切换
-        function switchPeriod(period) {
-            currentPeriod = period;
-            
-            // 显示/隐藏周度子选项
-            const weeklySubOptions = document.getElementById('weekly-sub-options');
-            if (weeklySubOptions) {
-                weeklySubOptions.style.display = period === 'weekly' ? 'flex' : 'none';
-            }
-            
-            // 根据周期和周次选择数据
-            if (period === 'weekly') {
-                brandLiveData = currentWeek === 'w1' ? weeklyDataW1 : weeklyDataW2;
-            } else {
-                brandLiveData = monthlyData;
-            }
-            
-            // 更新按钮状态
-            document.querySelectorAll('.period-btn[data-period]').forEach(btn => {
-                btn.classList.toggle('active', btn.dataset.period === period);
-            });
-            
-            // 更新页面标题中的时间显示
-            let periodText = '';
-            if (period === 'weekly') {
-                periodText = currentWeek === 'w1' ? '2026/08/31-09/06 (周)' : '2026/09/07-09/13 (周)';
-            } else {
-                periodText = '2026/09/01-09/13 (月累)';
-            }
-            const thresholdText = period === 'weekly' ? '动销定义: 销额>1万' : '动销定义: 销额>2万';
-            document.querySelectorAll('[data-period-text]').forEach(el => {
-                el.textContent = periodText;
-            });
-            document.querySelectorAll('[data-threshold-text]').forEach(el => {
-                el.textContent = thresholdText;
-            });
-            
-            // 刷新当前页面
-            const activePage = document.querySelector('.nav-item.active');
-            if (activePage) {
-                initCharts(activePage.dataset.page);
-            }
-            
-            // 刷新TOP50排名
-            renderBrandTop50();
-            renderKolTop50();
-            
-            // 刷新所有KPI和表格
-            renderBrandCompareCards();
-            renderMideaLiveRooms();
-            renderMideaTarget();
-            renderSalesKPI();
-            renderBrandCompareKPI();
-            renderBrandLiveKPI();
-            renderKolLiveKPI();
-            renderBrandCompareTable();
-            renderMideaVsHaierTable();
-        }
-
-        // 切换周度子选项
-        function switchWeek(week) {
-            currentWeek = week;
-            
-            // 更新子选项按钮状态
-            document.querySelectorAll('.week-sub-btn').forEach(btn => {
-                btn.classList.toggle('active', btn.dataset.week === week);
-            });
-            
-            // 刷新数据
-            switchPeriod('weekly');
-        }
-
-        // 获取当前周度TOP50数据
-        function getCurrentWeekTopRooms() {
-            if (currentPeriod === 'weekly') {
-                return currentWeek === 'w1' ? topRoomsData.weeklyW1 : topRoomsData.weeklyW2;
-            }
-            return topRoomsData.monthly;
-        }
-
-        // 获取环比数据
-        function getComparisonData(brandName) {
-            if (currentPeriod !== 'weekly' || currentWeek !== 'w2') return null;
-            const brand = brandLiveData.find(b => b.name === brandName);
-            if (!brand || !brand.prevSalesWan) return null;
-            return {
-                prevSales: brand.prevSalesWan,
-                salesChangePct: brand.salesChangePct,
-                prevVolume: brand.prevVolume,
-                volumeChangePct: brand.volumeChangePct
-            };
-        }
-
-        // 页面切换
-        document.querySelectorAll('.nav-item').forEach(item => {
-            item.addEventListener('click', function() {
-                const page = this.dataset.page;
-                
-                // 更新导航状态
-                document.querySelectorAll('.nav-item').forEach(i => i.classList.remove('active'));
-                this.classList.add('active');
-                
-                // 切换页面
-                document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
-                document.getElementById(`page-${page}`).classList.add('active');
-                
-                // 初始化图表
-                initCharts(page);
-            });
-        });
-
-        // 图表实例
-        let charts = {};
-
-        // 8品牌直播数据 - 周度 W1 (2026/08/31-09/06)
-        const weeklyDataW1 = [
+    <script>        const weeklyDataW1 = [
             {"brand": "海尔", "name": "海尔", "totalTalent": 316, "activeLive": 316, "inactiveLive": 0, "activeRate": 100.0, "salesWan": 2213.61, "volume": 12618, "avgPrice": 1754, "selfLiveWan": 1654.34, "talentWan": 559.26, "brandSales": 1654.34, "kolSales": 559.26, "brandCount": 140, "kolCount": 176, "brandActive": 140, "kolActive": 176, "prevSalesWan": 0, "salesChangePct": 0, "prevVolume": 0, "volumeChangePct": 0, "prevRank": 1, "rankChange": 0},
             {"brand": "美的", "name": "美的", "totalTalent": 534, "activeLive": 534, "inactiveLive": 0, "activeRate": 100.0, "salesWan": 1956.33, "volume": 12742, "avgPrice": 1535, "selfLiveWan": 1237.13, "talentWan": 719.20, "brandSales": 1237.13, "kolSales": 719.20, "brandCount": 211, "kolCount": 323, "brandActive": 211, "kolActive": 323, "prevSalesWan": 0, "salesChangePct": 0, "prevVolume": 0, "volumeChangePct": 0, "prevRank": 2, "rankChange": 0},
             {"brand": "容声", "name": "容声", "totalTalent": 122, "activeLive": 122, "inactiveLive": 0, "activeRate": 100.0, "salesWan": 1203.39, "volume": 4515, "avgPrice": 2665, "selfLiveWan": 1035.97, "talentWan": 167.42, "brandSales": 1035.97, "kolSales": 167.42, "brandCount": 88, "kolCount": 34, "brandActive": 88, "kolActive": 34, "prevSalesWan": 0, "salesChangePct": 0, "prevVolume": 0, "volumeChangePct": 0, "prevRank": 3, "rankChange": 0},
@@ -1899,6 +1780,152 @@
         let brandLiveData = monthlyData;
         let currentPeriod = 'monthly';
         let currentWeek = 'w2'; // w1 = 8/31-9/6, w2 = 9/7-9/13
+
+        // 数据周期切换
+        
+        // 渲染总览KPI卡片
+        function renderOverviewKPI() {
+            const totalSales = brandLiveData.reduce((sum, b) => sum + b.salesWan, 0);
+            
+            const container = document.getElementById('overview-kpi-grid');
+            if (container) {
+                container.innerHTML = brandLiveData.map(b => {
+                    const share = (b.salesWan / totalSales * 100).toFixed(1);
+                    const isMidea = b.name === '美的';
+                    const isHaier = b.name === '海尔';
+                    const color = isMidea ? '#1a73e8' : (isHaier ? '#34a853' : '#fbbc04');
+                    
+                    return '<div class="kpi-card">' +
+                        '<div class="kpi-header">' +
+                            '<span class="kpi-title">' + b.name + '</span>' +
+                            '<div class="kpi-icon" style="background: ' + color + '20; color: ' + color + ';">' +
+                                '<i class="mdi mdi-fridge"></i>' +
+                            '</div>' +
+                        '</div>' +
+                        '<div class="kpi-value">' + Math.round(b.salesWan) + '万</div>' +
+                        '<div class="kpi-change">' +
+                            '<i class="mdi mdi-chart-pie"></i> 市占' + share + '%' +
+                        '</div>' +
+                    '</div>';
+                }).join('');
+            }
+        }
+        
+function switchPeriod(period) {
+            currentPeriod = period;
+            
+            // 显示/隐藏周度子选项
+            const weeklySubOptions = document.getElementById('weekly-sub-options');
+            if (weeklySubOptions) {
+                weeklySubOptions.style.display = period === 'weekly' ? 'flex' : 'none';
+            }
+            
+            // 根据周期和周次选择数据
+            if (period === 'weekly') {
+                brandLiveData = currentWeek === 'w1' ? weeklyDataW1 : weeklyDataW2;
+            } else {
+                brandLiveData = monthlyData;
+            }
+            
+            // 更新按钮状态
+            document.querySelectorAll('.period-btn[data-period]').forEach(btn => {
+                btn.classList.toggle('active', btn.dataset.period === period);
+            });
+            
+            // 更新页面标题中的时间显示
+            let periodText = '';
+            if (period === 'weekly') {
+                periodText = currentWeek === 'w1' ? '2026/08/31-09/06 (周)' : '2026/09/07-09/13 (周)';
+            } else {
+                periodText = '2026/09/01-09/13 (月累)';
+            }
+            const thresholdText = period === 'weekly' ? '动销定义: 销额>1万' : '动销定义: 销额>2万';
+            document.querySelectorAll('[data-period-text]').forEach(el => {
+                el.textContent = periodText;
+            });
+            document.querySelectorAll('[data-threshold-text]').forEach(el => {
+                el.textContent = thresholdText;
+            });
+            
+            // 刷新当前页面
+            const activePage = document.querySelector('.nav-item.active');
+            if (activePage) {
+                initCharts(activePage.dataset.page);
+            }
+            
+            // 刷新TOP50排名
+            renderBrandTop50();
+            renderKolTop50();
+            
+            // 刷新所有KPI和表格
+            renderOverviewKPI();
+            renderBrandCompareCards();
+            renderMideaLiveRooms();
+            renderMideaTarget();
+            renderSalesKPI();
+            renderBrandCompareKPI();
+            renderBrandLiveKPI();
+            renderKolLiveKPI();
+            renderBrandCompareTable();
+            renderMideaVsHaierTable();
+        }
+
+        // 切换周度子选项
+        function switchWeek(week) {
+            currentWeek = week;
+            
+            // 更新子选项按钮状态
+            document.querySelectorAll('.week-sub-btn').forEach(btn => {
+                btn.classList.toggle('active', btn.dataset.week === week);
+            });
+            
+            // 刷新数据
+            switchPeriod('weekly');
+        }
+
+        // 获取当前周度TOP50数据
+        function getCurrentWeekTopRooms() {
+            if (currentPeriod === 'weekly') {
+                return currentWeek === 'w1' ? topRoomsData.weeklyW1 : topRoomsData.weeklyW2;
+            }
+            return topRoomsData.monthly;
+        }
+
+        // 获取环比数据
+        function getComparisonData(brandName) {
+            if (currentPeriod !== 'weekly' || currentWeek !== 'w2') return null;
+            const brand = brandLiveData.find(b => b.name === brandName);
+            if (!brand || !brand.prevSalesWan) return null;
+            return {
+                prevSales: brand.prevSalesWan,
+                salesChangePct: brand.salesChangePct,
+                prevVolume: brand.prevVolume,
+                volumeChangePct: brand.volumeChangePct
+            };
+        }
+
+        // 页面切换
+        document.querySelectorAll('.nav-item').forEach(item => {
+            item.addEventListener('click', function() {
+                const page = this.dataset.page;
+                
+                // 更新导航状态
+                document.querySelectorAll('.nav-item').forEach(i => i.classList.remove('active'));
+                this.classList.add('active');
+                
+                // 切换页面
+                document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
+                document.getElementById(`page-${page}`).classList.add('active');
+                
+                // 初始化图表
+                initCharts(page);
+            });
+        });
+
+        // 图表实例
+        let charts = {};
+
+        // 8品牌直播数据 - 周度 W1 (2026/08/31-09/06)
 
         // TOP50直播间数据
         const topRoomsData = {
@@ -4673,9 +4700,8 @@
         "卡萨帝": 3,
         "东芝": 7
     }
-        };;;;
-
-
+}
+};
         const brandColors = {
             '美的': 'rgba(26, 115, 232, 0.8)',
             '海尔': 'rgba(52, 168, 83, 0.8)',
@@ -16982,7 +17008,6 @@
             // 加载渠道对比数据
             loadChannelCompareData();
         });
-        }
 </script>
 </body>
 </html>
