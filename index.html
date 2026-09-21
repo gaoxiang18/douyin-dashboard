@@ -2365,6 +2365,17 @@ function switchPeriod(period) {
                 activeBtn.classList.add('active');
             }
             
+            // 更新 brandLiveData
+            if (currentPeriod === 'weekly') {
+                if (currentWeek === 'w1') {
+                    brandLiveData = weeklyDataW1;
+                } else if (currentWeek === 'w2') {
+                    brandLiveData = weeklyDataW2;
+                } else if (currentWeek === 'w3') {
+                    brandLiveData = weeklyDataW3;
+                }
+            }
+            
             // 重新渲染所有组件
             renderAll();
         }
@@ -16513,7 +16524,10 @@ function switchPeriod(period) {
             const pageData = modelMonitorData.slice(startIndex, startIndex + modelMonitorPageSize);
             
             tbody.innerHTML = pageData.map(item => {
-                const change = item.change;
+                // 计算环比
+                const yesterday = item.yesterday || 0;
+                const dayBefore = item.dayBefore || 0;
+                const change = dayBefore > 0 ? ((yesterday - dayBefore) / dayBefore * 100) : 0;
                 const changeClass = change >= 0 ? 'highlight-success' : 'highlight-danger';
                 const changeIcon = change >= 0 ? 'mdi-arrow-up' : 'mdi-arrow-down';
                 
