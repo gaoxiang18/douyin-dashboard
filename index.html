@@ -16525,9 +16525,16 @@ function switchPeriod(period) {
             
             tbody.innerHTML = pageData.map(item => {
                 // 计算环比
-                const yesterday = item.yesterday || 0;
-                const dayBefore = item.dayBefore || 0;
-                const change = dayBefore > 0 ? ((yesterday - dayBefore) / dayBefore * 100) : 0;
+                const yesterday = Number(item.yesterday) || 0;
+                const dayBefore = Number(item.dayBefore) || 0;
+                let change = 0;
+                if (dayBefore > 0) {
+                    change = ((yesterday - dayBefore) / dayBefore * 100);
+                }
+                // NaN 防护
+                if (isNaN(change) || !isFinite(change)) {
+                    change = 0;
+                }
                 const changeClass = change >= 0 ? 'highlight-success' : 'highlight-danger';
                 const changeIcon = change >= 0 ? 'mdi-arrow-up' : 'mdi-arrow-down';
                 
