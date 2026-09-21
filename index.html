@@ -2247,17 +2247,49 @@ function switchPeriod(period) {
             
             // 重新渲染所有组件
             renderAll();
-        });
-            const activeBtn = document.querySelector(`.week-sub-btn[data-week="${week}"]`);
-            if (activeBtn) {
-                activeBtn.classList.add('active');
-            }
-            
-            // 重新渲染所有组件
-            renderAll();
         }
 
         // 获取当前周度TOP50数据
+        // 渲染所有组件
+        function renderAll() {
+            // 更新取数时间显示
+            let periodText = '';
+            if (currentPeriod === 'weekly') {
+                if (currentWeek === 'w1') {
+                    periodText = '2026/08/31-09/06 (W1)';
+                } else if (currentWeek === 'w2') {
+                    periodText = '2026/09/07-09/13 (W2)';
+                } else if (currentWeek === 'w3') {
+                    periodText = '2026/09/14-09/20 (W3)';
+                }
+            } else {
+                periodText = '2026/09/01-09/20 (月累)';
+            }
+            document.querySelectorAll('[data-period-text]').forEach(el => {
+                el.textContent = periodText;
+            });
+            
+            // 渲染各页面
+            renderOverviewKPI();
+            renderSalesKPI();
+            renderBrandLiveKPI();
+            renderKolLiveKPI();
+            renderBrandCompareCards();
+            renderBrandTop50();
+            renderKolTop50();
+            renderBrandCompareTable();
+            renderMideaVsHaier();
+            renderModelMonitorTable();
+            renderTop500ModelsTable();
+            
+            // 刷新图表
+            const activePage = document.querySelector('.nav-item.active');
+            if (activePage) {
+                initCharts(activePage.dataset.page);
+            }
+        }
+
+
         function getCurrentWeekTopRooms() {
             if (currentPeriod === 'monthly') {
                 return topRoomsData.monthly || {};
@@ -14383,13 +14415,6 @@ function switchPeriod(period) {
                     <td>${salesAmount}</td>
                     <td>${item.share || 0}%</td>
                     <td class="${changeClass}"><i class="mdi ${changeIcon}"></i> ${item.change || 0}%</td>
-                </tr>`;
-            }).join('');
-                    <td>¥${item.price.toLocaleString()}</td>
-                    <td>${item.sales.toLocaleString()}</td>
-                    <td>${item.amount.toFixed(1)}万</td>
-                    <td>${item.share}%</td>
-                    <td><span class="${changeClass}"><i class="mdi ${changeIcon}"></i> ${Math.abs(item.change)}%</span></td>
                 </tr>`;
             }).join('');
             
