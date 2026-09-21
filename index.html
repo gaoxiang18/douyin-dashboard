@@ -17800,12 +17800,17 @@ function switchPeriod(period) {
         
         // 渲染美的9月目标达成
         function renderMideaTarget() {
-            // 周度模式下不显示月度达成
+            const container = document.getElementById('midea-target-kpi');
+            const parentCard = container ? container.closest('.chart-card') : null;
+            
+            // 周度模式下隐藏整个模块
             if (currentPeriod === 'weekly') {
-                const container = document.getElementById('midea-target-kpi');
-                if (container) container.innerHTML = '';
+                if (parentCard) parentCard.style.display = 'none';
                 return;
             }
+            
+            // 月累模式下显示
+            if (parentCard) parentCard.style.display = '';
             
             const mideaData = brandLiveData.find(b => b.name === '美的');
             if (!mideaData) return;
