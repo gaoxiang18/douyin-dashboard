@@ -16694,54 +16694,7 @@ function switchPeriod(period) {
         }
 
         // 渲染核心型号监控表格
-        function renderModelMonitorTable() {
-            const tbody = document.getElementById('model-monitor-tbody');
-            if (!tbody) return;
-            
-            tbody.innerHTML = modelMonitorData.map(item => {
-                const change = item.change;
-                const changeClass = change >= 0 ? 'highlight-success' : 'highlight-danger';
-                const changeIcon = change >= 0 ? 'mdi-arrow-up' : 'mdi-arrow-down';
-                
-                // 达成率样式
-                let rateClass = '';
-                let rateText = '-';
-                if (item.sep_target > 0) {
-                    const rate = item.sep_rate;
-                    rateText = rate + '%';
-                    if (rate >= 100) {
-                        rateClass = 'highlight-success';
-                    } else if (rate >= 80) {
-                        rateClass = 'highlight';
-                    } else if (rate >= 50) {
-                        rateClass = '';
-                    } else {
-                        rateClass = 'highlight-danger';
-                    }
-                }
-                
-                // 分层标签颜色
-                let layerClass = 'tag-default';
-                if (item.layer === 'S') layerClass = 'tag-danger';
-                else if (item.layer === 'A') layerClass = 'tag-warning';
-                else if (item.layer === 'B') layerClass = 'tag-info';
-                else if (item.layer === 'C') layerClass = 'tag-success';
-                else if (item.layer === 'D') layerClass = 'tag-default';
-                else if (item.layer === '新品') layerClass = 'tag-primary';
-                
-                return `<tr title="${item.code}">
-                    <td style="max-width: 300px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">${item.model}</td>
-                    <td><span class="tag tag-info">${item.door || '-'}</span></td>
-                    <td><span class="tag ${layerClass}">${item.layer || '-'}</span></td>
-                    <td>${item.yesterday}</td>
-                    <td>${item.dayBefore}</td>
-                    <td><span class="${changeClass}"><i class="mdi ${changeIcon}"></i> ${Math.abs(change)}%</span></td>
-                    <td><strong>${item.sep_qty}</strong></td>
-                    <td>${item.sep_target > 0 ? item.sep_target : '-'}</td>
-                    <td><span class="${rateClass}">${rateText}</span></td>
-                </tr>`;
-            }).join('');
-        }
+        
 
         // 渲染TOP500型号表格
         
