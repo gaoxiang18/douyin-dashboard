@@ -16570,7 +16570,7 @@ function switchPeriod(period) {
                     <td><span class="tag ${layerClass}">${item.layer || '-'}</span></td>
                     <td>${item.yesterday}</td>
                     <td>${item.dayBefore}</td>
-                    <td><span class="${changeClass}"><i class="mdi ${changeIcon}"></i> ${Math.abs(change)}%</span></td>
+                    <td><span class="${changeClass}"><i class="mdi ${changeIcon}"></i> ${Math.abs(change).toFixed(1)}%</span></td>
                     <td><strong>${item.sep_qty}</strong></td>
                     <td>${item.sep_target > 0 ? item.sep_target : '-'}</td>
                     <td><span class="${rateClass}">${rateText}</span></td>
