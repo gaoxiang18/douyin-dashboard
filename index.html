@@ -2602,6 +2602,7 @@ function switchPeriod(period) {
         // 切换周度子选项
         function switchWeek(week) {
             currentWeek = week;
+            currentPeriod = 'weekly';  // 切换到周度模式
             
             // 更新按钮状态
             document.querySelectorAll('.week-sub-btn').forEach(btn => {
@@ -2612,17 +2613,20 @@ function switchPeriod(period) {
                 activeBtn.classList.add('active');
             }
             
+            // 更新 period-btn 状态
+            document.querySelectorAll('.period-btn:not(.week-sub-btn)').forEach(btn => {
+                btn.classList.remove('active');
+            });
+            
             // 更新 brandLiveData
-            if (currentPeriod === 'weekly') {
-                if (currentWeek === 'w1') {
-                    brandLiveData = weeklyDataW1;
-                } else if (currentWeek === 'w2') {
-                    brandLiveData = weeklyDataW2;
-                } else if (currentWeek === 'w3') {
-                    brandLiveData = weeklyDataW3;
-                } else if (currentWeek === 'w4') {
-                    brandLiveData = weeklyDataW4;
-                }
+            if (currentWeek === 'w1') {
+                brandLiveData = weeklyDataW1;
+            } else if (currentWeek === 'w2') {
+                brandLiveData = weeklyDataW2;
+            } else if (currentWeek === 'w3') {
+                brandLiveData = weeklyDataW3;
+            } else if (currentWeek === 'w4') {
+                brandLiveData = weeklyDataW4;
             }
             
             // 重新渲染所有组件
