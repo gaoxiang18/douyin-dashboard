@@ -1311,6 +1311,7 @@
                                 <th>销额(万)</th>
                                 <th>市占率</th>
                                 <th>环比变化</th>
+                                <th>排名变化</th>
                             </tr>
                         </thead>
                         <tbody id="top500-models-tbody">
@@ -18371,19 +18372,40 @@ function switchPeriod(period) {
         function renderTop500ModelsTable() {
             // 根据当前视图和周期选择数据源
             let dataSource;
+            let prevDataSource = null;
+            
             if (currentTopView === 'product') {
                 if (currentPeriod === 'monthly') {
                     dataSource = top500ModelsData;
                 } else {
                     // 周度数据
-                    if (currentWeek === 'w1') dataSource = top500W1Data;
-                    else if (currentWeek === 'w2') dataSource = top500W2Data;
-                    else if (currentWeek === 'w3') dataSource = top500W3Data;
-                    else if (currentWeek === 'w4') dataSource = top500W4Data;
-                    else dataSource = top500ModelsData;
+                    if (currentWeek === 'w1') {
+                        dataSource = top500W1Data;
+                        prevDataSource = null;  // W1没有上一周
+                    } else if (currentWeek === 'w2') {
+                        dataSource = top500W2Data;
+                        prevDataSource = top500W1Data;
+                    } else if (currentWeek === 'w3') {
+                        dataSource = top500W3Data;
+                        prevDataSource = top500W2Data;
+                    } else if (currentWeek === 'w4') {
+                        dataSource = top500W4Data;
+                        prevDataSource = top500W3Data;
+                    } else {
+                        dataSource = top500ModelsData;
+                    }
                 }
             } else {
                 dataSource = modelTop30Data;
+            }
+            
+            // 创建上一周排名映射（商品名称 -> 排名）
+            const prevRankMap = new Map();
+            if (prevDataSource && prevDataSource.length > 0) {
+                prevDataSource.forEach(item => {
+                    const name = item.name || item.model || '';
+                    prevRankMap.set(name, item.rank);
+                });
             }
             
             const brandFilter = document.getElementById('top500-brand-filter')?.value || 'all';
@@ -18399,7 +18421,7 @@ function switchPeriod(period) {
             // 空数据提示
             if (filteredData.length === 0) {
                 const periodText = currentPeriod === 'monthly' ? '月累' : currentWeek.toUpperCase();
-                tbody.innerHTML = `<tr><td colspan="8" style="text-align:center;padding:40px;color:#888;">暂无${periodText}TOP500数据</td></tr>`;
+                tbody.innerHTML = `<tr><td colspan="9" style="text-align:center;padding:40px;color:#888;">暂无${periodText}TOP500数据</td></tr>`;
                 return;
             }
             
@@ -18418,6 +18440,25 @@ function switchPeriod(period) {
                 const price = item.price || item.minPrice || 0;
                 const salesAmount = item.amount || (item.sales ? (item.sales / 10000).toFixed(0) : 0);
                 
+                // 计算排名变化
+                let rankChangeHtml = '-';
+                if (prevDataSource && prevDataSource.length > 0) {
+                    const prevRank = prevRankMap.get(modelName);
+                    if (prevRank) {
+                        const rankDiff = prevRank - item.rank;  // 正数表示上升，负数表示下降
+                        if (rankDiff > 0) {
+                            rankChangeHtml = `<span class="highlight-success"><i class="mdi mdi-arrow-up"></i> ${rankDiff}</span>`;
+                        } else if (rankDiff < 0) {
+                            rankChangeHtml = `<span class="highlight-danger"><i class="mdi mdi-arrow-down"></i> ${Math.abs(rankDiff)}</span>`;
+                        } else {
+                            rankChangeHtml = '<span style="color:#888;">-</span>';
+                        }
+                    } else {
+                        // 新进入榜单
+                        rankChangeHtml = '<span class="highlight-success"><i class="mdi mdi-arrow-up"></i> 新</span>';
+                    }
+                }
+                
                 return `<tr class="${rankClass}" title="${modelName}">
                     <td>${item.rank}</td>
                     <td style="max-width: 400px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">${displayModel}</td>
@@ -18427,6 +18468,7 @@ function switchPeriod(period) {
                     <td>${salesAmount}</td>
                     <td>${item.share || 0}%</td>
                     <td class="${changeClass}"><i class="mdi ${changeIcon}"></i> ${item.change || 0}%</td>
+                    <td>${rankChangeHtml}</td>
                 </tr>`;
             }).join('');
             
