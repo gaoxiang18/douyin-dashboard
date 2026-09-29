@@ -2620,6 +2620,8 @@ function switchPeriod(period) {
                     brandLiveData = weeklyDataW2;
                 } else if (currentWeek === 'w3') {
                     brandLiveData = weeklyDataW3;
+                } else if (currentWeek === 'w4') {
+                    brandLiveData = weeklyDataW4;
                 }
             }
             
@@ -2679,6 +2681,8 @@ function switchPeriod(period) {
                     return topRoomsData.weeklyW2 || {};
                 } else if (currentWeek === 'w3') {
                     return topRoomsData.weeklyW3 || {};
+                } else if (currentWeek === 'w4') {
+                    return topRoomsData.weeklyW4 || {};
                 }
                 return {};
             }
